@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-09 22:26:56
+#  创建时间：2022-09-09 23:09:27
 #  模版：v2rayse默认模版
-#  节点数量：200
+#  节点数量：237
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,1439 +13,1698 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇯🇵+大萝卜鸡东京","server":"vultr1.755657.xyz","port":443,"password":"9682edd6-89e6-4e6a-b31d-271089771d87","udp":true,"skip-cert-verify":true,"sni":"vultr1.755657.xyz"}
-  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_1","server":"85.208.108.19","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_2","server":"85.208.108.19","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_3","server":"85.208.108.19","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"欧洲(油管:破解资源君2.0)_4","server":"pull-cache-lu01.xyx-xylo.com","port":19702,"password":"79745894-044c-3298-a893-bbfcb6b24a2c","udp":true,"skip-cert-verify":true,"sni":"8-132-175-74.nhost.00cdn.com"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_1","server":"38.75.136.34","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_2","server":"38.75.136.34","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_3","server":"38.75.136.34","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_8","server":"185.225.69.134","port":"45081","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_6","server":"134.195.196.85","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_4","server":"38.75.136.34","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%25257B%252522Host%252522:%252522aweikeji-YouTube%252522%25257D"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_5","server":"38.121.43.204","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_6","server":"38.121.43.204","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_7","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_8","server":"38.75.136.34","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_9","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vmess","name":"github.com/freefq-广东省佛山市移动13_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_11","server":"38.75.136.34","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_12","server":"38.75.136.34","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_6","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"新加坡(油管:破解资源君2.0)_6","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_13","server":"38.75.136.34","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_14","ws-opts":{"path":"/ws"},"server":"usa-washington.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_12","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_5","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_15","server":"38.121.43.204","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_16","server":"38.91.107.37","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"美国(油管:破解资源君2.0)_17","server":"38.121.43.204","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_10","server":"129.154.57.134","port":"26282","uuid":"cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_19","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"不定期更新订阅","server":"114514","port":48978,"cipher":"aes-256-cfb","password":"qwersd"}
-  - {"type":"ss","name":"https://t.me/daluoboji","server":"114514","port":8654,"cipher":"none","password":"wwe"}
-  - {"type":"ssr","name":"大萝卜鸡香港_1","server":"47.242.238.92","port":53917,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3457854"}
-  - {"type":"ssr","name":"大萝卜鸡香港_2","server":"47.242.238.92","port":50537,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"8734595"}
-  - {"type":"ssr","name":"大萝卜鸡香港_3","server":"47.243.60.156","port":46549,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34565345"}
-  - {"type":"ssr","name":"大萝卜鸡香港_4","server":"47.242.145.161","port":51284,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34523454"}
-  - {"type":"ssr","name":"大萝卜鸡香港_5","server":"47.243.60.156","port":48407,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"4356346"}
-  - {"type":"ssr","name":"大萝卜鸡香港_6","server":"47.242.145.161","port":54073,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3455634"}
-  - {"type":"trojan","name":"大萝卜鸡美国高速_1","server":"azgy001.xibai6.top","port":20786,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"大萝卜鸡美国高速_2","server":"azgy001.xibai6.top","port":20790,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"大萝卜鸡美国高速_3","server":"azgy001.xibai6.top","port":20788,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"大萝卜鸡美国高速_4","server":"azhj001.xibai6.top","port":20714,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"大萝卜鸡美国高速_5","server":"azgy001.xibai6.top","port":20787,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"大萝卜鸡美国香港_1","server":"120.240.47.72","port":2712,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"ss","name":"大萝卜鸡美国香港_2","server":"120.240.47.72","port":2715,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"ss","name":"大萝卜鸡美国香港_3","server":"120.240.47.72","port":2718,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"ss","name":"大萝卜鸡美国香港_4","server":"120.240.47.72","port":2719,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"ss","name":"大萝卜鸡美国_1","server":"120.240.47.74","port":7714,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"ss","name":"大萝卜鸡美国_2","server":"120.240.47.74","port":7717,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"trojan","name":"github.com/freefq+-+美国Microsoft数据中心+3_3","server":"hk3.hktkcloud.cloud","port":443,"password":"d4119dee-493a-407f-9109-a36d62153e19","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/freefq+-+美国加州+6_2","server":"64.112.42.72","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
-  - {"type":"ss","name":"github.com/freefq+-+美国加州+9_3","server":"64.112.42.53","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
-  - {"type":"vmess","name":"github.com/freefq-乌克兰37_2","server":"5.181.132.235","port":"31372","uuid":"0bb88eea-73a5-4e37-ac8b-03090a57acba","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"github.com/freefq+-+美国++25_2","server":"45.59.184.12","port":6800,"cipher":"aes-256-gcm","password":"abcd1234"}
-  - {"type":"vmess","name":"Alien_9","server":"13.40.73.66","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-香港电讯盈科有限公司34_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"edge.cjhh.mom"}},"server":"asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Alien_5","server":"35.180.209.86","port":"54332","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_2","server":"51.142.233.54","port":"30006","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_6","server":"18.118.142.251","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-美国Amazon数据中心16_2","server":"13.38.73.118","port":"54332","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇬🇧英国C_3","server":"35.176.210.25","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-台湾省台中市中华电信5_2","ws-opts":{"path":"/s/ff5c0fb.fm.icloud.com:30513","headers":{"host":"YouTube-aweikeji"}},"server":"ff5c0fb.rd.cloudflare.systems","port":"80","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"github.com/freefq-广东省佛山市移动19_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"120.240.55.137"}},"server":"120.240.55.137","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2","ws-opts":{"path":"/vmess"},"server":"ca1.vmess.tunnel.cx","port":"80","uuid":"0429f7ce-2c73-11ed-b9c2-8b16281b86ac","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷V214-1X-Seoul_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v14.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷V213-1X-Seoul_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v13.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"github.com/freefq+-+加拿大++27_2","server":"96tw.tfzhc.top","port":443,"password":"d450d9fe-05fb-45ee-bb73-228d700792a0","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"VN•HàNội05🚀_3","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hanoi05.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"github.com/freefq+-+美国++7_2","server":"ty1-2.nigirocloud.com","port":443,"password":"4V4kxVXmcg5Yn2DqF2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"bulink自建免费11线三网_3","ws-opts":{"path":"/ws","headers":{"host":"la56.burstlinker.com.fobzs.com"}},"server":"la56.burstlinker.com.fobzs.com","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-新加坡DigitalOcean数据中心33_2","ws-opts":{"path":"/rauc","headers":{"host":"audi.aaog.buzz"}},"server":"159.65.139.114","port":"443","uuid":"c1581db6-e382-3cc4-87bf-0d2aa2e63b62","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"CK_3","server":"103.135.251.200","port":6800,"cipher":"aes-256-gcm","password":"abcd1234"}
-  - {"type":"vmess","name":"🇸🇬新加坡W1-直连_3","server":"54.151.212.220","port":"43214","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇦V203-0.4X-Canada_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v03.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇦V202-0.4X-Canada_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v02.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"github.com/freefq+-+亚太地区++17_2","server":"idtj-ikd.bonds.id","port":443,"password":"193ba7c0-2e7d-11ed-a396-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点29_2","ws-opts":{"path":"/123","headers":{"host":"jpamd.fineyoo.cf"}},"server":"jpamd.fineyoo.cf","port":"443","uuid":"9bdac558-1d2b-425b-f0e7-445d38be025e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇦V206-0.4X-Canada_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v07.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2","ws-opts":{"path":"/baervws","headers":{"host":"db.652040231.xyz"}},"server":"cdn.linil.ml","port":"443","uuid":"7da1771d-9745-4f2d-bfc9-9f0184932a9c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"关注频道https://t.me/mftizi_3","server":"s5.v2.gay","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇰🇷V212-1X-Chuncheon_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v12.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇰🇷韩国W1-直连_3","server":"3.34.43.217","port":"32452","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_8","server":"3.34.133.90","port":"7787","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"bulink自建免费19线三网_3","server":"la49.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"bulink自建免费16线三网_3","ws-opts":{"path":"/ws","headers":{"host":"la60.bulinkxyz.xyz"}},"server":"la60.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"github.com/freefq+-+加拿大++14_2","server":"730tw01.ok365.cyou","port":443,"password":"d450d9fe-05fb-45ee-bb73-228d700792a0","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇯🇵V216-1X-Tokyo_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v16.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"免费节点TG@mftizi_3","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"v5.v2.gay","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"github.com/freefq-美国加利福尼亚州费利蒙35_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"mtkzb-1038-v2-1.sjc-d-cn2.jd.cjhh.lol","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇦V201-0.4X-Canada_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v01.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Alien_10","server":"3.36.108.93","port":"7787","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-美国3COM公司企业网22_2","server":"chess.magicefire.com","port":"443","uuid":"9aa80017-3427-4165-a522-f5f9a11330d0","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"u5.v2.gay","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰HongKong2-Garena_3","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"952e97d2-17ef-4e42-b8aa-c9f892ca4eed","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"u1.v2.gay","port":"80","uuid":"952e97d2-17ef-4e42-b8aa-c9f892ca4eed","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Alien_11","server":"18.142.227.6","port":"43214","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点38_2","ws-opts":{"path":"/408"},"server":"amdkr.ptuu.ga","port":"443","uuid":"a612b67f-a79b-4a71-a82b-a46906752023","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-日本东京Oracle数据中心36_3","server":"168.138.201.208","port":"10328","uuid":"bf847bf7-0ba5-4885-bd2b-da4d77afbda8","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点30_3","ws-opts":{"path":"/123","headers":{"host":"jpamd.fineyoo.ml"}},"server":"jpamd.fineyoo.ml","port":"443","uuid":"35e5e2ea-1372-4745-dff8-fb2bd11016c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"301更新_US_美国_1","server":"107.wowogg.cyou","port":52207,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_2","server":"86.wowogg.cyou","port":52286,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_US_美国_3","server":"134.wowogg.cyou","port":52334,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_US_美国_4","server":"90.wowogg.cyou","port":52290,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_5","server":"84.wowogg.cyou","port":52284,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_US_美国_6","server":"82.wowogg.cyou","port":52282,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_7","server":"93.wowogg.cyou","port":52293,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_8","server":"130.wowogg.cyou","port":52330,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_US_美国_9","server":"136.wowogg.cyou","port":52436,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"301更新_HK_香港_10","server":"40.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"301更新_US_美国_11","server":"85.wowogg.cyou","port":52285,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_12","server":"81.wowogg.cyou","port":52281,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_13","server":"92.wowogg.cyou","port":52292,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_14","server":"129.wowogg.cyou","port":52329,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_15","server":"131.wowogg.cyou","port":52331,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_16","server":"101.wowogg.cyou","port":52201,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_HK_香港_17","server":"104.wowogg.cyou","port":11222,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"301更新_JP_日本_18","server":"30.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"301更新_HK_香港_19","server":"95.wowogg.cyou","port":52295,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"301更新_SG_新加坡_20","server":"s2.kaxff.com","port":32432,"password":"OcABzr5wEG","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"301更新_CA_加拿大_21","server":"134.195.196.71","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"301更新_HK_香港_22","server":"26.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"301更新_HK_香港_23","server":"87.wowogg.cyou","port":52287,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"301更新_TW_台湾_24","ws-opts":{"path":"/v2ray"},"server":"0222tw.fans8.xyz","port":80,"uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"301更新_HK_香港_25","server":"42.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"301更新_CA_加拿大_26","server":"134.195.196.227","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"301更新_US_美国_27","server":"38.114.114.19","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"301更新_US_美国_28","server":"38.114.114.67","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"301更新_US_美国_29","server":"38.114.114.67","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"301更新_US_美国_30","server":"167.88.61.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_US_美国_31","server":"38.114.114.19","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_US_美国_32","server":"167.88.61.60","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_US_美国_33","server":"38.75.136.93","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_US_美国_34","server":"38.75.136.93","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"301更新_US_美国_35","server":"167.88.61.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_US_美国_36","server":"167.88.61.60","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_US_美国_37","server":"38.75.136.93","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"301更新_US_美国_38","server":"38.75.136.93","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"301更新_US_美国_39","server":"167.88.61.60","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"301更新_US_美国_40","server":"167.88.61.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"trojan","name":"301更新_US_美国_41","server":"7.earths.team","port":443,"password":"6593b778-e45e-4f94-b5ae-641d4b7b02ae","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"301更新_US_美国_42","server":"38.114.114.19","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_US_美国_43","server":"38.68.134.85","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_US_美国_44","server":"38.114.114.67","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_US_美国_45","server":"38.75.136.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_US_美国_46","server":"38.114.114.19","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"301更新_CA_加拿大_47","server":"134.195.196.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_US_美国_48","server":"38.86.135.36","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"301更新_CA_加拿大_49","server":"134.195.196.3","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_CA_加拿大_50","server":"134.195.196.71","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"301更新_CA_加拿大_51","server":"134.195.196.227","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"301更新_CA_加拿大_52","server":"134.195.196.71","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_CA_加拿大_53","server":"134.195.196.71","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"301更新_CA_加拿大_54","server":"134.195.196.71","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_US_美国_55","server":"167.88.61.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"301更新_CA_加拿大_56","server":"134.195.196.71","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_US_美国_57","server":"167.88.63.71","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_CA_加拿大_58","server":"134.195.196.71","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"301更新_CA_加拿大_59","server":"134.195.196.227","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_GB_英国_60","server":"172.99.190.92","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_US_美国_61","server":"38.68.134.85","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"301更新_GB_英国_62","server":"172.99.190.92","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_GB_英国_63","server":"172.99.190.92","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"301更新_CA_加拿大_64","server":"134.195.196.227","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_US_美国_65","server":"167.88.63.71","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"301更新_CA_加拿大_66","server":"134.195.196.71","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_CA_加拿大_67","server":"134.195.196.227","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"301更新_CA_加拿大_68","server":"134.195.196.71","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"301更新_CA_加拿大_69","server":"134.195.196.3","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_CA_加拿大_70","server":"134.195.196.71","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"301更新_CA_加拿大_71","server":"134.195.196.71","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"301更新_US_美国_72","server":"38.86.135.36","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"301更新_HK_香港_73","server":"109.wowogg.cyou","port":52209,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"301更新_GB_英国_74","server":"172.99.190.205","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_CA_加拿大_75","server":"134.195.196.71","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"301更新_US_美国_76","server":"38.114.114.19","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_CA_加拿大_77","server":"198.57.27.218","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_GB_英国_78","server":"172.99.190.92","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"301更新_CA_加拿大_79","server":"134.195.196.71","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_CA_加拿大_80","server":"134.195.196.71","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"301更新_US_美国_81","server":"167.88.63.71","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_US_美国_82","server":"38.86.135.36","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_US_美国_83","server":"38.86.135.36","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"301更新_US_美国_84","server":"38.86.135.36","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"301更新_CA_加拿大_85","server":"134.195.196.71","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"301更新_US_美国_86","server":"38.86.135.36","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"301更新_CA_加拿大_87","server":"134.195.196.3","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"301更新_CA_加拿大_88","server":"134.195.196.71","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"301更新_CA_加拿大_89","server":"134.195.196.227","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_US_美国_90","server":"38.114.114.19","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"301更新_CA_加拿大_91","server":"134.195.196.71","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"301更新_CA_加拿大_92","server":"134.195.196.71","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"301更新_US_美国_93","server":"167.88.61.60","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"301更新_US_美国_94","server":"38.86.135.36","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"301更新_HK_香港_95","server":"123.wowogg.cyou","port":52223,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"301更新_CA_加拿大_96","server":"134.195.196.71","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_CA_加拿大_97","server":"134.195.196.71","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"301更新_CA_加拿大_98","server":"134.195.196.71","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"301更新_US_美国_99","server":"38.75.136.93","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"trojan","name":"301更新_US_美国_100","server":"ocph.vproxy.us","port":34567,"password":"fd54b442-3a4c-4580-bd9a-70e1b249eceb","udp":true,"skip-cert-verify":true,"sni":"ocph.vproxy.us"}
+  - {"type":"vmess","name":"🇧🇬大萝卜鸡保加利亚","ws-opts":{"path":"/java/18/latest/"},"server":"fdhg.755657.xyz","port":8443,"uuid":"9682edd6-89e6-4e6a-b31d-271089771d87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇧🇬大萝卜鸡保加利亚2","server":"fdhg.755657.xyz","port":2053,"password":"9682edd6-89e6-4e6a-b31d-271089771d87","udp":true,"skip-cert-verify":true,"sni":"fdhg.755657.xyz"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡东京2","server":"vultr1.755657.xyz","port":8443,"uuid":"9682edd6-89e6-4e6a-b31d-271089771d87","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡东京3","server":"00000000000000000000000000000000000000000000000000000000000003a.rui77.com","port":80,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡东京4","server":"00000000000000000000000000000000000000000000000000000000000004a.rui77.com","port":443,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬大萝卜鸡狮城","server":"00000000000000000000000000000000000000000000000000000000000005a.rui77.com","port":80,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔","server":"00000000000000000000000000000000000000000000000000000000000007a.rui77.com","port":80,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔2","server":"00000000000000000000000000000000000000000000000000000000000008a.rui77.com","port":443,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰大萝卜鸡香港","server":"00000000000000000000000000000000000000000000000000000000000021a.rui77.com","port":52356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰大萝卜鸡香港2","server":"00000000000000000000000000000000000000000000000000000000000022a.rui77.com","port":52356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬大萝卜鸡狮城2","server":"00000000000000000000000000000000000000000000000000000000000026a.rui77.com","port":52356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔3","server":"00000000000000000000000000000000000000000000000000000000000027a.rui77.com","port":52356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔4","server":"00000000000000000000000000000000000000000000000000000000000028a.rui77.com","port":52356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰大萝卜鸡香港3","server":"00000000000000000000000000000000000000000000000000000000000031a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰大萝卜鸡香港4","server":"00000000000000000000000000000000000000000000000000000000000032a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡东京5","server":"00000000000000000000000000000000000000000000000000000000000033a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡东京6","server":"00000000000000000000000000000000000000000000000000000000000034a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬大萝卜鸡狮城3","server":"00000000000000000000000000000000000000000000000000000000000035a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬大萝卜鸡狮城4","server":"00000000000000000000000000000000000000000000000000000000000036a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔5","server":"00000000000000000000000000000000000000000000000000000000000037a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷大萝卜鸡首尔6","server":"00000000000000000000000000000000000000000000000000000000000038a.rui77.com","port":12356,"uuid":"25bab732-f6c7-41b5-abc7-1200c1c26529","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡日本","server":"aliyun.moble.vnupgcn.cn","port":9033,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳大萝卜鸡台湾","server":"aliyun.moble.vnupgcn.cn","port":9013,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵大萝卜鸡日本2","server":"aliyun.moble.vnupgcn.cn","port":9035,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳大萝卜鸡台湾2","server":"aliyun.moble.vnupgcn.cn","port":9019,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬大萝卜鸡新加坡","server":"aliyun.moble.vnupgcn.cn","port":9040,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇻🇳大萝卜鸡越南","server":"aliyun.install03.vnupgcn.cn","port":11904,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇻🇳大萝卜鸡越南2","server":"aliyun.install04.vnupgcn.cn","port":11904,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰大萝卜鸡香港6","server":"aliyun.moble.vnupgcn.cn","port":9007,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇦大萝卜鸡加拿大","server":"aliyun.install03.vnupgcn.cn","port":11902,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇴大萝卜鸡哥伦比亚","server":"aliyun.install04.vnupgcn.cn","port":11922,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇦🇹大萝卜鸡奥地利","server":"aliyun.install01.vnupgcn.cn","port":11927,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇱🇻大萝卜鸡拉脱维亚","server":"aliyun.install01.vnupgcn.cn","port":11917,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇿大萝卜鸡捷克","server":"aliyun.install02.vnupgcn.cn","port":11916,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇵🇱大萝卜鸡波兰","server":"aliyun.install04.vnupgcn.cn","port":11914,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇫🇮大萝卜鸡芬兰","server":"aliyun.install04.vnupgcn.cn","port":11933,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇭🇰大萝卜鸡香港7","server":"165.154.243.157","port":48001,"password":"75599052-d014-478d-b575-455346f4f660","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇯🇵+大萝卜鸡东京_2","server":"vultr1.755657.xyz","port":443,"password":"9682edd6-89e6-4e6a-b31d-271089771d87","udp":true,"skip-cert-verify":true,"sni":"vultr1.755657.xyz"}
+  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_1_2","server":"85.208.108.19","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_2_2","server":"85.208.108.19","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_3_2","server":"85.208.108.19","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"欧洲(油管:破解资源君2.0)_4_2","server":"pull-cache-lu01.xyx-xylo.com","port":19702,"password":"79745894-044c-3298-a893-bbfcb6b24a2c","udp":true,"skip-cert-verify":true,"sni":"8-132-175-74.nhost.00cdn.com"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_1_2","server":"38.75.136.34","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_2_2","server":"38.75.136.34","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_3_2","server":"38.75.136.34","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_8_2","server":"185.225.69.134","port":"45081","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)_6_2","server":"134.195.196.85","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_4_2","server":"38.75.136.34","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_4_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%25257B%252522Host%252522:%252522aweikeji-YouTube%252522%25257D"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_5_2","server":"38.121.43.204","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_6_2","server":"38.121.43.204","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_7_2","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_8_2","server":"38.75.136.34","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_9_2","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"vmess","name":"github.com/freefq-广东省佛山市移动13_2_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_11_2","server":"38.75.136.34","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_12_2","server":"38.75.136.34","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_6_2","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"新加坡(油管:破解资源君2.0)_6_2","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_13_2","server":"38.75.136.34","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_14_2","ws-opts":{"path":"/ws"},"server":"usa-washington.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_12_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_5_2","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_15_2","server":"38.121.43.204","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_16_2","server":"38.91.107.37","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_17_2","server":"38.121.43.204","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_10_2","server":"129.154.57.134","port":"26282","uuid":"cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_19_2","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"不定期更新订阅_2","server":"114514","port":48978,"cipher":"aes-256-cfb","password":"qwersd"}
+  - {"type":"ss","name":"https://t.me/daluoboji_2","server":"114514","port":8654,"cipher":"none","password":"wwe"}
+  - {"type":"ssr","name":"大萝卜鸡香港_1_2","server":"47.242.238.92","port":53917,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3457854"}
+  - {"type":"ssr","name":"大萝卜鸡香港_2_2","server":"47.242.238.92","port":50537,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"8734595"}
+  - {"type":"ssr","name":"大萝卜鸡香港_3_2","server":"47.243.60.156","port":46549,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34565345"}
+  - {"type":"ssr","name":"大萝卜鸡香港_4_2","server":"47.242.145.161","port":51284,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34523454"}
+  - {"type":"ssr","name":"大萝卜鸡香港_5_2","server":"47.243.60.156","port":48407,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"4356346"}
+  - {"type":"ssr","name":"大萝卜鸡香港_6_2","server":"47.242.145.161","port":54073,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3455634"}
+  - {"type":"trojan","name":"大萝卜鸡美国高速_1_2","server":"azgy001.xibai6.top","port":20786,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"大萝卜鸡美国高速_2_2","server":"azgy001.xibai6.top","port":20790,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"大萝卜鸡美国高速_3_2","server":"azgy001.xibai6.top","port":20788,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"大萝卜鸡美国高速_4_2","server":"azhj001.xibai6.top","port":20714,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"大萝卜鸡美国高速_5_2","server":"azgy001.xibai6.top","port":20787,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"大萝卜鸡美国香港_1_2","server":"120.240.47.72","port":2712,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"ss","name":"大萝卜鸡美国香港_2_2","server":"120.240.47.72","port":2715,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"ss","name":"大萝卜鸡美国香港_3_2","server":"120.240.47.72","port":2718,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"ss","name":"大萝卜鸡美国香港_4_2","server":"120.240.47.72","port":2719,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"ss","name":"大萝卜鸡美国_1_2","server":"120.240.47.74","port":7714,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"ss","name":"大萝卜鸡美国_2_2","server":"120.240.47.74","port":7717,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
+  - {"type":"trojan","name":"github.com/freefq+-+美国Microsoft数据中心+3_3_2","server":"hk3.hktkcloud.cloud","port":443,"password":"d4119dee-493a-407f-9109-a36d62153e19","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/freefq+-+美国加州+6_2_2","server":"64.112.42.72","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
+  - {"type":"ss","name":"github.com/freefq+-+美国加州+9_3_2","server":"64.112.42.53","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
+  - {"type":"vmess","name":"github.com/freefq-乌克兰37_2_2","server":"5.181.132.235","port":"31372","uuid":"0bb88eea-73a5-4e37-ac8b-03090a57acba","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"github.com/freefq+-+美国++25_2_2","server":"45.59.184.12","port":6800,"cipher":"aes-256-gcm","password":"abcd1234"}
+  - {"type":"vmess","name":"Alien_9_2","server":"13.40.73.66","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-香港电讯盈科有限公司34_2_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"edge.cjhh.mom"}},"server":"asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Alien_5_2","server":"35.180.209.86","port":"54332","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_2_2","server":"51.142.233.54","port":"30006","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_6_2","server":"18.118.142.251","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国Amazon数据中心16_2_2","server":"13.38.73.118","port":"54332","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇬🇧英国C_3_2","server":"35.176.210.25","port":"30002","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-台湾省台中市中华电信5_2_2","ws-opts":{"path":"/s/ff5c0fb.fm.icloud.com:30513","headers":{"host":"YouTube-aweikeji"}},"server":"ff5c0fb.rd.cloudflare.systems","port":"80","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-广东省佛山市移动19_3_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"120.240.55.137"}},"server":"120.240.55.137","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2","ws-opts":{"path":"/vmess"},"server":"ca1.vmess.tunnel.cx","port":"80","uuid":"0429f7ce-2c73-11ed-b9c2-8b16281b86ac","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷V214-1X-Seoul_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v14.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷V213-1X-Seoul_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v13.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq+-+加拿大++27_2_2","server":"96tw.tfzhc.top","port":443,"password":"d450d9fe-05fb-45ee-bb73-228d700792a0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"VN•HàNội05🚀_3_2","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hanoi05.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++7_2_2","server":"ty1-2.nigirocloud.com","port":443,"password":"4V4kxVXmcg5Yn2DqF2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"bulink自建免费11线三网_3_2","ws-opts":{"path":"/ws","headers":{"host":"la56.burstlinker.com.fobzs.com"}},"server":"la56.burstlinker.com.fobzs.com","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡DigitalOcean数据中心33_2_2","ws-opts":{"path":"/rauc","headers":{"host":"audi.aaog.buzz"}},"server":"159.65.139.114","port":"443","uuid":"c1581db6-e382-3cc4-87bf-0d2aa2e63b62","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"CK_3_2","server":"103.135.251.200","port":6800,"cipher":"aes-256-gcm","password":"abcd1234"}
+  - {"type":"vmess","name":"🇸🇬新加坡W1-直连_3_2","server":"54.151.212.220","port":"43214","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇦V203-0.4X-Canada_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v03.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦V202-0.4X-Canada_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v02.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"github.com/freefq+-+亚太地区++17_2_2","server":"idtj-ikd.bonds.id","port":443,"password":"193ba7c0-2e7d-11ed-a396-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点29_2_2","ws-opts":{"path":"/123","headers":{"host":"jpamd.fineyoo.cf"}},"server":"jpamd.fineyoo.cf","port":"443","uuid":"9bdac558-1d2b-425b-f0e7-445d38be025e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦V206-0.4X-Canada_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v07.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2","ws-opts":{"path":"/baervws","headers":{"host":"db.652040231.xyz"}},"server":"cdn.linil.ml","port":"443","uuid":"7da1771d-9745-4f2d-bfc9-9f0184932a9c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"关注频道https://t.me/mftizi_3_2","server":"s5.v2.gay","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷V212-1X-Chuncheon_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v12.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷韩国W1-直连_3_2","server":"3.34.43.217","port":"32452","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_8_2","server":"3.34.133.90","port":"7787","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"bulink自建免费19线三网_3_2","server":"la49.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"bulink自建免费16线三网_3_2","ws-opts":{"path":"/ws","headers":{"host":"la60.bulinkxyz.xyz"}},"server":"la60.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/freefq+-+加拿大++14_2_2","server":"730tw01.ok365.cyou","port":443,"password":"d450d9fe-05fb-45ee-bb73-228d700792a0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇯🇵V216-1X-Tokyo_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v16.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费节点TG@mftizi_3_2","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"v5.v2.gay","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-美国加利福尼亚州费利蒙35_2_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"mtkzb-1038-v2-1.sjc-d-cn2.jd.cjhh.lol","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦V201-0.4X-Canada_3_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v01.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Alien_10_2","server":"3.36.108.93","port":"7787","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国3COM公司企业网22_2_2","server":"chess.magicefire.com","port":"443","uuid":"9aa80017-3427-4165-a522-f5f9a11330d0","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1_2","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"u5.v2.gay","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HongKong2-Garena_3_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"952e97d2-17ef-4e42-b8aa-c9f892ca4eed","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"u1.v2.gay","port":"80","uuid":"952e97d2-17ef-4e42-b8aa-c9f892ca4eed","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Alien_11_2","server":"18.142.227.6","port":"43214","uuid":"5b028d7f-9e30-4475-a558-ebb2c4b02566","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点38_2_2","ws-opts":{"path":"/408"},"server":"amdkr.ptuu.ga","port":"443","uuid":"a612b67f-a79b-4a71-a82b-a46906752023","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-日本东京Oracle数据中心36_3_2","server":"168.138.201.208","port":"10328","uuid":"bf847bf7-0ba5-4885-bd2b-da4d77afbda8","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点30_3_2","ws-opts":{"path":"/123","headers":{"host":"jpamd.fineyoo.ml"}},"server":"jpamd.fineyoo.ml","port":"443","uuid":"35e5e2ea-1372-4745-dff8-fb2bd11016c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"301更新_US_美国_1_2","server":"107.wowogg.cyou","port":52207,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_2_2","server":"86.wowogg.cyou","port":52286,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_US_美国_3_2","server":"134.wowogg.cyou","port":52334,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_US_美国_4_2","server":"90.wowogg.cyou","port":52290,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_5_2","server":"84.wowogg.cyou","port":52284,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_US_美国_6_2","server":"82.wowogg.cyou","port":52282,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_7_2","server":"93.wowogg.cyou","port":52293,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_8_2","server":"130.wowogg.cyou","port":52330,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_US_美国_9_2","server":"136.wowogg.cyou","port":52436,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"301更新_HK_香港_10_2","server":"40.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"301更新_US_美国_11_2","server":"85.wowogg.cyou","port":52285,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_12_2","server":"81.wowogg.cyou","port":52281,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_13_2","server":"92.wowogg.cyou","port":52292,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_14_2","server":"129.wowogg.cyou","port":52329,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_15_2","server":"131.wowogg.cyou","port":52331,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_16_2","server":"101.wowogg.cyou","port":52201,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_HK_香港_17_2","server":"104.wowogg.cyou","port":11222,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"301更新_JP_日本_18_2","server":"30.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"301更新_HK_香港_19_2","server":"95.wowogg.cyou","port":52295,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"301更新_SG_新加坡_20_2","server":"s2.kaxff.com","port":32432,"password":"OcABzr5wEG","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"301更新_CA_加拿大_21_2","server":"134.195.196.71","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"301更新_HK_香港_22_2","server":"26.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"301更新_HK_香港_23_2","server":"87.wowogg.cyou","port":52287,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"301更新_TW_台湾_24_2","ws-opts":{"path":"/v2ray"},"server":"0222tw.fans8.xyz","port":80,"uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"301更新_HK_香港_25_2","server":"42.earths.team","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"301更新_CA_加拿大_26_2","server":"134.195.196.227","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"301更新_US_美国_27_2","server":"38.114.114.19","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"301更新_US_美国_28_2","server":"38.114.114.67","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"301更新_US_美国_29_2","server":"38.114.114.67","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"301更新_US_美国_30_2","server":"167.88.61.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_US_美国_31_2","server":"38.114.114.19","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_US_美国_32_2","server":"167.88.61.60","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_US_美国_33_2","server":"38.75.136.93","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_US_美国_34_2","server":"38.75.136.93","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"301更新_US_美国_35_2","server":"167.88.61.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_US_美国_36_2","server":"167.88.61.60","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_US_美国_37_2","server":"38.75.136.93","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"301更新_US_美国_38_2","server":"38.75.136.93","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"301更新_US_美国_39_2","server":"167.88.61.60","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"301更新_US_美国_40_2","server":"167.88.61.60","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"301更新_US_美国_41_2","server":"7.earths.team","port":443,"password":"6593b778-e45e-4f94-b5ae-641d4b7b02ae","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"301更新_US_美国_42_2","server":"38.114.114.19","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_US_美国_43_2","server":"38.68.134.85","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_US_美国_44_2","server":"38.114.114.67","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_US_美国_45_2","server":"38.75.136.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_US_美国_46_2","server":"38.114.114.19","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"301更新_CA_加拿大_47_2","server":"134.195.196.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_US_美国_48_2","server":"38.86.135.36","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"301更新_CA_加拿大_49_2","server":"134.195.196.3","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_CA_加拿大_50_2","server":"134.195.196.71","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"301更新_CA_加拿大_51_2","server":"134.195.196.227","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"301更新_CA_加拿大_52_2","server":"134.195.196.71","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_CA_加拿大_53_2","server":"134.195.196.71","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"301更新_CA_加拿大_54_2","server":"134.195.196.71","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_US_美国_55_2","server":"167.88.61.60","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"301更新_CA_加拿大_56_2","server":"134.195.196.71","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_US_美国_57_2","server":"167.88.63.71","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_CA_加拿大_58_2","server":"134.195.196.71","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"301更新_CA_加拿大_59_2","server":"134.195.196.227","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_GB_英国_60_2","server":"172.99.190.92","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_US_美国_61_2","server":"38.68.134.85","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"301更新_GB_英国_62_2","server":"172.99.190.92","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_GB_英国_63_2","server":"172.99.190.92","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"301更新_CA_加拿大_64_2","server":"134.195.196.227","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_US_美国_65_2","server":"167.88.63.71","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"301更新_CA_加拿大_66_2","server":"134.195.196.71","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_CA_加拿大_67_2","server":"134.195.196.227","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"301更新_CA_加拿大_68_2","server":"134.195.196.71","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"301更新_CA_加拿大_69_2","server":"134.195.196.3","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_CA_加拿大_70_2","server":"134.195.196.71","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"301更新_CA_加拿大_71_2","server":"134.195.196.71","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"301更新_US_美国_72_2","server":"38.86.135.36","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"301更新_HK_香港_73_2","server":"109.wowogg.cyou","port":52209,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"301更新_GB_英国_74_2","server":"172.99.190.205","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_CA_加拿大_75_2","server":"134.195.196.71","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"301更新_US_美国_76_2","server":"38.114.114.19","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_CA_加拿大_77_2","server":"198.57.27.218","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_GB_英国_78_2","server":"172.99.190.92","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"301更新_CA_加拿大_79_2","server":"134.195.196.71","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_CA_加拿大_80_2","server":"134.195.196.71","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"301更新_US_美国_81_2","server":"167.88.63.71","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_US_美国_82_2","server":"38.86.135.36","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_US_美国_83_2","server":"38.86.135.36","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"301更新_US_美国_84_2","server":"38.86.135.36","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"301更新_CA_加拿大_85_2","server":"134.195.196.71","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"301更新_US_美国_86_2","server":"38.86.135.36","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"301更新_CA_加拿大_87_2","server":"134.195.196.3","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"301更新_CA_加拿大_88_2","server":"134.195.196.71","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"301更新_CA_加拿大_89_2","server":"134.195.196.227","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_US_美国_90_2","server":"38.114.114.19","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"301更新_CA_加拿大_91_2","server":"134.195.196.71","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"301更新_CA_加拿大_92_2","server":"134.195.196.71","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"301更新_US_美国_93_2","server":"167.88.61.60","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"301更新_US_美国_94_2","server":"38.86.135.36","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"301更新_HK_香港_95_2","server":"123.wowogg.cyou","port":52223,"uuid":"08103798-414e-32b6-8748-2507732d2c51","alterId":2,"cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"301更新_CA_加拿大_96_2","server":"134.195.196.71","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_CA_加拿大_97_2","server":"134.195.196.71","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"301更新_CA_加拿大_98_2","server":"134.195.196.71","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"301更新_US_美国_99_2","server":"38.75.136.93","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"trojan","name":"301更新_US_美国_100_2","server":"ocph.vproxy.us","port":34567,"password":"fd54b442-3a4c-4580-bd9a-70e1b249eceb","udp":true,"skip-cert-verify":true,"sni":"ocph.vproxy.us"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1468,206 +1727,243 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵+大萝卜鸡东京
-      - 欧洲(油管:破解资源君2.0)_1
-      - 欧洲(油管:破解资源君2.0)_2
-      - 欧洲(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_1
-      - 美国(油管:破解资源君2.0)_2
-      - 美国(油管:破解资源君2.0)_3
-      - 欧洲(油管:破解资源君2.0)_8
-      - 欧洲(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_4
-      - 亚洲(油管:破解资源君2.0)_4
-      - 美国(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_7
-      - 美国(油管:破解资源君2.0)_8
-      - 美国(油管:破解资源君2.0)_9
-      - github.com/freefq-广东省佛山市移动13_2
-      - 美国(油管:破解资源君2.0)_11
-      - 美国(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_6
-      - 新加坡(油管:破解资源君2.0)_6
-      - 美国(油管:破解资源君2.0)_13
-      - 美国(油管:破解资源君2.0)_14
-      - 欧洲(油管:破解资源君2.0)_12
-      - 香港(油管:破解资源君2.0)_5
-      - 美国(油管:破解资源君2.0)_15
-      - 美国(油管:破解资源君2.0)_16
-      - 美国(油管:破解资源君2.0)_17
-      - 欧洲(油管:破解资源君2.0)_10
-      - 美国(油管:破解资源君2.0)_19
-      - 不定期更新订阅
-      - https://t.me/daluoboji
-      - 大萝卜鸡香港_1
-      - 大萝卜鸡香港_2
-      - 大萝卜鸡香港_3
-      - 大萝卜鸡香港_4
-      - 大萝卜鸡香港_5
-      - 大萝卜鸡香港_6
-      - 大萝卜鸡美国高速_1
-      - 大萝卜鸡美国高速_2
-      - 大萝卜鸡美国高速_3
-      - 大萝卜鸡美国高速_4
-      - 大萝卜鸡美国高速_5
-      - 大萝卜鸡美国香港_1
-      - 大萝卜鸡美国香港_2
-      - 大萝卜鸡美国香港_3
-      - 大萝卜鸡美国香港_4
-      - 大萝卜鸡美国_1
-      - 大萝卜鸡美国_2
-      - github.com/freefq+-+美国Microsoft数据中心+3_3
-      - github.com/freefq+-+美国加州+6_2
-      - github.com/freefq+-+美国加州+9_3
-      - github.com/freefq-乌克兰37_2
-      - github.com/freefq+-+美国++25_2
-      - Alien_9
-      - github.com/freefq-香港电讯盈科有限公司34_2
-      - Alien_5
-      - Alien_2
-      - Alien_6
-      - github.com/freefq-美国Amazon数据中心16_2
-      - 🇬🇧英国C_3
-      - github.com/freefq-台湾省台中市中华电信5_2
-      - github.com/freefq-广东省佛山市移动19_3
-      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
-      - 🇰🇷V214-1X-Seoul_3
-      - 🇰🇷V213-1X-Seoul_3
-      - github.com/freefq+-+加拿大++27_2
-      - VN•HàNội05🚀_3
-      - github.com/freefq+-+美国++7_2
-      - bulink自建免费11线三网_3
-      - github.com/freefq-新加坡DigitalOcean数据中心33_2
-      - CK_3
-      - 🇸🇬新加坡W1-直连_3
-      - 🇨🇦V203-0.4X-Canada_3
-      - 🇨🇦V202-0.4X-Canada_3
-      - github.com/freefq+-+亚太地区++17_2
-      - github.com/freefq-美国CloudFlare节点29_2
-      - 🇨🇦V206-0.4X-Canada_3
-      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2
-      - 关注频道https://t.me/mftizi_3
-      - 🇰🇷V212-1X-Chuncheon_3
-      - 🇰🇷韩国W1-直连_3
-      - Alien_8
-      - bulink自建免费19线三网_3
-      - bulink自建免费16线三网_3
-      - github.com/freefq+-+加拿大++14_2
-      - 🇯🇵V216-1X-Tokyo_3
-      - 免费节点TG@mftizi_3
-      - github.com/freefq-美国加利福尼亚州费利蒙35_2
-      - 🇨🇦V201-0.4X-Canada_3
-      - Alien_10
-      - github.com/freefq-美国3COM公司企业网22_2
-      - 免费梯子https://t.me/mftizi_1
-      - 🇭🇰HongKong2-Garena_3
-      - 免费梯子https://t.me/mftizi_2
-      - Alien_11
-      - github.com/freefq-美国CloudFlare公司CDN节点38_2
-      - github.com/freefq-日本东京Oracle数据中心36_3
-      - github.com/freefq-美国CloudFlare节点30_3
-      - 301更新_US_美国_1
-      - 301更新_HK_香港_2
-      - 301更新_US_美国_3
-      - 301更新_US_美国_4
-      - 301更新_HK_香港_5
-      - 301更新_US_美国_6
-      - 301更新_HK_香港_7
-      - 301更新_HK_香港_8
-      - 301更新_US_美国_9
-      - 301更新_HK_香港_10
-      - 301更新_US_美国_11
-      - 301更新_HK_香港_12
-      - 301更新_HK_香港_13
-      - 301更新_HK_香港_14
-      - 301更新_HK_香港_15
-      - 301更新_HK_香港_16
-      - 301更新_HK_香港_17
-      - 301更新_JP_日本_18
-      - 301更新_HK_香港_19
-      - 301更新_SG_新加坡_20
-      - 301更新_CA_加拿大_21
-      - 301更新_HK_香港_22
-      - 301更新_HK_香港_23
-      - 301更新_TW_台湾_24
-      - 301更新_HK_香港_25
-      - 301更新_CA_加拿大_26
-      - 301更新_US_美国_27
-      - 301更新_US_美国_28
-      - 301更新_US_美国_29
-      - 301更新_US_美国_30
-      - 301更新_US_美国_31
-      - 301更新_US_美国_32
-      - 301更新_US_美国_33
-      - 301更新_US_美国_34
-      - 301更新_US_美国_35
-      - 301更新_US_美国_36
-      - 301更新_US_美国_37
-      - 301更新_US_美国_38
-      - 301更新_US_美国_39
-      - 301更新_US_美国_40
-      - 301更新_US_美国_41
-      - 301更新_US_美国_42
-      - 301更新_US_美国_43
-      - 301更新_US_美国_44
-      - 301更新_US_美国_45
-      - 301更新_US_美国_46
-      - 301更新_CA_加拿大_47
-      - 301更新_US_美国_48
-      - 301更新_CA_加拿大_49
-      - 301更新_CA_加拿大_50
-      - 301更新_CA_加拿大_51
-      - 301更新_CA_加拿大_52
-      - 301更新_CA_加拿大_53
-      - 301更新_CA_加拿大_54
-      - 301更新_US_美国_55
-      - 301更新_CA_加拿大_56
-      - 301更新_US_美国_57
-      - 301更新_CA_加拿大_58
-      - 301更新_CA_加拿大_59
-      - 301更新_GB_英国_60
-      - 301更新_US_美国_61
-      - 301更新_GB_英国_62
-      - 301更新_GB_英国_63
-      - 301更新_CA_加拿大_64
-      - 301更新_US_美国_65
-      - 301更新_CA_加拿大_66
-      - 301更新_CA_加拿大_67
-      - 301更新_CA_加拿大_68
-      - 301更新_CA_加拿大_69
-      - 301更新_CA_加拿大_70
-      - 301更新_CA_加拿大_71
-      - 301更新_US_美国_72
-      - 301更新_HK_香港_73
-      - 301更新_GB_英国_74
-      - 301更新_CA_加拿大_75
-      - 301更新_US_美国_76
-      - 301更新_CA_加拿大_77
-      - 301更新_GB_英国_78
-      - 301更新_CA_加拿大_79
-      - 301更新_CA_加拿大_80
-      - 301更新_US_美国_81
-      - 301更新_US_美国_82
-      - 301更新_US_美国_83
-      - 301更新_US_美国_84
-      - 301更新_CA_加拿大_85
-      - 301更新_US_美国_86
-      - 301更新_CA_加拿大_87
-      - 301更新_CA_加拿大_88
-      - 301更新_CA_加拿大_89
-      - 301更新_US_美国_90
-      - 301更新_CA_加拿大_91
-      - 301更新_CA_加拿大_92
-      - 301更新_US_美国_93
-      - 301更新_US_美国_94
-      - 301更新_HK_香港_95
-      - 301更新_CA_加拿大_96
-      - 301更新_CA_加拿大_97
-      - 301更新_CA_加拿大_98
-      - 301更新_US_美国_99
-      - 301更新_US_美国_100
+      - 🇧🇬大萝卜鸡保加利亚
+      - 🇧🇬大萝卜鸡保加利亚2
+      - 🇯🇵大萝卜鸡东京2
+      - 🇯🇵大萝卜鸡东京3
+      - 🇯🇵大萝卜鸡东京4
+      - 🇸🇬大萝卜鸡狮城
+      - 🇰🇷大萝卜鸡首尔
+      - 🇰🇷大萝卜鸡首尔2
+      - 🇭🇰大萝卜鸡香港
+      - 🇭🇰大萝卜鸡香港2
+      - 🇸🇬大萝卜鸡狮城2
+      - 🇰🇷大萝卜鸡首尔3
+      - 🇰🇷大萝卜鸡首尔4
+      - 🇭🇰大萝卜鸡香港3
+      - 🇭🇰大萝卜鸡香港4
+      - 🇯🇵大萝卜鸡东京5
+      - 🇯🇵大萝卜鸡东京6
+      - 🇸🇬大萝卜鸡狮城3
+      - 🇸🇬大萝卜鸡狮城4
+      - 🇰🇷大萝卜鸡首尔5
+      - 🇰🇷大萝卜鸡首尔6
+      - 🇯🇵大萝卜鸡日本
+      - 🇨🇳大萝卜鸡台湾
+      - 🇯🇵大萝卜鸡日本2
+      - 🇨🇳大萝卜鸡台湾2
+      - 🇸🇬大萝卜鸡新加坡
+      - 🇻🇳大萝卜鸡越南
+      - 🇻🇳大萝卜鸡越南2
+      - 🇭🇰大萝卜鸡香港6
+      - 🇨🇦大萝卜鸡加拿大
+      - 🇨🇴大萝卜鸡哥伦比亚
+      - 🇦🇹大萝卜鸡奥地利
+      - 🇱🇻大萝卜鸡拉脱维亚
+      - 🇨🇿大萝卜鸡捷克
+      - 🇵🇱大萝卜鸡波兰
+      - 🇫🇮大萝卜鸡芬兰
+      - 🇭🇰大萝卜鸡香港7
+      - 🇯🇵+大萝卜鸡东京_2
+      - 欧洲(油管:破解资源君2.0)_1_2
+      - 欧洲(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_1_2
+      - 美国(油管:破解资源君2.0)_2_2
+      - 美国(油管:破解资源君2.0)_3_2
+      - 欧洲(油管:破解资源君2.0)_8_2
+      - 欧洲(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_4_2
+      - 亚洲(油管:破解资源君2.0)_4_2
+      - 美国(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_7_2
+      - 美国(油管:破解资源君2.0)_8_2
+      - 美国(油管:破解资源君2.0)_9_2
+      - github.com/freefq-广东省佛山市移动13_2_2
+      - 美国(油管:破解资源君2.0)_11_2
+      - 美国(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_6_2
+      - 新加坡(油管:破解资源君2.0)_6_2
+      - 美国(油管:破解资源君2.0)_13_2
+      - 美国(油管:破解资源君2.0)_14_2
+      - 欧洲(油管:破解资源君2.0)_12_2
+      - 香港(油管:破解资源君2.0)_5_2
+      - 美国(油管:破解资源君2.0)_15_2
+      - 美国(油管:破解资源君2.0)_16_2
+      - 美国(油管:破解资源君2.0)_17_2
+      - 欧洲(油管:破解资源君2.0)_10_2
+      - 美国(油管:破解资源君2.0)_19_2
+      - 不定期更新订阅_2
+      - https://t.me/daluoboji_2
+      - 大萝卜鸡香港_1_2
+      - 大萝卜鸡香港_2_2
+      - 大萝卜鸡香港_3_2
+      - 大萝卜鸡香港_4_2
+      - 大萝卜鸡香港_5_2
+      - 大萝卜鸡香港_6_2
+      - 大萝卜鸡美国高速_1_2
+      - 大萝卜鸡美国高速_2_2
+      - 大萝卜鸡美国高速_3_2
+      - 大萝卜鸡美国高速_4_2
+      - 大萝卜鸡美国高速_5_2
+      - 大萝卜鸡美国香港_1_2
+      - 大萝卜鸡美国香港_2_2
+      - 大萝卜鸡美国香港_3_2
+      - 大萝卜鸡美国香港_4_2
+      - 大萝卜鸡美国_1_2
+      - 大萝卜鸡美国_2_2
+      - github.com/freefq+-+美国Microsoft数据中心+3_3_2
+      - github.com/freefq+-+美国加州+6_2_2
+      - github.com/freefq+-+美国加州+9_3_2
+      - github.com/freefq-乌克兰37_2_2
+      - github.com/freefq+-+美国++25_2_2
+      - Alien_9_2
+      - github.com/freefq-香港电讯盈科有限公司34_2_2
+      - Alien_5_2
+      - Alien_2_2
+      - Alien_6_2
+      - github.com/freefq-美国Amazon数据中心16_2_2
+      - 🇬🇧英国C_3_2
+      - github.com/freefq-台湾省台中市中华电信5_2_2
+      - github.com/freefq-广东省佛山市移动19_3_2
+      - github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2_2
+      - 🇰🇷V214-1X-Seoul_3_2
+      - 🇰🇷V213-1X-Seoul_3_2
+      - github.com/freefq+-+加拿大++27_2_2
+      - VN•HàNội05🚀_3_2
+      - github.com/freefq+-+美国++7_2_2
+      - bulink自建免费11线三网_3_2
+      - github.com/freefq-新加坡DigitalOcean数据中心33_2_2
+      - CK_3_2
+      - 🇸🇬新加坡W1-直连_3_2
+      - 🇨🇦V203-0.4X-Canada_3_2
+      - 🇨🇦V202-0.4X-Canada_3_2
+      - github.com/freefq+-+亚太地区++17_2_2
+      - github.com/freefq-美国CloudFlare节点29_2_2
+      - 🇨🇦V206-0.4X-Canada_3_2
+      - github.com/freefq-美国科罗拉多州布隆菲尔德市Level328_2_2
+      - 关注频道https://t.me/mftizi_3_2
+      - 🇰🇷V212-1X-Chuncheon_3_2
+      - 🇰🇷韩国W1-直连_3_2
+      - Alien_8_2
+      - bulink自建免费19线三网_3_2
+      - bulink自建免费16线三网_3_2
+      - github.com/freefq+-+加拿大++14_2_2
+      - 🇯🇵V216-1X-Tokyo_3_2
+      - 免费节点TG@mftizi_3_2
+      - github.com/freefq-美国加利福尼亚州费利蒙35_2_2
+      - 🇨🇦V201-0.4X-Canada_3_2
+      - Alien_10_2
+      - github.com/freefq-美国3COM公司企业网22_2_2
+      - 免费梯子https://t.me/mftizi_1_2
+      - 🇭🇰HongKong2-Garena_3_2
+      - 免费梯子https://t.me/mftizi_2_2
+      - Alien_11_2
+      - github.com/freefq-美国CloudFlare公司CDN节点38_2_2
+      - github.com/freefq-日本东京Oracle数据中心36_3_2
+      - github.com/freefq-美国CloudFlare节点30_3_2
+      - 301更新_US_美国_1_2
+      - 301更新_HK_香港_2_2
+      - 301更新_US_美国_3_2
+      - 301更新_US_美国_4_2
+      - 301更新_HK_香港_5_2
+      - 301更新_US_美国_6_2
+      - 301更新_HK_香港_7_2
+      - 301更新_HK_香港_8_2
+      - 301更新_US_美国_9_2
+      - 301更新_HK_香港_10_2
+      - 301更新_US_美国_11_2
+      - 301更新_HK_香港_12_2
+      - 301更新_HK_香港_13_2
+      - 301更新_HK_香港_14_2
+      - 301更新_HK_香港_15_2
+      - 301更新_HK_香港_16_2
+      - 301更新_HK_香港_17_2
+      - 301更新_JP_日本_18_2
+      - 301更新_HK_香港_19_2
+      - 301更新_SG_新加坡_20_2
+      - 301更新_CA_加拿大_21_2
+      - 301更新_HK_香港_22_2
+      - 301更新_HK_香港_23_2
+      - 301更新_TW_台湾_24_2
+      - 301更新_HK_香港_25_2
+      - 301更新_CA_加拿大_26_2
+      - 301更新_US_美国_27_2
+      - 301更新_US_美国_28_2
+      - 301更新_US_美国_29_2
+      - 301更新_US_美国_30_2
+      - 301更新_US_美国_31_2
+      - 301更新_US_美国_32_2
+      - 301更新_US_美国_33_2
+      - 301更新_US_美国_34_2
+      - 301更新_US_美国_35_2
+      - 301更新_US_美国_36_2
+      - 301更新_US_美国_37_2
+      - 301更新_US_美国_38_2
+      - 301更新_US_美国_39_2
+      - 301更新_US_美国_40_2
+      - 301更新_US_美国_41_2
+      - 301更新_US_美国_42_2
+      - 301更新_US_美国_43_2
+      - 301更新_US_美国_44_2
+      - 301更新_US_美国_45_2
+      - 301更新_US_美国_46_2
+      - 301更新_CA_加拿大_47_2
+      - 301更新_US_美国_48_2
+      - 301更新_CA_加拿大_49_2
+      - 301更新_CA_加拿大_50_2
+      - 301更新_CA_加拿大_51_2
+      - 301更新_CA_加拿大_52_2
+      - 301更新_CA_加拿大_53_2
+      - 301更新_CA_加拿大_54_2
+      - 301更新_US_美国_55_2
+      - 301更新_CA_加拿大_56_2
+      - 301更新_US_美国_57_2
+      - 301更新_CA_加拿大_58_2
+      - 301更新_CA_加拿大_59_2
+      - 301更新_GB_英国_60_2
+      - 301更新_US_美国_61_2
+      - 301更新_GB_英国_62_2
+      - 301更新_GB_英国_63_2
+      - 301更新_CA_加拿大_64_2
+      - 301更新_US_美国_65_2
+      - 301更新_CA_加拿大_66_2
+      - 301更新_CA_加拿大_67_2
+      - 301更新_CA_加拿大_68_2
+      - 301更新_CA_加拿大_69_2
+      - 301更新_CA_加拿大_70_2
+      - 301更新_CA_加拿大_71_2
+      - 301更新_US_美国_72_2
+      - 301更新_HK_香港_73_2
+      - 301更新_GB_英国_74_2
+      - 301更新_CA_加拿大_75_2
+      - 301更新_US_美国_76_2
+      - 301更新_CA_加拿大_77_2
+      - 301更新_GB_英国_78_2
+      - 301更新_CA_加拿大_79_2
+      - 301更新_CA_加拿大_80_2
+      - 301更新_US_美国_81_2
+      - 301更新_US_美国_82_2
+      - 301更新_US_美国_83_2
+      - 301更新_US_美国_84_2
+      - 301更新_CA_加拿大_85_2
+      - 301更新_US_美国_86_2
+      - 301更新_CA_加拿大_87_2
+      - 301更新_CA_加拿大_88_2
+      - 301更新_CA_加拿大_89_2
+      - 301更新_US_美国_90_2
+      - 301更新_CA_加拿大_91_2
+      - 301更新_CA_加拿大_92_2
+      - 301更新_US_美国_93_2
+      - 301更新_US_美国_94_2
+      - 301更新_HK_香港_95_2
+      - 301更新_CA_加拿大_96_2
+      - 301更新_CA_加拿大_97_2
+      - 301更新_CA_加拿大_98_2
+      - 301更新_US_美国_99_2
+      - 301更新_US_美国_100_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
