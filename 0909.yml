@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-14 23:27:57
+#  创建时间：2022-09-14 23:29:40
 #  模版：v2rayse默认模版
-#  节点数量：221
+#  节点数量：220
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -93,7 +93,6 @@ proxies:
   - {"type":"trojan","name":"HK1_2","server":"hkt-1.opensvr.net","port":443,"password":"opentunnel.net-bmej9c5nwqikx0shndxg","udp":true,"skip-cert-verify":true,"sni":"hkt-1.opensvr.net"}
   - {"type":"vmess","name":"VN•HàNội01🎮","ws-opts":{"path":"/"},"server":"hanoi01.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"🇻🇳越南A/01x1.0","server":"117.164.185.220","port":61025,"cipher":"chacha20-ietf-poly1305","password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c"}
-  - {"type":"vmess","name":"香港_tg+univstar_18","http-opts":{"path":["/"],"headers":{"Host":["47.243.136.17"]}},"server":"47.243.136.17","port":"37205","uuid":"abb92d0b-5613-48ae-9564-03fda7830a96","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"香港_tg+univstar_20_2","server":"47.243.124.141","port":"41179","uuid":"a50b1dc4-03ce-44d8-a5c4-f4753c57884e","alterId":"0","cipher":"auto","network":"h2"}
   - {"type":"vmess","name":"VN•HàNội04🎮_2","ws-opts":{"path":"/"},"server":"hanoi04.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"测试节点(20M超低速)","server":"115.126.24.102","port":"43431","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
@@ -320,7 +319,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -547,7 +545,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -774,7 +771,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -1000,7 +996,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -1226,7 +1221,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -1452,7 +1446,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
@@ -1695,7 +1688,6 @@ proxy-groups:
       - HK1_2
       - VN•HàNội01🎮
       - 🇻🇳越南A/01x1.0
-      - 香港_tg+univstar_18
       - 香港_tg+univstar_20_2
       - VN•HàNội04🎮_2
       - 测试节点(20M超低速)
