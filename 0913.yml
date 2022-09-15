@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-15 12:36:52
+#  创建时间：2022-09-15 12:39:59
 #  模版：v2rayse默认模版
-#  节点数量：161
+#  节点数量：160
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -68,7 +68,6 @@ proxies:
   - {"type":"vmess","name":"香港_tg+univstar_24","http-opts":{"path":["/"],"headers":{"Host":["47.242.236.239"]}},"server":"47.242.236.239","port":"35707","uuid":"81acfa46-1c36-4950-8dd5-04dd0a1ff0f6","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"香港_tg+univstar_25","http-opts":{"path":["/"],"headers":{"Host":["47.242.156.146"]}},"server":"47.242.156.146","port":"60072","uuid":"ab089f3f-bf1c-4a71-821b-1e4861eb39ab","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"香港_tg+univstar_5","http-opts":{"path":["/"],"headers":{"Host":["8.210.253.214"]}},"server":"8.210.253.214","port":"63586","uuid":"c83db083-ff44-4727-899f-02d501e68d05","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_2","http-opts":{"path":["/"],"headers":{"Host":["47.243.131.231"]}},"server":"47.243.131.231","port":"58681","uuid":"df206563-b36c-4999-8764-c3e21a931b9e","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"香港_tg+univstar_20_2","server":"47.243.124.141","port":"41179","uuid":"a50b1dc4-03ce-44d8-a5c4-f4753c57884e","alterId":"0","cipher":"auto","network":"h2"}
   - {"type":"vmess","name":"🇯🇵日本-智能","ws-opts":{"path":"/"},"server":"g.cccao.cyou","port":"16617","uuid":"64727164-7bba-41e0-a6c2-32cbd6d3638f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"香港_tg+univstar_16","http-opts":{"path":["/"],"headers":{"Host":["47.242.18.21"]}},"server":"47.242.18.21","port":"44850","uuid":"4e390bc8-a22a-49e0-a538-d1b6da917677","alterId":"0","cipher":"auto","network":"http"}
@@ -235,7 +234,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -402,7 +400,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -569,7 +566,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -735,7 +731,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -901,7 +896,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -1067,7 +1061,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
@@ -1250,7 +1243,6 @@ proxy-groups:
       - 香港_tg+univstar_24
       - 香港_tg+univstar_25
       - 香港_tg+univstar_5
-      - 香港_tg+univstar_2
       - 香港_tg+univstar_20_2
       - 🇯🇵日本-智能
       - 香港_tg+univstar_16
