@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-15 12:46:08
+#  创建时间：2022-09-15 12:50:11
 #  模版：v2rayse默认模版
-#  节点数量：7
+#  节点数量：158
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,88 +13,1145 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"香港_tg+univstar_3","http-opts":{"path":["/"],"headers":{"Host":["47.242.104.161"]}},"server":"47.242.104.161","port":"32406","uuid":"4a1eaf72-a555-4737-bb09-8c388c118c5e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_25","http-opts":{"path":["/"],"headers":{"Host":["47.242.156.146"]}},"server":"47.242.156.146","port":"60072","uuid":"ab089f3f-bf1c-4a71-821b-1e4861eb39ab","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_24","http-opts":{"path":["/"],"headers":{"Host":["47.242.236.239"]}},"server":"47.242.236.239","port":"35707","uuid":"81acfa46-1c36-4950-8dd5-04dd0a1ff0f6","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_20","http-opts":{"path":["/"],"headers":{"Host":["47.243.124.141"]}},"server":"47.243.124.141","port":"41179","uuid":"a50b1dc4-03ce-44d8-a5c4-f4753c57884e","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_19","http-opts":{"path":["/"],"headers":{"Host":["47.242.177.115"]}},"server":"47.242.177.115","port":"46675","uuid":"ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"香港_tg+univstar_18","http-opts":{"path":["/"],"headers":{"Host":["47.243.136.17"]}},"server":"47.243.136.17","port":"37205","uuid":"abb92d0b-5613-48ae-9564-03fda7830a96","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"_油管：全网最强白嫖10","ws-opts":{"path":"/mugua"},"server":"159.27.90.254","port":"63086","uuid":"352ba93c-fd92-3055-ad10-b3599ff2802f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"_油管：全网最强白嫖16","ws-opts":{"path":"/j20-hgc4"},"server":"pp1.zhengzhongfeizhu.xyz","port":"43960","uuid":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"_油管：全网最强白嫖52","ws-opts":{"path":"/video"},"server":"cn2.soow.win","port":"50027","uuid":"c1d0ae9e-f08a-3f81-962d-ca19b52c760d","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"_油管：全网最强白嫖68","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"ingress-i2.iivvppnn.info","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"bulink自建免费11线三网_2","ws-opts":{"path":"/ws"},"server":"la56.burstlinker.com.fobzs.com","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"bulink自建免费16线三网_2","ws-opts":{"path":"/ws"},"server":"la60.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"FIHELHEL01V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"fi-hel-01-v2.node.inforun.work","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国Amazon数据中心16","ws-opts":{"path":"/fr","headers":{"host":"wapsd.189.cn"}},"server":"awsfr.oppo.quest","port":"8888","uuid":"4c2ecad4-5f8c-4b2d-a912-48fb8e784c97","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点13","ws-opts":{"path":"/987","headers":{"host":"amdkr.ptuu.ml"}},"server":"amdkr.ptuu.ml","port":"443","uuid":"e2cdc305-dda7-465e-b675-ba0468d2a8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5","ws-opts":{"path":"/oooo","headers":{"host":"v29.heduian.online"}},"server":"v29.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-欧洲18","ws-opts":{"path":"/sshocean","headers":{"host":"mx1.v2rayserv.com"}},"server":"mx1.v2rayserv.com","port":"80","uuid":"f1b438a7-b8f3-4cd7-8aca-d54efdaf64e3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V212-1x-Chuncheon","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v12.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V213-1x-Seoul","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v13.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V214-1x-Seoul","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v14.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"VN•CầnThơ01🎮","ws-opts":{"path":"/"},"server":"cantho01.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"VN•HàNội01🎮","ws-opts":{"path":"/"},"server":"hanoi01.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"VN•HàNội04🎮","ws-opts":{"path":"/"},"server":"hanoi04.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"ZZ/106","ws-opts":{"path":"/sshkit/5206194863/62c7702a0ea8b/"},"server":"104.18.24.139","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"ZZ/77","ws-opts":{"path":"/eisasqa"},"server":"cf.fullcloud.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2","ws-opts":{"path":"/vmess"},"server":"ca1.vmess.tunnel.cx","port":"80","uuid":"0429f7ce-2c73-11ed-b9c2-8b16281b86ac","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳TWTPEHQV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"tw-tpe-hq-v2.node.inforun.work","port":"10188","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪github.com/freefq-德国15_2","ws-opts":{"path":"/javasdkjhugf"},"server":"ae.755657.xyz","port":"8443","uuid":"fb19aac3-b532-4f60-a97f-ec5de0fbbf6b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇪🇺github.com/freefq-欧洲20","ws-opts":{"path":"/"},"server":"mx1.v2rayserv.com","port":"80","uuid":"f1b438a7-b8f3-4cd7-8aca-d54efdaf64e3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HKHKGGZ.HKHKTV2A(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"hk-hkg-gz-hk-hkt-v2.node.inforun.work","port":"60088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰HKHKGSH.HKHGC1GV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"sh-hk-hgc-1g-v2.node.inforun.work","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰香港(油管:破解资源君2.0)_4","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰香港HKT-优化2","ws-opts":{"path":"/"},"server":"m.lwvzmdu.cn","port":"16620","uuid":"64727164-7bba-41e0-a6c2-32cbd6d3638f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵JPTYO04V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"jp-nrt-04-v2.cdn.savoy.click","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵V216-1x-Tokyo","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v16.trojan.tel","port":"58443","uuid":"e2cb1b42-c8d3-4f59-b4ba-684356a946f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵日本-智能","ws-opts":{"path":"/"},"server":"g.cccao.cyou","port":"16617","uuid":"64727164-7bba-41e0-a6c2-32cbd6d3638f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷韩国-优化2","ws-opts":{"path":"/"},"server":"m.lwvzmdu.cn","port":"16619","uuid":"64727164-7bba-41e0-a6c2-32cbd6d3638f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇱🇺github.com/freefq-卢森堡13_2","ws-opts":{"path":"/zcjd"},"server":"lsb.ycsfree.xyz","port":"443","uuid":"c753e8a8-e180-4e76-a486-c917273d718b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇷🇴github.com/freefq-罗马尼亚14","ws-opts":{"path":"/"},"server":"146.0.42.87","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SGSINKRNV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"sg-sin-krn-v2.node.inforun.work","port":"12888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2","ws-opts":{"path":"/"},"server":"fr.2121999.xyz","port":"8880","uuid":"2a3955be-acbc-48b6-ab96-559a967ae7fb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2","ws-opts":{"path":"/ray"},"server":"eu.ptuu.tk","port":"443","uuid":"70d9bf20-3e6b-4cd3-ff28-b62567ff5a23","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23","ws-opts":{"path":"/"},"server":"seoul.napsternetv.com","port":"443","uuid":"5ADDADF4-E05B-65E6-A409-E08CEA8826DF","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2","ws-opts":{"path":"/myblog"},"server":"vfly6.xyz","port":"443","uuid":"2f765082-8d63-4290-d1b1-bbd2ce2e4269","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare节点11","ws-opts":{"path":"/2d2acd/"},"server":"us.naixii.xyz","port":"443","uuid":"7d3f3d7a-b333-45e3-abba-aefbe012262e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare节点18","ws-opts":{"path":"/"},"server":"amdkr.ptuu.ml","port":"443","uuid":"e2cdc305-dda7-465e-b675-ba0468d2a8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare节点29_1","ws-opts":{"path":"/123"},"server":"jpamd.fineyoo.cf","port":"443","uuid":"9bdac558-1d2b-425b-f0e7-445d38be025e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare节点30","ws-opts":{"path":"/123"},"server":"jpamd.fineyoo.ml","port":"443","uuid":"35e5e2ea-1372-4745-dff8-fb2bd11016c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25","ws-opts":{"path":"/"},"server":"mtkzb-1038-v2-1.sjc-d-cn2.jd.cjhh.lol","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_18","ws-opts":{"path":"/ws"},"server":"usa-washington.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_23","ws-opts":{"path":"/oooo"},"server":"v4.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_7","ws-opts":{"path":"/adobe"},"server":"xjp.azzhuangaping.tw","port":"80","uuid":"2c178223-0bd9-3af7-bcd3-32c074f626be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳github.com/freefq-越南5","ws-opts":{"path":"/"},"server":"hanoi05.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA","ws-opts":{"path":"/aries"},"server":"cdn.bootloader.cf","port":"80","uuid":"74758f06-f4b9-4ef1-a86c-f0a0cc82109f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_1","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}},"server":"v4.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"YouTube-aweikeji"}},"server":"jgwus.jgwaad.tk","port":"443","uuid":"157ab24c-2f02-44d2-b211-6d70612c9f64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgwus.jgwaad.tk"}},"server":"jgwus.jgwaad.tk","port":"443","uuid":"2ed609d0-7467-471b-94a9-34a734ccc40a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本_tg+univstar_8","ws-opts":{"path":"/chat","headers":{"host":"172.105.235.163"}},"server":"172.105.235.163","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡(油管:破解资源君2.0)","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"cs.hgdbk.ga"}},"server":"cs.hgdbk.ga","port":"443","uuid":"2ed609d0-7467-471b-94a9-34a734ccc40a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_1","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"sg-sin-krn-v2.node.inforun.work","port":"12888","uuid":"b46e5bfe-739c-4026-91fd-686209ce6d85","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"中国_tg+univstar_10","ws-opts":{"path":"/","headers":{"host":"119.91.223.167"}},"server":"119.91.223.167","port":"80","uuid":"5087e6ea-b650-443e-923f-b754661b8c47","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"bulink自建免费19线三网","server":"la49.bulinkxyz.xyz","port":"443","uuid":"5c2467ac-6e60-4e0c-8cb4-58f99190d4f4","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇨🇳TW/137","server":"tw-tb-c.zc20200426.club","port":"39999","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇪🇺欧洲(油管:破解资源君2.0)_1_2","server":"129.154.61.32","port":"80","uuid":"93c8fd94-17de-4730-8977-d55e304e9a85","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇪🇺欧洲(油管:破解资源君2.0)_11","server":"51.81.223.32","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇪🇺欧洲(油管:破解资源君2.0)_28","server":"nnv.chitacdn.xyz","port":"54242","uuid":"f2393d82-94c4-4b12-8267-293a7500e487","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇪🇺欧洲(油管:破解资源君2.0)_29","server":"139.59.244.143","port":"38941","uuid":"3dc5c1c9-7d8c-432e-daff-4422103a7918","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇫🇷法国A2","server":"15.188.9.78","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇫🇷法国B2","server":"13.38.103.11","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵日本(油管:破解资源君2.0)_3","server":"168.138.201.208","port":"10328","uuid":"bf847bf7-0ba5-4885-bd2b-da4d77afbda8","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵日本C","server":"35.72.13.221","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵日本D","server":"54.249.24.20","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷韩国C","server":"3.39.227.248","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇰🇷韩国D","server":"3.38.104.4","port":"43632","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬新加坡KB","server":"13.229.77.67","port":"30002","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_17","server":"129.146.84.253","port":"26875","uuid":"bb240cb0-a6d2-4b8e-ee85-a976e48ac241","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_37","server":"152.70.235.207","port":"35412","uuid":"70d95308-2a61-4f93-f139-9103d0587fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国(油管:破解资源君2.0)_38","server":"138.2.86.43","port":"32574","uuid":"6e0aae55-230c-45a0-8591-7fce1ec7a326","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国专线02","server":"c59s3.jamjams3.net","port":"7523","uuid":"ca487d71-81ab-4034-8693-b3dad4d45642","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"测试节点(20M超低速)","server":"115.126.24.102","port":"43431","uuid":"e044d805-9077-4cb5-9c0c-6178c65b9264","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_4","server":"chess.magicefire.com","port":"443","uuid":"9aa80017-3427-4165-a522-f5f9a11330d0","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_1","server":"129.154.57.134","port":"26282","uuid":"cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)_2","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_2","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_3","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"香港(油管:破解资源君2.0)_4","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_2","server":"aliyun.install01.vnupgcn.cn","port":"11922","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_3","server":"aliyun.install01.vnupgcn.cn","port":"11918","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_4","server":"aliyun.install01.vnupgcn.cn","port":"11911","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_5","server":"aliyun.unicom.vnupgcn.cn","port":"9027","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"亚洲(油管:破解资源君2.0)_6","server":"aliyun.unicom.vnupgcn.cn","port":"9024","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中国_tg+univstar_23","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"香港_tg+univstar_16","http-opts":{"path":["/"],"headers":{"Host":["47.242.18.21"]}},"server":"47.242.18.21","port":"44850","uuid":"4e390bc8-a22a-49e0-a538-d1b6da917677","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_18","http-opts":{"path":["/"],"headers":{"Host":["47.243.136.17"]}},"server":"47.243.136.17","port":"37205","uuid":"abb92d0b-5613-48ae-9564-03fda7830a96","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_19","http-opts":{"path":["/"],"headers":{"Host":["47.242.177.115"]}},"server":"47.242.177.115","port":"46675","uuid":"ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_20","http-opts":{"path":["/"],"headers":{"Host":["47.243.124.141"]}},"server":"47.243.124.141","port":"41179","uuid":"a50b1dc4-03ce-44d8-a5c4-f4753c57884e","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_24","http-opts":{"path":["/"],"headers":{"Host":["47.242.236.239"]}},"server":"47.242.236.239","port":"35707","uuid":"81acfa46-1c36-4950-8dd5-04dd0a1ff0f6","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_25","http-opts":{"path":["/"],"headers":{"Host":["47.242.156.146"]}},"server":"47.242.156.146","port":"60072","uuid":"ab089f3f-bf1c-4a71-821b-1e4861eb39ab","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"香港_tg+univstar_3","http-opts":{"path":["/"],"headers":{"Host":["47.242.104.161"]}},"server":"47.242.104.161","port":"32406","uuid":"4a1eaf72-a555-4737-bb09-8c388c118c5e","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"🇪🇺欧洲(油管:破解资源君2.0)_33","server":"unicomus.mipglxi.cn","port":6629,"cipher":"aes-128-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
+  - {"type":"ss","name":"🇭🇰Lv3香港02[2.0]","server":"moblev3.mipglxi.cn","port":6602,"cipher":"aes-128-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
+  - {"type":"ss","name":"🇭🇰深港专线⁴ˣ","server":"iepl.linghun3.xyz","port":39999,"cipher":"aes-256-gcm","password":"2d3374b0-8c6b-44c1-aaa1-35524a0af32d"}
+  - {"type":"ss","name":"🇭🇰香港3","server":"hk3.linghun3.xyz","port":40003,"cipher":"aes-256-gcm","password":"2d3374b0-8c6b-44c1-aaa1-35524a0af32d"}
+  - {"type":"ss","name":"🇻🇳越南A/01x1.0","server":"117.164.185.220","port":61025,"cipher":"chacha20-ietf-poly1305","password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c"}
+  - {"type":"ss","name":"🇻🇳越南A/02x1.0","server":"117.164.185.220","port":61026,"cipher":"chacha20-ietf-poly1305","password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c"}
+  - {"type":"ss","name":"🇻🇳越南A/03x1.0","server":"117.164.185.220","port":61027,"cipher":"chacha20-ietf-poly1305","password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_5","server":"64.112.42.72","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
+  - {"type":"ss","name":"美国(油管:破解资源君2.0)_6","server":"64.112.42.53","port":16999,"cipher":"aes-256-gcm","password":"CBYyPc0GwoaQ9m2oqWdE"}
+  - {"type":"ss","name":"瑞士_tg+univstar_11","server":"185.126.116.125","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ss","name":"瑞士_tg+univstar_13","server":"185.126.116.125","port":9079,"cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
+  - {"type":"trojan","name":"_油管：全网最强白嫖405","server":"mlxy-zf.jiashumao.net","port":27171,"password":"375e1e34-8f6f-39be-bdb9-52080f546d4d","udp":true,"skip-cert-verify":true,"sni":"mlxy.jiashumao.net"}
+  - {"type":"trojan","name":"_油管：全网最强白嫖426","server":"yn-zf.jiashumao.net","port":40375,"password":"375e1e34-8f6f-39be-bdb9-52080f546d4d","udp":true,"skip-cert-verify":true,"sni":"yn.jiashumao.net"}
+  - {"type":"trojan","name":"_油管：全网最强白嫖428","server":"hg.jiashumao.net","port":34210,"password":"375e1e34-8f6f-39be-bdb9-52080f546d4d","udp":true,"skip-cert-verify":true,"sni":"hg.jiashumao.net"}
+  - {"type":"trojan","name":"_油管：全网最强白嫖431","server":"szdx-anhb.jiashumao.net","port":22481,"password":"375e1e34-8f6f-39be-bdb9-52080f546d4d","udp":true,"skip-cert-verify":true,"sni":"ahbn.jiashumao.net"}
+  - {"type":"trojan","name":"_油管：全网最强白嫖432","server":"sxdx-nf.jiashumao.net","port":35401,"password":"375e1e34-8f6f-39be-bdb9-52080f546d4d","udp":true,"skip-cert-verify":true,"sni":"nf.jiashumao.net"}
+  - {"type":"trojan","name":"DE1","server":"det-1.opensvr.net","port":443,"password":"opentunnel.net-qe27t3x1m924z140b9rv","udp":true,"skip-cert-verify":true,"sni":"det-1.opensvr.net"}
+  - {"type":"trojan","name":"FIHELHEL01TR(trojan)","server":"fi-hel-01-tr.node.inforun.work","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"HK1","server":"hkt-1.opensvr.net","port":443,"password":"opentunnel.net-bmej9c5nwqikx0shndxg","udp":true,"skip-cert-verify":true,"sni":"hkt-1.opensvr.net"}
+  - {"type":"trojan","name":"NL1","server":"nlt-1.opensvr.net","port":443,"password":"opentunnel.net-jp24kq02r78xxotwhkpm","udp":true,"skip-cert-verify":true,"sni":"nlt-1.opensvr.net"}
+  - {"type":"trojan","name":"SG1","server":"sgt-1.opensvr.net","port":443,"password":"opentunnel.net-1l1tdr1hmcq7g32ndx7g","udp":true,"skip-cert-verify":true,"sni":"sgt-1.opensvr.net"}
+  - {"type":"trojan","name":"SG2","server":"sgt-2.opensvr.net","port":443,"password":"opentunnel.net-sx8y6ea1m1zh","udp":true,"skip-cert-verify":true,"sni":"sgt-2.opensvr.net"}
+  - {"type":"trojan","name":"🇨🇳新北Hinet-dip_2","server":"36.139.166.76","port":19215,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇩🇪德国H3｜EU-1","server":"direct.hax3.danfeng.cf","port":443,"password":"5179bc50-7d5d-4e23-a141-6f26dd6929d8","udp":true,"skip-cert-verify":true,"sni":"hax3.danfeng.cf"}
+  - {"type":"trojan","name":"🇩🇪德国W｜EU-BEST-1","server":"direct.woiden.danfeng.cf","port":443,"password":"b3490e24-822f-472b-8be0-cb9f4b1f12b6","udp":true,"skip-cert-verify":true,"sni":"woiden.danfeng.cf"}
+  - {"type":"trojan","name":"🇩🇪德国W3｜EU-2","server":"direct.woiden3.danfeng.cf","port":443,"password":"71e6cc2f-de90-44c9-af8d-cb792c4cda0f","udp":true,"skip-cert-verify":true,"sni":"woiden3.danfeng.cf"}
+  - {"type":"trojan","name":"🇬🇧UKLHRGD>GBTR(trojan)","server":"sh-gb-01-tr.node.inforun.work","port":11889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇭🇰HKHKGGZ.HKHKTTRA(trojan)","server":"hk-hkg-gz-hk-hkt-v2.node.inforun.work","port":60089,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇭🇰HKHKGHGCATR(trojan)","server":"hk-hkg-hgc-a-tr.cdn.savoy.click","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇭🇰HKHKGSH.HKHGC1GTR(trojan)","server":"sh-hk-hgc-1g-tr.node.inforun.work","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇭🇰香港C/02x1.0","server":"183.245.146.20","port":21002,"password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c","udp":true,"skip-cert-verify":true,"sni":"103-135-251-39.nhost.00cdn.com"}
+  - {"type":"trojan","name":"🇭🇰香港HGC-gjvb","server":"36.139.166.76","port":19203,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵[测试-CU]日本•0x","server":"172.105.222.177","port":443,"password":"a1e12464-9208-4583-bd21-ab6889fdd242","udp":true,"skip-cert-verify":true,"sni":"cdn.qchwnd.moe"}
+  - {"type":"trojan","name":"🇯🇵+大萝卜鸡东京_2","server":"vultr1.755657.xyz","port":443,"password":"9682edd6-89e6-4e6a-b31d-271089771d87","udp":true,"skip-cert-verify":true,"sni":"vultr1.755657.xyz"}
+  - {"type":"trojan","name":"🇸🇬SGSINKRNTR(trojan)","server":"sg-sin-krn-tr.node.inforun.work","port":12889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇸🇬新加坡B/02x1.0","server":"117.164.185.220","port":61002,"password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c","udp":true,"skip-cert-verify":true,"sni":"103-135-251-39.nhost.00cdn.com"}
+  - {"type":"trojan","name":"🇸🇬新加坡C/01x1.0","server":"117.164.185.220","port":61001,"password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c","udp":true,"skip-cert-verify":true,"sni":"103-135-251-39.nhost.00cdn.com"}
+  - {"type":"trojan","name":"🇺🇸github.com/freefq+-+美国++34_2","server":"www.sxsy88.tk","port":44150,"password":"zFyLKH62WN","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸github.com/freefq-美国3COM公司企业网17","server":"wangqifei.ga","port":41477,"password":"3oquVrpxPg","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸USSJCAPTR(trojan)","server":"us-sjc-ap-tr.node.inforun.work","port":789,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
+  - {"type":"trojan","name":"🇺🇸美国(油管:破解资源君2.0)_2_2","server":"ty1-2.nigirocloud.com","port":443,"password":"4V4kxVXmcg5Yn2DqF2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"欧洲(油管:破解资源君2.0)_3","server":"tr04.kaochangonline.online","port":443,"password":"62b78c9b-16cb-4ee6-824b-a4f856cf18f3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"欧洲(油管:破解资源君2.0)_4","server":"pull-cache-lu01.xyx-xylo.com","port":19702,"password":"79745894-044c-3298-a893-bbfcb6b24a2c","udp":true,"skip-cert-verify":true,"sni":"8-132-175-74.nhost.00cdn.com"}
+  - {"type":"trojan","name":"香港(油管:破解资源君2.0)_5","server":"hk002.369boy.com","port":12287,"password":"0bdf3a1f-c046-41c2-a7e5-ed92b8155997","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"油管：全网最强白嫖7","server":"103.173.255.228","port":28443,"password":"841b229a-304f-46a2-a0fe-3b4e3e0e44f6","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"http","name":"http_proxy_1","server":"h961359.strongpipe.live","port":11444,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_2","server":"h961359.strongpipe.live","port":11443,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_3","server":"h961359.strongpipe.live","port":11544,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_4","server":"h961359.strongpipe.live","port":11243,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_5","server":"h961359.strongpipe.live","port":11744,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_6","server":"h961359.strongpipe.live","port":11244,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_7","server":"h961359.strongpipe.live","port":11743,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_8","server":"h63956.strongpipe.live","port":11545,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_9","server":"h961359.strongpipe.live","port":11545,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_10","server":"h63956.strongpipe.live","port":11345,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_11","server":"h63956.strongpipe.live","port":11445,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_12","server":"h961359.strongpipe.live","port":11445,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_13","server":"h961359.strongpipe.live","port":11245,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_14","server":"h217022.strongpipe.live","port":11745,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_15","server":"h961359.strongpipe.live","port":11745,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_16","server":"h181902.strongpipe.live","port":11145,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_17","server":"h3816tw.strongpipe.live","port":20443,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_18","server":"h961684.strongpipe.live","port":11745,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"http","name":"http_proxy_19","server":"h63956.strongpipe.live","port":11245,"username":"dcf12c7e7d","password":"26bae9b023","tls":true,"skip-cert-verify":true,"udp":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,13 +1174,164 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_tg+univstar_3
-      - 香港_tg+univstar_25
-      - 香港_tg+univstar_24
-      - 香港_tg+univstar_20
-      - 香港_tg+univstar_19
-      - 香港_tg+univstar_18
+      - _油管：全网最强白嫖10
+      - _油管：全网最强白嫖16
+      - _油管：全网最强白嫖52
+      - _油管：全网最强白嫖68
+      - bulink自建免费11线三网_2
+      - bulink自建免费16线三网_2
+      - FIHELHEL01V2(vmess)
+      - github.com/freefq-美国Amazon数据中心16
+      - github.com/freefq-美国CloudFlare节点13
+      - github.com/freefq-美国加利福尼亚州费利蒙Linode数据中心5
+      - github.com/freefq-欧洲18
+      - V212-1x-Chuncheon
+      - V213-1x-Seoul
+      - V214-1x-Seoul
+      - VN•CầnThơ01🎮
+      - VN•HàNội01🎮
+      - VN•HàNội04🎮
+      - ZZ/106
+      - ZZ/77
+      - 🇨🇦github.com/freefq-加拿大魁北克省博阿努瓦OVH数据中心20_2
+      - 🇨🇳TWTPEHQV2(vmess)
+      - 🇩🇪github.com/freefq-德国15_2
+      - 🇪🇺github.com/freefq-欧洲20
+      - 🇭🇰HKHKGGZ.HKHKTV2A(vmess)
+      - 🇭🇰HKHKGSH.HKHGC1GV2(vmess)
+      - 🇭🇰香港(油管:破解资源君2.0)_4
+      - 🇭🇰香港HKT-优化2
+      - 🇯🇵JPTYO04V2(vmess)
+      - 🇯🇵V216-1x-Tokyo
+      - 🇯🇵日本-智能
+      - 🇰🇷韩国-优化2
+      - 🇱🇺github.com/freefq-卢森堡13_2
+      - 🇷🇴github.com/freefq-罗马尼亚14
+      - 🇸🇬SGSINKRNV2(vmess)
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点21_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点22_2
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点33_2
+      - 🇺🇸github.com/freefq-美国CloudFlare节点11
+      - 🇺🇸github.com/freefq-美国CloudFlare节点18
+      - 🇺🇸github.com/freefq-美国CloudFlare节点29_1
+      - 🇺🇸github.com/freefq-美国CloudFlare节点30
+      - 🇺🇸github.com/freefq-美国加利福尼亚州费利蒙25
+      - 🇺🇸美国(油管:破解资源君2.0)_18
+      - 🇺🇸美国(油管:破解资源君2.0)_23
+      - 🇺🇸美国(油管:破解资源君2.0)_7
+      - 🇻🇳github.com/freefq-越南5
+      - 🏳️‍🌈@aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 美国(油管:破解资源君2.0)_1
+      - 美国(油管:破解资源君2.0)_2
+      - 美国(油管:破解资源君2.0)_3
+      - 日本_tg+univstar_8
+      - 香港(油管:破解资源君2.0)_1
+      - 新加坡(油管:破解资源君2.0)
+      - 亚洲(油管:破解资源君2.0)_1
+      - 中国_tg+univstar_10
+      - bulink自建免费19线三网
+      - 🇨🇳TW/137
+      - 🇪🇺欧洲(油管:破解资源君2.0)_1_2
+      - 🇪🇺欧洲(油管:破解资源君2.0)_11
+      - 🇪🇺欧洲(油管:破解资源君2.0)_28
+      - 🇪🇺欧洲(油管:破解资源君2.0)_29
+      - 🇫🇷法国A2
+      - 🇫🇷法国B2
+      - 🇯🇵日本(油管:破解资源君2.0)_3
+      - 🇯🇵日本C
+      - 🇯🇵日本D
+      - 🇰🇷韩国C
+      - 🇰🇷韩国D
+      - 🇸🇬新加坡KB
+      - 🇺🇸美国(油管:破解资源君2.0)_17
+      - 🇺🇸美国(油管:破解资源君2.0)_37
+      - 🇺🇸美国(油管:破解资源君2.0)_38
+      - 🇺🇸美国专线02
+      - 测试节点(20M超低速)
+      - 美国(油管:破解资源君2.0)_4
+      - 欧洲(油管:破解资源君2.0)_1
+      - 欧洲(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_2
+      - 香港(油管:破解资源君2.0)_3
+      - 香港(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_2
+      - 亚洲(油管:破解资源君2.0)_3
+      - 亚洲(油管:破解资源君2.0)_4
+      - 亚洲(油管:破解资源君2.0)_5
+      - 亚洲(油管:破解资源君2.0)_6
+      - 中国_tg+univstar_23
       - 香港_tg+univstar_16
+      - 香港_tg+univstar_18
+      - 香港_tg+univstar_19
+      - 香港_tg+univstar_20
+      - 香港_tg+univstar_24
+      - 香港_tg+univstar_25
+      - 香港_tg+univstar_3
+      - 🇪🇺欧洲(油管:破解资源君2.0)_33
+      - 🇭🇰Lv3香港02[2.0]
+      - 🇭🇰深港专线⁴ˣ
+      - 🇭🇰香港3
+      - 🇻🇳越南A/01x1.0
+      - 🇻🇳越南A/02x1.0
+      - 🇻🇳越南A/03x1.0
+      - 美国(油管:破解资源君2.0)_5
+      - 美国(油管:破解资源君2.0)_6
+      - 瑞士_tg+univstar_11
+      - 瑞士_tg+univstar_13
+      - _油管：全网最强白嫖405
+      - _油管：全网最强白嫖426
+      - _油管：全网最强白嫖428
+      - _油管：全网最强白嫖431
+      - _油管：全网最强白嫖432
+      - DE1
+      - FIHELHEL01TR(trojan)
+      - HK1
+      - NL1
+      - SG1
+      - SG2
+      - 🇨🇳新北Hinet-dip_2
+      - 🇩🇪德国H3｜EU-1
+      - 🇩🇪德国W｜EU-BEST-1
+      - 🇩🇪德国W3｜EU-2
+      - 🇬🇧UKLHRGD>GBTR(trojan)
+      - 🇭🇰HKHKGGZ.HKHKTTRA(trojan)
+      - 🇭🇰HKHKGHGCATR(trojan)
+      - 🇭🇰HKHKGSH.HKHGC1GTR(trojan)
+      - 🇭🇰香港C/02x1.0
+      - 🇭🇰香港HGC-gjvb
+      - 🇯🇵[测试-CU]日本•0x
+      - 🇯🇵+大萝卜鸡东京_2
+      - 🇸🇬SGSINKRNTR(trojan)
+      - 🇸🇬新加坡B/02x1.0
+      - 🇸🇬新加坡C/01x1.0
+      - 🇺🇸github.com/freefq+-+美国++34_2
+      - 🇺🇸github.com/freefq-美国3COM公司企业网17
+      - 🇺🇸USSJCAPTR(trojan)
+      - 🇺🇸美国(油管:破解资源君2.0)_2_2
+      - 欧洲(油管:破解资源君2.0)_3
+      - 欧洲(油管:破解资源君2.0)_4
+      - 香港(油管:破解资源君2.0)_5
+      - 油管：全网最强白嫖7
+      - http_proxy_1
+      - http_proxy_2
+      - http_proxy_3
+      - http_proxy_4
+      - http_proxy_5
+      - http_proxy_6
+      - http_proxy_7
+      - http_proxy_8
+      - http_proxy_9
+      - http_proxy_10
+      - http_proxy_11
+      - http_proxy_12
+      - http_proxy_13
+      - http_proxy_14
+      - http_proxy_15
+      - http_proxy_16
+      - http_proxy_17
+      - http_proxy_18
+      - http_proxy_19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
