@@ -4,16 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
 proxies:
   - {name: http_proxy_1, server: h961359.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
   - {name: http_proxy_2, server: h961359.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
@@ -46,6 +36,10 @@ proxies:
   - {name: http_proxy_29, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
   - {name: http_proxy_30, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
   - {name: http_proxy_31, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
+  - {name: http_proxy_32, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
+  - {name: http_proxy_33, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
+  - {name: http_proxy_34, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
+  - {name: http_proxy_35, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 全局设置
     type: select
@@ -82,6 +76,10 @@ proxy-groups:
       - http_proxy_29
       - http_proxy_30
       - http_proxy_31
+      - http_proxy_32
+      - http_proxy_33
+      - http_proxy_34
+      - http_proxy_35
   - name: ♻️ 自动选择节点
     type: url-test
     url: http://www.msftconnecttest.com/connecttest.txt
@@ -119,6 +117,10 @@ proxy-groups:
       - http_proxy_29
       - http_proxy_30
       - http_proxy_31
+      - http_proxy_32
+      - http_proxy_33
+      - http_proxy_34
+      - http_proxy_35
 rules:
  - DST-PORT,22,DIRECT
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
