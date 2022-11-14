@@ -3,1151 +3,535 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港B/03x1.0_4, server: 111.29.60.217, port: 21003, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港B/05x1.0_4, server: 111.29.60.217, port: 21005, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港B/04x1.0_4, server: 111.29.60.217, port: 21004, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港A/01x1.0_4, server: 117.164.185.220, port: 21001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇸🇬 新加坡B/02x1.0_4, server: 111.29.60.217, port: 61002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 台灣B/01x1.0_3, server: 111.29.60.217, port: 41001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇯🇵 日本B/01x1.0_4, server: 111.29.60.217, port: 11001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IEPL/04x3.0_4, server: 117.164.185.222, port: 21004, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港實驗性C/03x1.0_4, server: 183.245.146.6, port: 21001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IEPL/03x3.0_4, server: 117.164.185.222, port: 21003, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港實驗性C/02x1.0_4, server: 183.245.146.6, port: 21002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇸🇬 新加坡IEPL/01x3.0_4, server: 117.164.185.222, port: 61001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇯🇵 日本A/01x1.0_4, server: 117.164.185.220, port: 11001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IEPL/02x3.0_4, server: 117.164.185.222, port: 21002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇯🇵 日本A/02x1.0_4, server: 117.164.185.220, port: 11002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 台灣A/01x1.0_3, server: 117.164.185.220, port: 41001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com}
-  - {name: 🇭🇰 【香港】峰值1000M-支持YouTube4K_4, server: xg.xbywwcp.us, port: 10086, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aaaa, headers: {Host: xg.xbywwcp.us}}}
-  - {name: 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4, server: mg1.xbywwcp.us, port: 25520, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: mg1.xbywwcp.us}}}
-  - {name: 🇺🇸 【美国】峰值1000M-正常使用_4, server: us.xbywwcp.us, port: 12233, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aaaa, headers: {Host: us.xbywwcp.us}}}
-  - {name: 🇭🇰 大萝卜鸡香港_3, server: 222.84.250.35, port: 19206, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇸🇬 大萝卜鸡新加坡_3, server: 222.84.250.35, port: 19228, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇰🇷 大萝卜鸡韩国_4, server: 00000000000000000000000000000000000000000000000000000000000038a.rui77.com, port: 12356, type: vmess, uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 【直连】TYO/东京-443端口-2_4, server: 00000000000000000000000000000000000000000000000000000000000004a.rui77.com, port: 443, type: vmess, uuid: edc9e8a8-518e-425a-8184-e55d16d844b2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 大萝卜鸡新_3, server: 222.84.250.35, port: 19229, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇸🇬 大萝卜鸡新加_3, server: 222.84.250.35, port: 19223, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇰🇷 【直连】ICN/首尔-2_4, server: 00000000000000000000000000000000000000000000000000000000000028a.rui77.com, port: 52356, type: vmess, uuid: edc9e8a8-518e-425a-8184-e55d16d844b2, alterId: 0, cipher: auto, tls: false}
-  - {name: US3_3, server: 219.76.13.175, port: 443, type: trojan, password: ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz, sni: python.protocolbuffer.com}
-  - {name: HK15_3, server: 221.181.185.118, port: 13325, type: trojan, password: M0041901, sni: if22a.ft3.us}
-  - {name: US6_3, server: 219.76.13.180, port: 443, type: trojan, password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0, sni: stutter.freetrade.link}
-  - {name: 大萝卜鸡_7, server: 222.84.250.35, port: 19237, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇸🇬 SGP🇸🇬_4, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}}
-  - {name: HK8_4, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
-  - {name: 🇬🇧 github.com/freefq-英国社会保险安全部1_3, server: ca2.v2rayserv.com, port: 80, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ca2.v2rayserv.com}}}
-  - {name: 🇺🇸 github.com/freefq-美国CloudFlare节点2_3, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 github.com/freefq-英国3_3, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vuk2.0bad.com}}}
-  - {name: 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3, server: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom, port: 888, type: vmess, uuid: caac6285-511c-4a07-b6db-edfbdcfe3889, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom}}}
-  - {name: 🇸🇬 不定期更新订阅, server: 114514, port: 48978, type: ss, cipher: aes-256-cfb, password: qwersd}
-  - {name: https://t.me/daluoboji, server: 114514, port: 8654, type: ss, cipher: none, password: wwe}
-  - {name: 🇭🇰 大萝卜鸡香港_2, server: 20.24.102.90, port: 48200, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tianmao, headers: {Host: 20.24.102.90}}}
-  - {name: 🇭🇰 大萝卜鸡香港_3 2, server: 20.187.118.226, port: 15785, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /taobao, headers: {Host: 20.187.118.226}}}
-  - {name: 🇭🇰 大萝卜鸡香港_4, server: 18.163.7.54, port: 44401, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /suning, headers: {Host: 18.163.7.54}}}
-  - {name: 🇭🇰 大萝卜鸡香港_5, server: 16.162.22.26, port: 15357, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jingdong, headers: {Host: 16.162.22.26}}}
-  - {name: 🇯🇵 大萝卜鸡日本_1, server: 20.187.119.10, port: 48000, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.119.10}}}
-  - {name: 🇯🇵 大萝卜鸡日本_2, server: 20.187.119.10, port: 48002, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.119.10}}}
-  - {name: 🇺🇸 大萝卜鸡美国, server: 20.187.119.10, port: 48001, type: vmess, uuid: bbddb019-8be9-3aed-b29c-bb429845092e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.119.10}}}
-  - {name: 🇰🇷 大萝卜鸡韩国_2, server: 00000000000000000000000000000000000000000000000000000000000008a.rui77.com, port: 443, type: vmess, uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 大萝卜鸡香港_6, server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com, port: 12356, type: vmess, uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78, alterId: 0, cipher: auto, tls: false}
-  - {name: 大萝卜鸡_2, server: pf.napsternetv.com, port: 40041, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇷🇺 大萝卜鸡俄罗斯_1, server: pf.napsternetv.com, port: 40042, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 大萝卜鸡_3, server: pf.napsternetv.com, port: 40044, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇷🇺 大萝卜鸡俄罗斯_2, server: pf.napsternetv.com, port: 40046, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇩🇪 大萝卜鸡德国, server: pf.napsternetv.com, port: 40047, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇦 大萝卜鸡加拿大, server: 222.84.250.35, port: 19249, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 🇨🇳 大萝卜鸡台湾, server: 182.151.8.150, port: 19211, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71}
-  - {name: 专线_tg+univstar_51_3, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_5_3, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_9_3, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_29_3, server: s4.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_8_3, server: 47.94.85.209, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_40_3, server: 120.79.75.120, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_22_3, server: 120.55.63.83, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_13_3, server: 49.234.84.132, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_24_3, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_31_3, server: 49.232.167.71, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_20_3, server: 119.45.28.201, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_25_3, server: cmaisallin.debugspace.work, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 7811:nelpro123, obfs-param: ""}
-  - {name: 专线_tg+univstar_44_3, server: 139.186.153.84, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_28_3, server: 1cnrelay.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 7811:nelpro123, obfs-param: ""}
-  - {name: 专线_tg+univstar_38_3, server: 112.132.215.13, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_41_3, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_34_3, server: 116.129.253.191, port: 3385, type: trojan, password: 182228812d1e0f23}
-  - {name: 专线_tg+univstar_53_3, server: 223.111.122.199, port: 38080, type: vmess, uuid: 6248895b-4255-4f07-9479-d198bc1eb8db, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /guolicheng/us2, headers: {Host: www.189.cn}}}
-  - {name: 🇺🇸 美国_tg+univstar_37_3, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 专线_tg+univstar_42_3, server: 42.193.191.50, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_tg+univstar_43_3, server: 158.247.236.172, port: 80, type: vmess, uuid: 70de4924-d1ac-3482-a494-577b4ccc9b1d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /adobe, headers: {Host: a.189.cn}}}
-  - {name: 专线_tg+univstar_47_3, server: 119.23.45.18, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 专线_tg+univstar_49_3, server: 121.41.86.94, port: 5674, type: vmess, uuid: 79ce0633-5bc1-44ab-a47c-119916f2901d, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡_tg+univstar_50_3, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 台湾_tg+univstar_52_3, server: download2tw.windowsupdate.lol, port: 443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: dc1-download.windowsupdate1.com}
-  - {name: tg+univstar_54_3, server: 103.176.78.153, port: 443, type: trojan, password: idc117okt}
-  - {name: tg+univstar_55_3, server: idc1.vpn-akcelluler.my.id, port: 443, type: trojan, password: idc117okt, sni: idc1.vpn-akcelluler.my.id}
-  - {name: 专线_tg+univstar_56_3, server: 121.41.86.94, port: 1, type: vmess, uuid: 3781e552-2d72-40e4-dc1f-f06e10c8c1fa, alterId: 0, cipher: auto, tls: false}
-  - {name: USLAXCTG01TR(trojan), server: us-lax-ctg-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGIT2SVMTR(trojan), server: hk-hkg-it2-svm-tr.node.inforun.work, port: 13889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: USLAXCTG01V2(vmess), server: us-lax-ctg-01-v2.cdn.savoy.click, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-lax-ctg-01-v2.cdn.savoy.click}}}
-  - {name: TWTPEHTR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGSH-HK02TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: TWTPEHV2(vmess), server: tw-tpe-h-v2.cdn.savoy.click, port: 10088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: tw-tpe-h-v2.cdn.savoy.click}}}
-  - {name: HKHKGIT2SVMV2(vmess), server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-hkg-it2-svm-v2.node.inforun.work}}}
-  - {name: JPTYO04TR(trojan), server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: SGSINKRNTR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: USSJC01-TR(trojan), server: us-sjc-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: USSJCAPTR(trojan), server: us-sjc-ap-tr.node.inforun.work, port: 789, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGGZ.HKHKTV2B(vmess), server: hk-gz-hk-hkt-v2-b.cdn.savoy.click, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-gz-hk-hkt-v2-b.cdn.savoy.click}}}
-  - {name: HKHKGSH-HK02V2(vmess), server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-hkg-sh-hk-02-v2.cdn.savoy.click}}}
-  - {name: USSJCNATR(trojan), server: us-sjc-na-tr.node.inforun.work, port: 10689, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: USSJCAPV2(vmess), server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-sjc-ap-v2.node.inforun.work}}}
-  - {name: FIHELHEL01TR(trojan), server: fi-hel-01-tr.node.inforun.work, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: USSJCNAV2(vmess), server: us-sjc-na-v2.cdn.savoy.click, port: 10688, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-sjc-na-v2.cdn.savoy.click}}}
-  - {name: HKHKGGZ.HKHKTTRB(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: FIHELHEL01V2(vmess), server: fi-hel-01-v2.node.inforun.work, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: fi-hel-01-v2.node.inforun.work}}}
-  - {name: SGSINKRNV2(vmess), server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: sg-sin-krn-v2.node.inforun.work}}}
-  - {name: HKHKGSH.HKHGC1GV2(vmess), server: sh-hk-hgc-1g-v2.node.inforun.work, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: sh-hk-hgc-1g-v2.node.inforun.work}}}
-  - {name: TWTPEHQTR(trojan), server: tw-tpe-hq-tr.node.inforun.work, port: 10189, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: UKLHRGD>GBTR(trojan), server: sh-gb-01-tr.node.inforun.work, port: 11889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGGZ.HKHKTTRA(trojan), server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGHGCATR(trojan), server: hk-hkg-hgc-a-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGHGCBTR(trojan), server: hk-hkg-hgc-b-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: HKHKGSH.HKHGC1GTR(trojan), server: sh-hk-hgc-1g-tr.node.inforun.work, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click}
-  - {name: TWTPEHQV2(vmess), server: tw-tpe-hq-v2.node.inforun.work, port: 10188, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: tw-tpe-hq-v2.node.inforun.work}}}
-  - {name: JPTYO04V2(vmess), server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: jp-nrt-04-v2.cdn.savoy.click}}}
-  - {name: USSJC01-V2(vmess), server: us-sjc-01-v2.node.inforun.work, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: us-sjc-01-v2.node.inforun.work}}}
-  - {name: UKLHRGD>GBV2(vmess), server: sh-gb-01-v2.node.inforun.work, port: 11888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: sh-gb-01-v2.node.inforun.work}}}
-  - {name: HKHKGGZ.HKHKTV2A(vmess), server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60088, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-hkg-gz-hk-hkt-v2.node.inforun.work}}}
-  - {name: HKHKGHGCAV2(vmess), server: hk-hkg-hgc-a-v2.node.inforun.work, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-hkg-hgc-a-v2.node.inforun.work}}}
-  - {name: HKHKGHGCBV2(vmess), server: hk-hkg-hgc-b-v2.cdn.savoy.click, port: 888, type: vmess, uuid: f7c7998f-573f-4a50-b45a-b45296d9a0b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: hk-hkg-hgc-b-v2.cdn.savoy.click}}}
-  - {name: ★★Oururlisq88q.site★★, server: sh73gxpe.0xnwy1fyrtlb.com, port: 15003, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇮🇹 义大利Italy-L0, server: sh73gxpe.0xnwy1fyrtlb.com, port: 11108, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇺🇦 乌克兰Ukraine-L0, server: nd94jsk0.0xnwy1fyrtlb.com, port: 12110, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇷🇺 俄罗斯Russia-L0, server: nd94jsk0.0xnwy1fyrtlb.com, port: 12103, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇿🇦 南非SouthAfrica-L0, server: sh73gxpe.0xnwy1fyrtlb.com, port: 11110, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇩🇪 德国Germany-L0, server: nd94jsk0.0xnwy1fyrtlb.com, port: 12101, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇺🇸 美国America(WEST)-L0, server: sh73gxpe.0xnwy1fyrtlb.com, port: 11109, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇫🇮 芬兰Finland-L0, server: sh73gxpe.0xnwy1fyrtlb.com, port: 11104, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 47789:we6cIC, obfs-param: TVdFeFpqWTBOemM0T1M1aVlXbGtkUzVqYjIwPQ==}
-  - {name: 🇨🇦 github.com/freefq-加拿大1, server: 1024tw01.tfzhc.top, port: 443, type: trojan, password: 94a08db5-db61-487a-b208-c66445f32737}
-  - {name: 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2, server: 111.45.22.239, port: 30302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq-江苏省宿迁市移动4, server: 221.181.185.171, port: 16308, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq-美国CloudFlare节点6, server: 141.101.114.33, port: 443, type: vmess, uuid: e5a88ce2-fc1b-45d1-9c5f-553721d28004, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com}}
-  - {name: 🇺🇸 github.com/freefq-美国8, server: 152.70.88.47, port: 10486, type: vmess, uuid: 9eaabb90-c98b-4fa3-9890-8622d53c878c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9, server: 43.230.131.77, port: 443, type: vmess, uuid: fc9c12e0-f4f2-4fc4-a30e-fc488bac7121, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10, server: v33.emovpn.xyz, port: 443, type: vmess, uuid: 67372355-edc1-4496-8936-ce909ebd2a69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v33.emovpn.xyz}}}
-  - {name: 🇺🇸 github.com/freefq-美国惠普公司11, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
-  - {name: github.com/freefq-亚太地区12, server: lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol, port: 888, type: vmess, uuid: caac6285-511c-4a07-b6db-edfbdcfe3889, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol}}}
-  - {name: 🇺🇸 github.com/freefq-美国CloudFlare节点13, server: 141.101.115.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com}}
-  - {name: 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14, server: idnusa2.vpn-akcelluler.my.id, port: 443, type: vmess, uuid: fc9c12e0-f4f2-4fc4-a30e-fc488bac7121, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: idnusa2.vpn-akcelluler.my.id}}}
-  - {name: 🇨🇳 github.com/freefq-江苏省宿迁市移动15, server: 221.181.185.153, port: 16115, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq-美国CloudFlare节点16, server: 172.67.196.0, port: 443, type: vmess, uuid: 4db99e96-3ee3-419c-b1fb-856975801380, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray}}
-  - {name: 🇺🇦 github.com/freefq-乌克兰18, server: 195.123.243.21, port: 10000, type: vmess, uuid: 79aa89b8-4f83-11ed-885a-52ac0064f50a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: 🇮🇳 印度(油管:破解资源君2.0), server: 21.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 21.72img.xyz}}}
+  - {name: 🇸🇬 新加坡/tg+univstar/46, server: 8.219.58.58, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇸🇬 新加坡(油管:破解资源君2.0), server: 8.219.178.80, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0)1114, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v2.shwjfkw.cn}}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: 159.100.206.88, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 2, server: 119.247.119.212, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0) 3, server: 219.76.13.180, port: 443, type: trojan, password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni: httah.freetrade.link}
+  - {name: 欧洲(油管:破解资源君2.0)1114, server: pull-cache-lu01.xyx-xylo.com, port: 19702, type: trojan, password: 79745894-044c-3298-a893-bbfcb6b24a2c, sni: 8-132-175-74.nhost.00cdn.com}
+  - {name: 欧洲(油管:破解资源君2.0), server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
+  - {name: 欧洲(油管:破解资源君2.0) 2, server: 159.100.206.88, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: 欧洲(油管:破解资源君2.0) 3, server: 51.75.70.34, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}}
+  - {name: 欧洲(油管:破解资源君2.0) 4, server: 57.128.45.161, port: 80, type: vmess, uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /user}}
+  - {name: 欧洲(油管:破解资源君2.0) 5, server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
+  - {name: 欧洲(油管:破解资源君2.0) 6, server: 57.128.45.161, port: 80, type: vmess, uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /user, headers: {Host: 57.128.45.161}}}
+  - {name: 欧洲(油管:破解资源君2.0) 7, server: 106.75.218.112, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 欧洲(油管:破解资源君2.0) 8, server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
+  - {name: 欧洲(油管:破解资源君2.0) 9, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}}
+  - {name: 欧洲(油管:破解资源君2.0) 10, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}}
+  - {name: 欧洲(油管:破解资源君2.0) 11, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, sni: trs12.bolab.net}
+  - {name: 🇺🇲 美国/tg+univstar/41, server: 43.201.50.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0), server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 4.72img.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 2, server: 34.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 34.72img.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 3, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 4, server: jm.jshsxxxy.top, port: 443, type: vmess, uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /MokonaModokiMkv2Rentry, headers: {Host: jm.jshsxxxy.top}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 5, server: 30.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 30.72img.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 6, server: 172.64.154.201, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 7, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 8, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 9, server: 138.2.122.225, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 10, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 11, server: 46.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 46.72img.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 12, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 4ce21a11-44fe-4814-a639-4b7caf501031, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zhuyong.hucloud-dns.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 13, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
+  - {name: 🇺🇲 美国(油管:破解资源君2.0) 14, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/1736960111/635cb6dd4206c/, headers: {Host: sg3-v2ray.sshkit.org}}}
+  - {name: 🇰🇷 韩国(油管:破解资源君2.0), server: 146.56.166.153, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇰🇷 韩国(油管:破解资源君2.0) 2, server: 26.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 26.72img.xyz}}}
+  - {name: 🇺🇲 github.com/freefq - 美国惠普公司 27, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
+  - {name: 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9, server: us-lb.sshkit.org, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Variu88/634dab7abadf1/, headers: {Host: us-lb.sshkit.org}}}
+  - {name: 🇺🇲 github.com/freefq - 美国Xerox 6, server: 13.215.254.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 30, server: node.xn--ces488atrj.eu.org, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e43, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: node.xn--ces488atrj.eu.org}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 33, server: 51.79.157.223, port: 80, type: vmess, uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 26, server: 139.99.47.36, port: 80, type: vmess, uuid: 0bf0cc63-cc4d-4a6f-8770-a7fa5a0d1c55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean}}
+  - {name: 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90}
+  - {name: 🇺🇲 US3, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}}
+  - {name: 🇺🇲 US1, server: scw.oppo.quest, port: 56789, type: ss, cipher: aes-256-gcm, password: KblFYg1QVM}
+  - {name: 🇸🇬 SG8, server: 103.172.116.5, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇸🇬 SG7, server: official.taipeicitygovernment.cn.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, sni: 202.182.124.121}
+  - {name: 🇸🇬 SG6, server: 119.247.119.212, port: 443, type: trojan, password: !<str> 123456, sni: trojan-ctb-sg01.globalssh.xyz}
+  - {name: 🇸🇬 SG567, server: 51.81.220.195, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Variu88/634dab7abadf1/}}
+  - {name: 🇸🇬 SG567 2, server: 51.81.220.195, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Variu88/634dab7abadf1/, headers: {Host: "%7B%22Host%22:%2251.81.220.195%22%7D"}}}
+  - {name: 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13, server: trs11.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90}
+  - {name: github.com/freefq - 欧洲  28, server: 131.196.253.140, port: 80, type: vmess, uuid: d54226f9-4427-4466-957f-173b0a5b1cbc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: 131.196.253.140}}}
+  - {name: 🇺🇲 github.com/freefq - 美国惠普公司 29, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/, headers: {Host: 15.235.147.186}}}
+  - {name: 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6, server: us-lb.sshkit.org, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Variu88/634dab7abadf1/, headers: {Host: us-lb.sshkit.org}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 22, server: 1.1808.cf, port: 443, type: vmess, uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: earth-identity-devel-pubmed.trycloudflare.com, headers: {Host: 1.1808.cf}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2, server: 1.1808.cf, port: 443, type: vmess, uuid: 2cc54dbd-d448-4cc0-b61c-1d1ba6317307, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 1.1808.cf}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 15, server: 141.101.115.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: lg1.cfcdn1.xyz}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: uk2.v2rayserv.com, headers: {Host: powerservice.com}}}
+  - {name: 🇺🇲 github.com/freefq - 美国  14, server: us.vmess3.xservs.xyz, port: 80, type: vmess, uuid: f4f37895-2e4d-4c71-bca0-9da107868dee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: Vipmahsa}}}
+  - {name: 🇺🇲 github.com/freefq - 美国  10, server: 140.238.249.80, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1, server: 188.114.97.7, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: us02.gogogoo.cyou}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1170,144 +554,67 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港B/03x1.0_4
-      - 🇭🇰 香港B/05x1.0_4
-      - 🇭🇰 香港B/04x1.0_4
-      - 🇭🇰 香港A/01x1.0_4
-      - 🇸🇬 新加坡B/02x1.0_4
-      - 台灣B/01x1.0_3
-      - 🇯🇵 日本B/01x1.0_4
-      - 🇭🇰 香港IEPL/04x3.0_4
-      - 🇭🇰 香港實驗性C/03x1.0_4
-      - 🇭🇰 香港IEPL/03x3.0_4
-      - 🇭🇰 香港實驗性C/02x1.0_4
-      - 🇸🇬 新加坡IEPL/01x3.0_4
-      - 🇯🇵 日本A/01x1.0_4
-      - 🇭🇰 香港IEPL/02x3.0_4
-      - 🇯🇵 日本A/02x1.0_4
-      - 台灣A/01x1.0_3
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K_4
-      - 🇺🇸 【美国】峰值1000M-NetFlix原生IP解锁_4
-      - 🇺🇸 【美国】峰值1000M-正常使用_4
-      - 🇭🇰 大萝卜鸡香港_3
-      - 🇸🇬 大萝卜鸡新加坡_3
-      - 🇰🇷 大萝卜鸡韩国_4
-      - 🇯🇵 【直连】TYO/东京-443端口-2_4
-      - 🇸🇬 大萝卜鸡新_3
-      - 🇸🇬 大萝卜鸡新加_3
-      - 🇰🇷 【直连】ICN/首尔-2_4
-      - US3_3
-      - HK15_3
-      - US6_3
-      - 大萝卜鸡_7
-      - 🇸🇬 SGP🇸🇬_4
-      - HK8_4
-      - 🇬🇧 github.com/freefq-英国社会保险安全部1_3
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点2_3
-      - 🇬🇧 github.com/freefq-英国3_3
-      - 🇺🇸 github.com/freefq-美国加利福尼亚州费利蒙HurricaneElectric公司4_3
-      - 🇸🇬 不定期更新订阅
-      - https://t.me/daluoboji
-      - 🇭🇰 大萝卜鸡香港_2
-      - 🇭🇰 大萝卜鸡香港_3 2
-      - 🇭🇰 大萝卜鸡香港_4
-      - 🇭🇰 大萝卜鸡香港_5
-      - 🇯🇵 大萝卜鸡日本_1
-      - 🇯🇵 大萝卜鸡日本_2
-      - 🇺🇸 大萝卜鸡美国
-      - 🇰🇷 大萝卜鸡韩国_2
-      - 🇭🇰 大萝卜鸡香港_6
-      - 大萝卜鸡_2
-      - 🇷🇺 大萝卜鸡俄罗斯_1
-      - 大萝卜鸡_3
-      - 🇷🇺 大萝卜鸡俄罗斯_2
-      - 🇩🇪 大萝卜鸡德国
-      - 🇨🇦 大萝卜鸡加拿大
-      - 🇨🇳 大萝卜鸡台湾
-      - 专线_tg+univstar_51_3
-      - 专线_tg+univstar_5_3
-      - 专线_tg+univstar_9_3
-      - 专线_tg+univstar_29_3
-      - 专线_tg+univstar_8_3
-      - 专线_tg+univstar_40_3
-      - 专线_tg+univstar_22_3
-      - 专线_tg+univstar_13_3
-      - 专线_tg+univstar_24_3
-      - 专线_tg+univstar_31_3
-      - 专线_tg+univstar_20_3
-      - 专线_tg+univstar_25_3
-      - 专线_tg+univstar_44_3
-      - 专线_tg+univstar_28_3
-      - 专线_tg+univstar_38_3
-      - 专线_tg+univstar_41_3
-      - 专线_tg+univstar_34_3
-      - 专线_tg+univstar_53_3
-      - 🇺🇸 美国_tg+univstar_37_3
-      - 专线_tg+univstar_42_3
-      - 🇰🇷 韩国_tg+univstar_43_3
-      - 专线_tg+univstar_47_3
-      - 专线_tg+univstar_49_3
-      - 🇸🇬 新加坡_tg+univstar_50_3
-      - 🇨🇳 台湾_tg+univstar_52_3
-      - tg+univstar_54_3
-      - tg+univstar_55_3
-      - 专线_tg+univstar_56_3
-      - USLAXCTG01TR(trojan)
-      - HKHKGIT2SVMTR(trojan)
-      - USLAXCTG01V2(vmess)
-      - TWTPEHTR(trojan)
-      - HKHKGSH-HK02TR(trojan)
-      - TWTPEHV2(vmess)
-      - HKHKGIT2SVMV2(vmess)
-      - JPTYO04TR(trojan)
-      - SGSINKRNTR(trojan)
-      - USSJC01-TR(trojan)
-      - USSJCAPTR(trojan)
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - HKHKGSH-HK02V2(vmess)
-      - USSJCNATR(trojan)
-      - USSJCAPV2(vmess)
-      - FIHELHEL01TR(trojan)
-      - USSJCNAV2(vmess)
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - FIHELHEL01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - HKHKGSH.HKHGC1GV2(vmess)
-      - TWTPEHQTR(trojan)
-      - UKLHRGD>GBTR(trojan)
-      - HKHKGGZ.HKHKTTRA(trojan)
-      - HKHKGHGCATR(trojan)
-      - HKHKGHGCBTR(trojan)
-      - HKHKGSH.HKHGC1GTR(trojan)
-      - TWTPEHQV2(vmess)
-      - JPTYO04V2(vmess)
-      - USSJC01-V2(vmess)
-      - UKLHRGD>GBV2(vmess)
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - HKHKGHGCAV2(vmess)
-      - HKHKGHGCBV2(vmess)
-      - ★★Oururlisq88q.site★★
-      - 🇮🇹 义大利Italy-L0
-      - 🇺🇦 乌克兰Ukraine-L0
-      - 🇷🇺 俄罗斯Russia-L0
-      - 🇿🇦 南非SouthAfrica-L0
-      - 🇩🇪 德国Germany-L0
-      - 🇺🇸 美国America(WEST)-L0
-      - 🇫🇮 芬兰Finland-L0
-      - 🇨🇦 github.com/freefq-加拿大1
-      - 🇨🇳 github.com/freefq-广东省广州市电信IDC机房2
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动4
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点6
-      - 🇺🇸 github.com/freefq-美国8
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet9
-      - 🇺🇸 github.com/freefq-美国CloudFlare公司CDN节点10
-      - 🇺🇸 github.com/freefq-美国惠普公司11
-      - github.com/freefq-亚太地区12
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点13
-      - 🇮🇩 github.com/freefq-印度尼西亚北苏门答腊省棉兰Nusanet14
-      - 🇨🇳 github.com/freefq-江苏省宿迁市移动15
-      - 🇺🇸 github.com/freefq-美国CloudFlare节点16
-      - 🇺🇦 github.com/freefq-乌克兰18
+      - 🇮🇳 印度(油管:破解资源君2.0)
+      - 🇸🇬 新加坡/tg+univstar/46
+      - 🇸🇬 新加坡(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0)1114
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇭🇰 香港(油管:破解资源君2.0) 2
+      - 🇭🇰 香港(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0)1114
+      - 欧洲(油管:破解资源君2.0)
+      - 欧洲(油管:破解资源君2.0) 2
+      - 欧洲(油管:破解资源君2.0) 3
+      - 欧洲(油管:破解资源君2.0) 4
+      - 欧洲(油管:破解资源君2.0) 5
+      - 欧洲(油管:破解资源君2.0) 6
+      - 欧洲(油管:破解资源君2.0) 7
+      - 欧洲(油管:破解资源君2.0) 8
+      - 欧洲(油管:破解资源君2.0) 9
+      - 欧洲(油管:破解资源君2.0) 10
+      - 欧洲(油管:破解资源君2.0) 11
+      - 🇺🇲 美国/tg+univstar/41
+      - 🇺🇲 美国(油管:破解资源君2.0)
+      - 🇺🇲 美国(油管:破解资源君2.0) 2
+      - 🇺🇲 美国(油管:破解资源君2.0) 3
+      - 🇺🇲 美国(油管:破解资源君2.0) 4
+      - 🇺🇲 美国(油管:破解资源君2.0) 5
+      - 🇺🇲 美国(油管:破解资源君2.0) 6
+      - 🇺🇲 美国(油管:破解资源君2.0) 7
+      - 🇺🇲 美国(油管:破解资源君2.0) 8
+      - 🇺🇲 美国(油管:破解资源君2.0) 9
+      - 🇺🇲 美国(油管:破解资源君2.0) 10
+      - 🇺🇲 美国(油管:破解资源君2.0) 11
+      - 🇺🇲 美国(油管:破解资源君2.0) 12
+      - 🇺🇲 美国(油管:破解资源君2.0) 13
+      - 🇺🇲 美国(油管:破解资源君2.0) 14
+      - 🇰🇷 韩国(油管:破解资源君2.0)
+      - 🇰🇷 韩国(油管:破解资源君2.0) 2
+      - 🇺🇲 github.com/freefq - 美国惠普公司 27
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇲 github.com/freefq - 美国Xerox 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 30
+      - 🇸🇬 github.com/freefq - 新加坡OVH 33
+      - 🇸🇬 github.com/freefq - 新加坡OVH 26
+      - 🇯🇵 github.com/freefq - 日本北海道石狩SAKURA数据中心 35
+      - 🇺🇲 US3
+      - 🇺🇲 US1
+      - 🇸🇬 SG8
+      - 🇸🇬 SG7
+      - 🇸🇬 SG6
+      - 🇸🇬 SG567
+      - 🇸🇬 SG567 2
+      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 13
+      - github.com/freefq - 欧洲  28
+      - 🇺🇲 github.com/freefq - 美国惠普公司 29
+      - 🇺🇲 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 22 2
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 15
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇺🇲 github.com/freefq - 美国  14
+      - 🇺🇲 github.com/freefq - 美国  10
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
