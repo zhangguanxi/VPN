@@ -5,84 +5,495 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 亚洲4_2, server: 45.64.22.41, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml}
-  - {name: 🇺🇸 美国CloudFlare节点33, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}}
-  - {name: 🇺🇸 美国8_2, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
-  - {name: 🇷🇺 俄罗斯6, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com}
+  - {name: 🇭🇰 香港_30, server: 8.210.152.173, port: 57365, type: vmess, uuid: 1b3c5ca1-5567-40e7-a7b5-41b876a6839f, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇦🇺 Australia2|NFD|80端口, server: cdn.ausli.6641634715834932.me, port: 80, type: vmess, uuid: fcd76421-6b33-4563-b590-85dd74a200b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aln/13, headers: {Host: cdn.ausli.6641634715834932.me}}}
+  - {name: 🇭🇰 +HK高速, server: otynu-4-tr-2.hkg-01.o-two.xyz, port: 889, type: trojan, password: byXgpfvVeBEBqGTPGMmpkEtkByNerxtv, sni: o-two.bond}
+  - {name: 🇺🇸 美国_34, server: 96.43.86.4, port: 443, type: vmess, uuid: 6b8bacb5-75b2-4a17-9d32-3d75b100e61e, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 +香港IPLC顶级专线03, server: newtw600mline001.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d3111300c9a1}
+  - {name: 🇭🇰 +香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52}
+  - {name: 🇭🇰 +香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531}
+  - {name: 🇸🇬 +新加坡-Trojan①, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 7c4710dd-573b-432d-ac30-29296f429ea1, sni: sg02.trojanyyds.xyz}
+  - {name: 🇰🇵 +朝鲜平壤IPLC, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e}
+  - {name: 亚洲+10, server: hnm.xiaohouzi.club, port: 19363, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hnm.xiaohouzi.club}
+  - {name: 🇰🇷 亚洲|韩国A, server: a-cm1.jsmmm.cyou, port: 39511, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 +香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
+  - {name: 🇹🇭 亚洲|泰国, server: a-cm1.jsmmm.cyou, port: 39812, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+7, server: ah.emoooo.club, port: 42135, type: ss, cipher: chacha20-ietf-poly1305, password: 97239aa5-913f-44b6-bad1-1d88e9a605b9}
+  - {name: 🇭🇰 香港_29, server: 8.210.70.156, port: 54148, type: vmess, uuid: 1346261e-3201-4932-bfba-df869ab48116, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_38, server: 8.210.253.93, port: 31083, type: vmess, uuid: d2070b97-6d7c-44dc-9c7c-84a9c891815e, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇦🇺 澳洲|澳大利亚, server: a-cm1.jsmmm.cyou, port: 39912, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+4, server: iplc.xiaohouzi.club, port: 20035, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: iplc.xiaohouzi.club}
+  - {name: 亚洲+13, server: szf02.xiaohouzi.club, port: 27841, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: szf02.xiaohouzi.club}
+  - {name: 🇭🇰 香港_36, server: 8.210.126.138, port: 57070, type: vmess, uuid: 3727c689-134d-4b70-8962-9428225a79aa, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇺🇸 美国CloudFlare节点3, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF}}
+  - {name: 🇨🇳 亚洲|台湾C, server: a-ct1.jsmmm.cyou, port: 39221, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+12, server: hn.xiaohouzi.club, port: 18434, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hn.xiaohouzi.club}
+  - {name: 亚洲, server: iplc.xiaohouzi.club, port: 20037, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: iplc.xiaohouzi.club}
+  - {name: 🇮🇳 亚洲|印度, server: a-cm1.jsmmm.cyou, port: 39813, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_18, server: 47.242.66.90, port: 35317, type: vmess, uuid: 3d5d3753-4d33-4dd0-847a-65aa17f3e845, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇰🇷 亚洲|韩国B, server: a-ct1.jsmmm.cyou, port: 39521, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+3, server: hn.xiaohouzi.club, port: 18431, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hn.xiaohouzi.club}
+  - {name: 🇨🇳 亚洲|台湾A, server: a-cm1.jsmmm.cyou, port: 39211, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+8, server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: uns.xiaohouzi.club}
+  - {name: 🇪🇺 欧洲32, server: 162.159.128.7, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美洲|美国A, server: a-cm1.jsmmm.cyou, port: 39611, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇩 亚洲|印度尼西亚, server: a-cm1.jsmmm.cyou, port: 39815, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+14, server: hn.xiaohouzi.club, port: 18460, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hn.xiaohouzi.club}
+  - {name: 🇭🇰 香港_26, server: 8.210.88.29, port: 42783, type: vmess, uuid: 1e5a4ea1-53bb-4af5-ace5-630351def1c8, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_19, server: 47.242.167.108, port: 43166, type: vmess, uuid: 2d1bd222-6883-455d-95a4-649f2da0967c, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_37, server: 8.210.48.219, port: 26812, type: vmess, uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_24, server: 8.210.206.163, port: 45719, type: vmess, uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_31, server: 8.210.153.242, port: 48577, type: vmess, uuid: dd3c5ce4-6741-4cdb-a54d-bf43475969e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_35, server: 8.210.20.159, port: 45751, type: vmess, uuid: 3a0d252e-cddf-4695-ab0f-95a0ce7abcc0, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_33, server: 47.242.68.220, port: 33319, type: vmess, uuid: cf8134d2-f65b-4aef-8078-d84ebafd4c65, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_20, server: 47.242.167.107, port: 41280, type: vmess, uuid: ba679005-db91-4411-ab60-a2642346a9cd, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_22, server: 47.242.168.12, port: 35482, type: vmess, uuid: c6b5d490-5aee-49c7-bbce-699ad9e10507, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: "🇭🇰 香港02{优化2|V2ray}", server: hk2.awslcn.cc, port: 25242, type: vmess, uuid: 7c4710dd-573b-432d-ac30-29296f429ea1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.cc}}}
+  - {name: 🇺🇸 美国22, server: 104.17.65.213, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 Germany2|NFD|80端口, server: cdn.decli.6641634715834932.me, port: 80, type: vmess, uuid: fcd76421-6b33-4563-b590-85dd74a200b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aln/15, headers: {Host: cdn.decli.6641634715834932.me}}}
+  - {name: 🇯🇵 +日本限时, server: 43.201.69.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 +香港限时, server: 43.201.72.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇺 欧洲+19, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com}
+  - {name: 🇭🇰 香港M, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.sanfen001.pics}}}
   - {name: 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心15, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}}
   - {name: go_1204024, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}}
-  - {name: 🇯🇵 日本JP|tg频道:@ripaojiedian, server: jp-oracle-s.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp-oracle-s.sharecentre.online}}}
-  - {name: 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启, server: ss.mayiyun.shop, port: 22005, type: ss, cipher: aes-128-gcm, password: 9f866716-17f5-47be-bc45-673144572385}
-  - {name: 🇭🇰 +ss丨LP香港丨奈飞, server: ss.mayiyun.shop, port: 22002, type: ss, cipher: aes-128-gcm, password: 9f866716-17f5-47be-bc45-673144572385}
-  - {name: 🇸🇬 github.com/freefq-新加坡OVH26, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇸🇬 新加坡777, server: sg4.sanfen001.pics, port: 2001, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfen001.pics}}}
-  - {name: 🇸🇬 新加坡稳|tg频道:@ripaojiedian, server: v2ray1.udpgw.com, port: 443, type: vmess, uuid: 21761ba3-95d3-4c86-8953-4431f677bef2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
-  - {name: 🇦🇺 Australia2|NFD|80端口, server: cdn.ausli.6641634715834932.me, port: 80, type: vmess, uuid: fcd76421-6b33-4563-b590-85dd74a200b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aln/13, headers: {Host: cdn.ausli.6641634715834932.me}}}
-  - {name: 🇭🇰 +HK高速|tg频道:@ripaojiedian, server: otynu-4-tr-2.hkg-01.o-two.xyz, port: 889, type: trojan, password: byXgpfvVeBEBqGTPGMmpkEtkByNerxtv, sni: o-two.bond}
-  - {name: 🇪🇺 欧洲+19, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com}
-  - {name: 🇩🇪 Germany2|NFD|80端口, server: cdn.decli.6641634715834932.me, port: 80, type: vmess, uuid: fcd76421-6b33-4563-b590-85dd74a200b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aln/15, headers: {Host: cdn.decli.6641634715834932.me}}}
-  - {name: 🇭🇰 香港M|tg频道:@ripaojiedian, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.sanfen001.pics}}}
-  - {name: 🇭🇰 +香港限时|tg频道:@ripaojiedian, server: 43.201.72.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 +日本限时|tg频道:@ripaojiedian, server: 43.201.69.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡, server: 119-8-122-159.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, sni: 119-8-122-159.ipv4.rush.ml}
-  - {name: 🇯🇵 日本|电报频道:@ripaojiedian, server: smart.2022.2024.mlinuu.top, port: 11001, type: vmess, uuid: 261d6e98-f009-331f-8350-eba6f59b2bf0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲28, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲26, server: 198.41.203.5, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国20, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cf-lt.sharecentre.online}}}
+  - {name: 🇺🇸 美国33, server: 162.19.224.176, port: 80, type: vmess, uuid: 38386869-c04b-44fa-a3ce-477faa36639e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国8_2, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
+  - {name: 🇺🇸 美国44, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.515188.xyz}}}
+  - {name: 🇫🇷 法国格拉沃利讷OVH数据中心9, server: 51.68.139.22, port: 80, type: vmess, uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇫🇷 法国OVH6, server: 51.77.212.145, port: 80, type: vmess, uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 美国C, server: get.tech, port: 2086, type: vmess, uuid: 458caaed-c7a7-46ae-bc37-90724d40dc33, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: get.tech}}}
+  - {name: 🇪🇺 欧洲31, server: 51.77.212.145, port: 80, type: vmess, uuid: 3e9cec54-c121-4584-b758-787388e2f792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国惠普公司15, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
+  - {name: 🇺🇸 美国51, server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare节点33, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}}
+  - {name: 🇺🇸 美国CloudFlare节点7, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: main.millionaireaisle.com}}}
+  - {name: 🇺🇸 美国7, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uicdn.cf}}}
+  - {name: 🇪🇺 欧洲18, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: main.millionaireaisle.com}}}
+  - {name: 🇺🇸 美国4, server: cdn.decli.6641634715834932.me, port: 80, type: vmess, uuid: fcd76421-6b33-4563-b590-85dd74a200b5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aln/15, headers: {Host: cdn.decli.6641634715834932.me}}}
+  - {name: 🇺🇸 美国A, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV}}
+  - {name: 🇪🇺 欧洲36, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国21, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.online}}}
+  - {name: 🇺🇸 美国50, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hucloud.tk}}}
+  - {name: 🇷🇺 俄罗斯11, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v12a.toddns.tk}}}
+  - {name: 🇺🇸 美国14, server: cf.misakaf.org, port: 8080, type: vmess, uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.misakaf.org}}}
+  - {name: 🇷🇺 俄罗斯8, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v10a.toddns.tk}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点25, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: v2ray.online}}}
+  - {name: 🇷🇺 俄罗斯13, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 SG, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: cf-lt.sharecentre.online}}}
+  - {name: 🇺🇸 美国53, server: cf.515188.xyz, port: 80, type: vmess, uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.515188.xyz}}}
+  - {name: 🇺🇸 美国56, server: vfly3.win, port: 443, type: vmess, uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vfly3.win}}}
+  - {name: 🇪🇺 欧洲12, server: 172.67.199.34, port: 443, type: vmess, uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点22, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: hohm.microsoft.com}}}
+  - {name: 🇺🇸 美国CloudFlare节点29, server: cf.515188.xyz, port: 80, type: vmess, uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: cf.515188.xyz}}}
+  - {name: 🇺🇸 美国25, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国19, server: gtm-cn-j67317hnw0k.gtm-a5b5.com, port: 443, type: vmess, uuid: 97239aa5-913f-44b6-bad1-1d88e9a605b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: gtm-cn-j67317hnw0k.gtm-a5b5.com}}}
+  - {name: 🇺🇸 美国CloudFlare节点14, server: 172.67.222.46, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/}}
+  - {name: tg搜@ripaojiedian, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV}}
+  - {name: 🇺🇸 美国CloudFlare节点27, server: 172.67.199.34, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /go}}
+  - {name: 🇺🇸 美国CloudFlare节点16, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE}}
+  - {name: 🇺🇸 美国39, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇦🇺 澳大利亚悉尼1, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF}}
+  - {name: 🇪🇺 欧洲14, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国6, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: news.microsoft.com}}}
+  - {name: 🇺🇸 美国40, server: 172.67.199.34, port: 443, type: vmess, uuid: 781be00e-1e09-4e27-a464-e14197418c8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国42, server: 172.67.204.23, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国RFEngineering2, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV}}
+  - {name: 🇺🇸 美国, server: 104.17.226.55, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国3COM公司企业网5, server: 152.67.254.16, port: 43815, type: vmess, uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /abc}}
+  - {name: 🇺🇸 美国41, server: 103.21.244.230, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国27, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇦🇺 澳大利亚KooweerupSecondaryCollege18, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV}}
+  - {name: 🇺🇸 美国24, server: 103.21.244.31, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国RFEngineering13, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE}}
+  - {name: 🇺🇸 美国8, server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点21, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: cf-lt-dns.sharecentre.online}}}
+  - {name: 🇪🇺 欧洲27, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国38, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国35, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare节点10, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mR17oBKzZ7}}
+  - {name: 🇺🇸 美国9, server: 172.67.199.34, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本cf优选, server: 104.18.6.82, port: 443, type: vmess, uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国54, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国26, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国4 2, server: 172.67.198.165, port: 443, type: vmess, uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国46, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare节点24, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shares}}
+  - {name: 🇪🇺 欧洲3, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲25, server: 172.67.199.34, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国36, server: 172.67.199.34, port: 443, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国55, server: 172.67.178.203, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲29, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vjp1.0bad.com}}}
   - {name: 🇰🇷 韩国, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡OVH28, server: 139.99.45.193, port: 80, type: vmess, uuid: a0cfd598-f09f-440b-9204-77d6ae923dc5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
+  - {name: 亚洲+6, server: hnm.xiaohouzi.club, port: 47555, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hnm.xiaohouzi.club}
+  - {name: 🇪🇺 欧洲40, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 V1-台湾多台负载均衡中继C1.5x, server: in03.my1188.org, port: 63088, type: vmess, uuid: 906d2899-6393-3408-a7be-1b0169938cdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in03.my1188.org}}}
+  - {name: 亚洲+15, server: hnm.xiaohouzi.club, port: 17105, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hnm.xiaohouzi.club}
+  - {name: 🇸🇬 新加坡OVH26, server: 51.79.173.222, port: 80, type: vmess, uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇭🇰 +ss丨LP香港丨奈飞, server: ss.mayiyun.shop, port: 22002, type: ss, cipher: aes-128-gcm, password: 9f866716-17f5-47be-bc45-673144572385}
+  - {name: 🇨🇳 V1-台湾多台负载均衡中继A1.5x, server: in01.my1188.org, port: 63088, type: vmess, uuid: 906d2899-6393-3408-a7be-1b0169938cdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in01.my1188.org}}}
+  - {name: 🇸🇬 新加坡777, server: sg4.sanfen001.pics, port: 2001, type: vmess, uuid: efb61090-f0e5-4db5-ad02-d5e1ed8637f9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfen001.pics}}}
+  - {name: 🇺🇸 美国CloudFlare节点12, server: 172.64.157.26, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3}}
+  - {name: 🇨🇳 V1-新加坡多台负载均衡中继D1.5x, server: in04.my1188.org, port: 63087, type: vmess, uuid: 906d2899-6393-3408-a7be-1b0169938cdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in04.my1188.org}}}
+  - {name: 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启, server: ss.mayiyun.shop, port: 22005, type: ss, cipher: aes-128-gcm, password: 9f866716-17f5-47be-bc45-673144572385}
+  - {name: 亚洲+2, server: hn.xiaohouzi.club, port: 28456, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hn.xiaohouzi.club}
+  - {name: 🇲🇾 亚洲|马来西亚, server: a-cm1.jsmmm.cyou, port: 39814, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲+11, server: hn.xiaohouzi.club, port: 18457, type: trojan, password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28, sni: hn.xiaohouzi.club}
+  - {name: 🇺🇸 美国18, server: 104.19.204.115, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 V1-台湾多台负载均衡中继D1.5x, server: in04.my1188.org, port: 63088, type: vmess, uuid: 906d2899-6393-3408-a7be-1b0169938cdc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mugua, headers: {Host: in04.my1188.org}}}
+  - {name: 🇺🇸 美国57, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国48, server: 162.159.135.42, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 HK中转, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: c5651cc8-9db7-46a3-806f-666d7cf44e20, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: project.mytargoocloud.live}}}
+  - {name: 🇪🇺 欧洲16, server: 190.93.246.137, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本|, server: smart.2022.2024.mlinuu.top, port: 11001, type: vmess, uuid: 261d6e98-f009-331f-8350-eba6f59b2bf0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲30, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲6, server: 190.93.247.166, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲23, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲9, server: 162.159.128.7, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国13, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇪🇺 欧洲33, server: 162.159.7.84, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国31, server: 173.245.58.240, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡, server: 119-8-122-159.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, sni: 119-8-122-159.ipv4.rush.ml}
+  - {name: 🇭🇰 香港, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: data-hk-v2.shwjfkw.cn}}}
+  - {name: 🇺🇸 美国49, server: 162.159.135.42, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国CloudFlare节点17, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT}}
+  - {name: 🇺🇸 美国58, server: 103.21.244.17, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国23, server: 103.21.244.219, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: "🇨🇳 台湾01{移动|V2ray}", server: cm1.awslcn.cc, port: 25233, type: vmess, uuid: 7c4710dd-573b-432d-ac30-29296f429ea1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 亚洲4_2
-      - 🇺🇸 美国CloudFlare节点33
-      - 🇺🇸 美国8_2
-      - 🇷🇺 俄罗斯6
+      - 🇭🇰 香港_30
+      - 🇦🇺 Australia2|NFD|80端口
+      - 🇭🇰 +HK高速
+      - 🇺🇸 美国_34
+      - 🇭🇰 +香港IPLC顶级专线03
+      - 🇭🇰 +香港IPLC顶级专线02
+      - 🇭🇰 +香港IEPL内网专线02
+      - 🇸🇬 +新加坡-Trojan①
+      - 🇰🇵 +朝鲜平壤IPLC
+      - 亚洲+10
+      - 🇰🇷 亚洲|韩国A
+      - 🇭🇰 +香港IEPL内网专线01
+      - 🇹🇭 亚洲|泰国
+      - 亚洲+7
+      - 🇭🇰 香港_29
+      - 🇭🇰 香港_38
+      - 🇦🇺 澳洲|澳大利亚
+      - 亚洲+4
+      - 亚洲+13
+      - 🇭🇰 香港_36
+      - 🇺🇸 美国CloudFlare节点3
+      - 🇨🇳 亚洲|台湾C
+      - 亚洲+12
+      - 亚洲
+      - 🇮🇳 亚洲|印度
+      - 🇭🇰 香港_18
+      - 🇰🇷 亚洲|韩国B
+      - 亚洲+3
+      - 🇨🇳 亚洲|台湾A
+      - 亚洲+8
+      - 🇪🇺 欧洲32
+      - 🇺🇸 美洲|美国A
+      - 🇮🇩 亚洲|印度尼西亚
+      - 亚洲+14
+      - 🇭🇰 香港_26
+      - 🇭🇰 香港_19
+      - 🇭🇰 香港_37
+      - 🇭🇰 香港_24
+      - 🇭🇰 香港_31
+      - 🇭🇰 香港_35
+      - 🇭🇰 香港_33
+      - 🇭🇰 香港_20
+      - 🇭🇰 香港_22
+      - 🇭🇰 香港02{优化2|V2ray}
+      - 🇺🇸 美国22
+      - 🇩🇪 Germany2|NFD|80端口
+      - 🇯🇵 +日本限时
+      - 🇭🇰 +香港限时
+      - 🇪🇺 欧洲+19
+      - 🇭🇰 香港M
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心15
       - go_1204024
-      - 🇯🇵 日本JP|tg频道:@ripaojiedian
-      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
-      - 🇭🇰 +ss丨LP香港丨奈飞
-      - 🇸🇬 github.com/freefq-新加坡OVH26
-      - 🇸🇬 新加坡777
-      - 🇸🇬 新加坡稳|tg频道:@ripaojiedian
-      - 🇦🇺 Australia2|NFD|80端口
-      - 🇭🇰 +HK高速|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲+19
-      - 🇩🇪 Germany2|NFD|80端口
-      - 🇭🇰 香港M|tg频道:@ripaojiedian
-      - 🇭🇰 +香港限时|tg频道:@ripaojiedian
-      - 🇯🇵 +日本限时|tg频道:@ripaojiedian
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本|电报频道:@ripaojiedian
+      - 🇪🇺 欧洲28
+      - 🇪🇺 欧洲26
+      - 🇺🇸 美国20
+      - 🇺🇸 美国33
+      - 🇺🇸 美国8_2
+      - 🇺🇸 美国44
+      - 🇫🇷 法国格拉沃利讷OVH数据中心9
+      - 🇫🇷 法国OVH6
+      - 🇺🇸 美国C
+      - 🇪🇺 欧洲31
+      - 🇺🇸 美国惠普公司15
+      - 🇺🇸 美国51
+      - 🇺🇸 美国CloudFlare节点33
+      - 🇺🇸 美国CloudFlare节点7
+      - 🇺🇸 美国7
+      - 🇪🇺 欧洲18
+      - 🇺🇸 美国4
+      - 🇺🇸 美国A
+      - 🇪🇺 欧洲36
+      - 🇺🇸 美国21
+      - 🇺🇸 美国50
+      - 🇷🇺 俄罗斯11
+      - 🇺🇸 美国14
+      - 🇷🇺 俄罗斯8
+      - 🇺🇸 美国CloudFlare公司CDN节点25
+      - 🇷🇺 俄罗斯13
+      - 🇸🇬 SG
+      - 🇺🇸 美国53
+      - 🇺🇸 美国56
+      - 🇪🇺 欧洲12
+      - 🇺🇸 美国CloudFlare公司CDN节点22
+      - 🇺🇸 美国CloudFlare节点29
+      - 🇺🇸 美国25
+      - 🇺🇸 美国19
+      - 🇺🇸 美国CloudFlare节点14
+      - tg搜@ripaojiedian
+      - 🇺🇸 美国CloudFlare节点27
+      - 🇺🇸 美国CloudFlare节点16
+      - 🇺🇸 美国39
+      - 🇦🇺 澳大利亚悉尼1
+      - 🇪🇺 欧洲14
+      - 🇺🇸 美国6
+      - 🇺🇸 美国40
+      - 🇺🇸 美国42
+      - 🇺🇸 美国RFEngineering2
+      - 🇺🇸 美国
+      - 🇺🇸 美国3COM公司企业网5
+      - 🇺🇸 美国41
+      - 🇺🇸 美国27
+      - 🇦🇺 澳大利亚KooweerupSecondaryCollege18
+      - 🇺🇸 美国24
+      - 🇺🇸 美国RFEngineering13
+      - 🇺🇸 美国8
+      - 🇺🇸 美国CloudFlare公司CDN节点21
+      - 🇪🇺 欧洲27
+      - 🇺🇸 美国38
+      - 🇺🇸 美国35
+      - 🇺🇸 美国CloudFlare节点10
+      - 🇺🇸 美国9
+      - 🇯🇵 日本cf优选
+      - 🇺🇸 美国54
+      - 🇺🇸 美国26
+      - 🇺🇸 美国4 2
+      - 🇺🇸 美国46
+      - 🇺🇸 美国CloudFlare节点24
+      - 🇪🇺 欧洲3
+      - 🇪🇺 欧洲25
+      - 🇺🇸 美国36
+      - 🇺🇸 美国55
+      - 🇪🇺 欧洲29
       - 🇰🇷 韩国
+      - 🇸🇬 新加坡OVH28
+      - 亚洲+6
+      - 🇪🇺 欧洲40
+      - 🇨🇳 V1-台湾多台负载均衡中继C1.5x
+      - 亚洲+15
+      - 🇸🇬 新加坡OVH26
+      - 🇭🇰 +ss丨LP香港丨奈飞
+      - 🇨🇳 V1-台湾多台负载均衡中继A1.5x
+      - 🇸🇬 新加坡777
+      - 🇺🇸 美国CloudFlare节点12
+      - 🇨🇳 V1-新加坡多台负载均衡中继D1.5x
+      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
+      - 亚洲+2
+      - 🇲🇾 亚洲|马来西亚
+      - 亚洲+11
+      - 🇺🇸 美国18
+      - 🇨🇳 V1-台湾多台负载均衡中继D1.5x
+      - 🇺🇸 美国57
+      - 🇺🇸 美国48
+      - 🇭🇰 HK中转
+      - 🇪🇺 欧洲16
+      - 🇯🇵 日本|
+      - 🇪🇺 欧洲30
+      - 🇪🇺 欧洲6
+      - 🇪🇺 欧洲23
+      - 🇪🇺 欧洲9
+      - 🇺🇸 美国13
+      - 🇪🇺 欧洲33
+      - 🇺🇸 美国31
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇺🇸 美国49
+      - 🇺🇸 美国CloudFlare节点17
+      - 🇺🇸 美国58
+      - 🇺🇸 美国23
+      - 🇨🇳 台湾01{移动|V2ray}
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 亚洲4_2
-      - 🇺🇸 美国CloudFlare节点33
-      - 🇺🇸 美国8_2
-      - 🇷🇺 俄罗斯6
+      - 🇭🇰 香港_30
+      - 🇦🇺 Australia2|NFD|80端口
+      - 🇭🇰 +HK高速
+      - 🇺🇸 美国_34
+      - 🇭🇰 +香港IPLC顶级专线03
+      - 🇭🇰 +香港IPLC顶级专线02
+      - 🇭🇰 +香港IEPL内网专线02
+      - 🇸🇬 +新加坡-Trojan①
+      - 🇰🇵 +朝鲜平壤IPLC
+      - 亚洲+10
+      - 🇰🇷 亚洲|韩国A
+      - 🇭🇰 +香港IEPL内网专线01
+      - 🇹🇭 亚洲|泰国
+      - 亚洲+7
+      - 🇭🇰 香港_29
+      - 🇭🇰 香港_38
+      - 🇦🇺 澳洲|澳大利亚
+      - 亚洲+4
+      - 亚洲+13
+      - 🇭🇰 香港_36
+      - 🇺🇸 美国CloudFlare节点3
+      - 🇨🇳 亚洲|台湾C
+      - 亚洲+12
+      - 亚洲
+      - 🇮🇳 亚洲|印度
+      - 🇭🇰 香港_18
+      - 🇰🇷 亚洲|韩国B
+      - 亚洲+3
+      - 🇨🇳 亚洲|台湾A
+      - 亚洲+8
+      - 🇪🇺 欧洲32
+      - 🇺🇸 美洲|美国A
+      - 🇮🇩 亚洲|印度尼西亚
+      - 亚洲+14
+      - 🇭🇰 香港_26
+      - 🇭🇰 香港_19
+      - 🇭🇰 香港_37
+      - 🇭🇰 香港_24
+      - 🇭🇰 香港_31
+      - 🇭🇰 香港_35
+      - 🇭🇰 香港_33
+      - 🇭🇰 香港_20
+      - 🇭🇰 香港_22
+      - 🇭🇰 香港02{优化2|V2ray}
+      - 🇺🇸 美国22
+      - 🇩🇪 Germany2|NFD|80端口
+      - 🇯🇵 +日本限时
+      - 🇭🇰 +香港限时
+      - 🇪🇺 欧洲+19
+      - 🇭🇰 香港M
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心15
       - go_1204024
-      - 🇯🇵 日本JP|tg频道:@ripaojiedian
-      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
-      - 🇭🇰 +ss丨LP香港丨奈飞
-      - 🇸🇬 github.com/freefq-新加坡OVH26
-      - 🇸🇬 新加坡777
-      - 🇸🇬 新加坡稳|tg频道:@ripaojiedian
-      - 🇦🇺 Australia2|NFD|80端口
-      - 🇭🇰 +HK高速|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲+19
-      - 🇩🇪 Germany2|NFD|80端口
-      - 🇭🇰 香港M|tg频道:@ripaojiedian
-      - 🇭🇰 +香港限时|tg频道:@ripaojiedian
-      - 🇯🇵 +日本限时|tg频道:@ripaojiedian
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本|电报频道:@ripaojiedian
+      - 🇪🇺 欧洲28
+      - 🇪🇺 欧洲26
+      - 🇺🇸 美国20
+      - 🇺🇸 美国33
+      - 🇺🇸 美国8_2
+      - 🇺🇸 美国44
+      - 🇫🇷 法国格拉沃利讷OVH数据中心9
+      - 🇫🇷 法国OVH6
+      - 🇺🇸 美国C
+      - 🇪🇺 欧洲31
+      - 🇺🇸 美国惠普公司15
+      - 🇺🇸 美国51
+      - 🇺🇸 美国CloudFlare节点33
+      - 🇺🇸 美国CloudFlare节点7
+      - 🇺🇸 美国7
+      - 🇪🇺 欧洲18
+      - 🇺🇸 美国4
+      - 🇺🇸 美国A
+      - 🇪🇺 欧洲36
+      - 🇺🇸 美国21
+      - 🇺🇸 美国50
+      - 🇷🇺 俄罗斯11
+      - 🇺🇸 美国14
+      - 🇷🇺 俄罗斯8
+      - 🇺🇸 美国CloudFlare公司CDN节点25
+      - 🇷🇺 俄罗斯13
+      - 🇸🇬 SG
+      - 🇺🇸 美国53
+      - 🇺🇸 美国56
+      - 🇪🇺 欧洲12
+      - 🇺🇸 美国CloudFlare公司CDN节点22
+      - 🇺🇸 美国CloudFlare节点29
+      - 🇺🇸 美国25
+      - 🇺🇸 美国19
+      - 🇺🇸 美国CloudFlare节点14
+      - tg搜@ripaojiedian
+      - 🇺🇸 美国CloudFlare节点27
+      - 🇺🇸 美国CloudFlare节点16
+      - 🇺🇸 美国39
+      - 🇦🇺 澳大利亚悉尼1
+      - 🇪🇺 欧洲14
+      - 🇺🇸 美国6
+      - 🇺🇸 美国40
+      - 🇺🇸 美国42
+      - 🇺🇸 美国RFEngineering2
+      - 🇺🇸 美国
+      - 🇺🇸 美国3COM公司企业网5
+      - 🇺🇸 美国41
+      - 🇺🇸 美国27
+      - 🇦🇺 澳大利亚KooweerupSecondaryCollege18
+      - 🇺🇸 美国24
+      - 🇺🇸 美国RFEngineering13
+      - 🇺🇸 美国8
+      - 🇺🇸 美国CloudFlare公司CDN节点21
+      - 🇪🇺 欧洲27
+      - 🇺🇸 美国38
+      - 🇺🇸 美国35
+      - 🇺🇸 美国CloudFlare节点10
+      - 🇺🇸 美国9
+      - 🇯🇵 日本cf优选
+      - 🇺🇸 美国54
+      - 🇺🇸 美国26
+      - 🇺🇸 美国4 2
+      - 🇺🇸 美国46
+      - 🇺🇸 美国CloudFlare节点24
+      - 🇪🇺 欧洲3
+      - 🇪🇺 欧洲25
+      - 🇺🇸 美国36
+      - 🇺🇸 美国55
+      - 🇪🇺 欧洲29
       - 🇰🇷 韩国
+      - 🇸🇬 新加坡OVH28
+      - 亚洲+6
+      - 🇪🇺 欧洲40
+      - 🇨🇳 V1-台湾多台负载均衡中继C1.5x
+      - 亚洲+15
+      - 🇸🇬 新加坡OVH26
+      - 🇭🇰 +ss丨LP香港丨奈飞
+      - 🇨🇳 V1-台湾多台负载均衡中继A1.5x
+      - 🇸🇬 新加坡777
+      - 🇺🇸 美国CloudFlare节点12
+      - 🇨🇳 V1-新加坡多台负载均衡中继D1.5x
+      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
+      - 亚洲+2
+      - 🇲🇾 亚洲|马来西亚
+      - 亚洲+11
+      - 🇺🇸 美国18
+      - 🇨🇳 V1-台湾多台负载均衡中继D1.5x
+      - 🇺🇸 美国57
+      - 🇺🇸 美国48
+      - 🇭🇰 HK中转
+      - 🇪🇺 欧洲16
+      - 🇯🇵 日本|
+      - 🇪🇺 欧洲30
+      - 🇪🇺 欧洲6
+      - 🇪🇺 欧洲23
+      - 🇪🇺 欧洲9
+      - 🇺🇸 美国13
+      - 🇪🇺 欧洲33
+      - 🇺🇸 美国31
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇺🇸 美国49
+      - 🇺🇸 美国CloudFlare节点17
+      - 🇺🇸 美国58
+      - 🇺🇸 美国23
+      - 🇨🇳 台湾01{移动|V2ray}
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,28 +511,165 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚洲4_2
-      - 🇺🇸 美国CloudFlare节点33
-      - 🇺🇸 美国8_2
-      - 🇷🇺 俄罗斯6
+      - 🇭🇰 香港_30
+      - 🇦🇺 Australia2|NFD|80端口
+      - 🇭🇰 +HK高速
+      - 🇺🇸 美国_34
+      - 🇭🇰 +香港IPLC顶级专线03
+      - 🇭🇰 +香港IPLC顶级专线02
+      - 🇭🇰 +香港IEPL内网专线02
+      - 🇸🇬 +新加坡-Trojan①
+      - 🇰🇵 +朝鲜平壤IPLC
+      - 亚洲+10
+      - 🇰🇷 亚洲|韩国A
+      - 🇭🇰 +香港IEPL内网专线01
+      - 🇹🇭 亚洲|泰国
+      - 亚洲+7
+      - 🇭🇰 香港_29
+      - 🇭🇰 香港_38
+      - 🇦🇺 澳洲|澳大利亚
+      - 亚洲+4
+      - 亚洲+13
+      - 🇭🇰 香港_36
+      - 🇺🇸 美国CloudFlare节点3
+      - 🇨🇳 亚洲|台湾C
+      - 亚洲+12
+      - 亚洲
+      - 🇮🇳 亚洲|印度
+      - 🇭🇰 香港_18
+      - 🇰🇷 亚洲|韩国B
+      - 亚洲+3
+      - 🇨🇳 亚洲|台湾A
+      - 亚洲+8
+      - 🇪🇺 欧洲32
+      - 🇺🇸 美洲|美国A
+      - 🇮🇩 亚洲|印度尼西亚
+      - 亚洲+14
+      - 🇭🇰 香港_26
+      - 🇭🇰 香港_19
+      - 🇭🇰 香港_37
+      - 🇭🇰 香港_24
+      - 🇭🇰 香港_31
+      - 🇭🇰 香港_35
+      - 🇭🇰 香港_33
+      - 🇭🇰 香港_20
+      - 🇭🇰 香港_22
+      - 🇭🇰 香港02{优化2|V2ray}
+      - 🇺🇸 美国22
+      - 🇩🇪 Germany2|NFD|80端口
+      - 🇯🇵 +日本限时
+      - 🇭🇰 +香港限时
+      - 🇪🇺 欧洲+19
+      - 🇭🇰 香港M
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心15
       - go_1204024
-      - 🇯🇵 日本JP|tg频道:@ripaojiedian
-      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
-      - 🇭🇰 +ss丨LP香港丨奈飞
-      - 🇸🇬 github.com/freefq-新加坡OVH26
-      - 🇸🇬 新加坡777
-      - 🇸🇬 新加坡稳|tg频道:@ripaojiedian
-      - 🇦🇺 Australia2|NFD|80端口
-      - 🇭🇰 +HK高速|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲+19
-      - 🇩🇪 Germany2|NFD|80端口
-      - 🇭🇰 香港M|tg频道:@ripaojiedian
-      - 🇭🇰 +香港限时|tg频道:@ripaojiedian
-      - 🇯🇵 +日本限时|tg频道:@ripaojiedian
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本|电报频道:@ripaojiedian
+      - 🇪🇺 欧洲28
+      - 🇪🇺 欧洲26
+      - 🇺🇸 美国20
+      - 🇺🇸 美国33
+      - 🇺🇸 美国8_2
+      - 🇺🇸 美国44
+      - 🇫🇷 法国格拉沃利讷OVH数据中心9
+      - 🇫🇷 法国OVH6
+      - 🇺🇸 美国C
+      - 🇪🇺 欧洲31
+      - 🇺🇸 美国惠普公司15
+      - 🇺🇸 美国51
+      - 🇺🇸 美国CloudFlare节点33
+      - 🇺🇸 美国CloudFlare节点7
+      - 🇺🇸 美国7
+      - 🇪🇺 欧洲18
+      - 🇺🇸 美国4
+      - 🇺🇸 美国A
+      - 🇪🇺 欧洲36
+      - 🇺🇸 美国21
+      - 🇺🇸 美国50
+      - 🇷🇺 俄罗斯11
+      - 🇺🇸 美国14
+      - 🇷🇺 俄罗斯8
+      - 🇺🇸 美国CloudFlare公司CDN节点25
+      - 🇷🇺 俄罗斯13
+      - 🇸🇬 SG
+      - 🇺🇸 美国53
+      - 🇺🇸 美国56
+      - 🇪🇺 欧洲12
+      - 🇺🇸 美国CloudFlare公司CDN节点22
+      - 🇺🇸 美国CloudFlare节点29
+      - 🇺🇸 美国25
+      - 🇺🇸 美国19
+      - 🇺🇸 美国CloudFlare节点14
+      - tg搜@ripaojiedian
+      - 🇺🇸 美国CloudFlare节点27
+      - 🇺🇸 美国CloudFlare节点16
+      - 🇺🇸 美国39
+      - 🇦🇺 澳大利亚悉尼1
+      - 🇪🇺 欧洲14
+      - 🇺🇸 美国6
+      - 🇺🇸 美国40
+      - 🇺🇸 美国42
+      - 🇺🇸 美国RFEngineering2
+      - 🇺🇸 美国
+      - 🇺🇸 美国3COM公司企业网5
+      - 🇺🇸 美国41
+      - 🇺🇸 美国27
+      - 🇦🇺 澳大利亚KooweerupSecondaryCollege18
+      - 🇺🇸 美国24
+      - 🇺🇸 美国RFEngineering13
+      - 🇺🇸 美国8
+      - 🇺🇸 美国CloudFlare公司CDN节点21
+      - 🇪🇺 欧洲27
+      - 🇺🇸 美国38
+      - 🇺🇸 美国35
+      - 🇺🇸 美国CloudFlare节点10
+      - 🇺🇸 美国9
+      - 🇯🇵 日本cf优选
+      - 🇺🇸 美国54
+      - 🇺🇸 美国26
+      - 🇺🇸 美国4 2
+      - 🇺🇸 美国46
+      - 🇺🇸 美国CloudFlare节点24
+      - 🇪🇺 欧洲3
+      - 🇪🇺 欧洲25
+      - 🇺🇸 美国36
+      - 🇺🇸 美国55
+      - 🇪🇺 欧洲29
       - 🇰🇷 韩国
+      - 🇸🇬 新加坡OVH28
+      - 亚洲+6
+      - 🇪🇺 欧洲40
+      - 🇨🇳 V1-台湾多台负载均衡中继C1.5x
+      - 亚洲+15
+      - 🇸🇬 新加坡OVH26
+      - 🇭🇰 +ss丨LP香港丨奈飞
+      - 🇨🇳 V1-台湾多台负载均衡中继A1.5x
+      - 🇸🇬 新加坡777
+      - 🇺🇸 美国CloudFlare节点12
+      - 🇨🇳 V1-新加坡多台负载均衡中继D1.5x
+      - 🇨🇳 +ss丨台湾丨奈飞丨掉解锁会重启
+      - 亚洲+2
+      - 🇲🇾 亚洲|马来西亚
+      - 亚洲+11
+      - 🇺🇸 美国18
+      - 🇨🇳 V1-台湾多台负载均衡中继D1.5x
+      - 🇺🇸 美国57
+      - 🇺🇸 美国48
+      - 🇭🇰 HK中转
+      - 🇪🇺 欧洲16
+      - 🇯🇵 日本|
+      - 🇪🇺 欧洲30
+      - 🇪🇺 欧洲6
+      - 🇪🇺 欧洲23
+      - 🇪🇺 欧洲9
+      - 🇺🇸 美国13
+      - 🇪🇺 欧洲33
+      - 🇺🇸 美国31
+      - 🇸🇬 新加坡
+      - 🇭🇰 香港
+      - 🇺🇸 美国49
+      - 🇺🇸 美国CloudFlare节点17
+      - 🇺🇸 美国58
+      - 🇺🇸 美国23
+      - 🇨🇳 台湾01{移动|V2ray}
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
