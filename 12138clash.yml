@@ -5,243 +5,345 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 免费-日本1, server: jp01-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-vm0.entry.srthdw.art}}}
-  - {name: 🇯🇵 免费-日本2, server: jp02-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.srthdw.art}}}
-  - {name: 🇯🇵 免费-日本3, server: jp03-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.srthdw.art}}}
-  - {name: 🇯🇵 免费-日本4, server: jp04-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp04-vm0.entry.srthdw.art}}}
-  - {name: 🇯🇵 免费-日本5, server: jp05-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}}
-  - {name: 🇯🇵 免费-日本6, server: jp06-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f8cc2524-2d34-37ef-9f63-8cffeb863f30, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp06-vm0.entry.srthdw.art}}}
-  - {name: 🇺🇸 美国_4, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
-  - {name: 🇺🇸 美国俄亥俄州都柏林Amazon数据中心20, server: free-zf-us3.tencent.cfd, port: 53517, type: vmess, uuid: d1860587-aa33-4b76-85cd-c191edecb338, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-zf-us3.tencent.cfd}}}
-  - {name: Alien, server: a-ct1.jsmmm.cyou, port: 39322, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  4, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6e9EtZ2dL, headers: {Host: dengxin.one}}}
-  - {name: 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: Alien 2, server: a-cm1.jsmmm.cyou, port: 39212, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false}
-  - {name: Alien 3, server: a-ct1.jsmmm.cyou, port: 39222, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false}
-  - {name: bulink自建免费11线 三网, server: la56.burstlinker.com.fobzs.com, port: 443, type: vmess, uuid: 5c2467ac-6e60-4e0c-8cb4-58f99190d4f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: la56.burstlinker.com.fobzs.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vAambj4DgXrs5sfCFptMk, headers: {Host: america1.yj2022.ga}}}
-  - {name: 🇦🇺 github.com/freefq - 澳大利亚悉尼 6, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 3, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君), server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}}
-  - {name: 亚洲(油管:破解资源君), server: gz01.xiaohouzi.club, port: 14705, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: $$$$$$$vusig01.xiaohouzi.club}
-  - {name: 🇺🇸 美国(油管:破解资源君), server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/pq/fr1?ed=2048", headers: {Host: fr1.pqjc.buzz}}}
-  - {name: 🇳🇱 「SCP」NL-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}}
-  - {name: 🇯🇵 日本(油管:破解资源君), server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 2, server: finland1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /WKtzeN11GLqwVNBTp9mX, headers: {Host: finland1.yj2022.ga}}}
-  - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}}
-  - {name: 🇯🇵 「SCP」JP-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentrepro.com}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 3, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
-  - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
-  - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 🇺🇸 美国(油管:破解资源君) 2, server: 4559186168.xhtk.cc, port: 443, type: vmess, uuid: e1da11a9-6ab7-e0c3-3ca0-92ad364db204, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lklcvws, headers: {Host: 4559186168.xhtk.cc}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 4, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: 🇺🇸 美国(油管:破解资源君) 3, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
-  - {name: 🇺🇸 美国(油管:破解资源君) 4, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: america2.yj2022.ga}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
-  - {name: 🇺🇸 美国(油管:破解资源君) 5, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 5, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}}
-  - {name: 🇬🇧 「SCP」UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: 🇭🇰 「SCP」HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 6, server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /petalvws, headers: {Host: petal.ga}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 7, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: a二爷翻墙 https://1808.ga, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: a4921a75-0991-4d81-9721-8e45d2e31905, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nguevws, headers: {Host: dd3.1808.cf}}}
-  - {name: 🇷🇺 俄罗斯(油管:破解资源君), server: 5.188.183.10, port: 43976, type: vmess, uuid: c7c72515-4d9a-4efa-cc84-fd799d378a19, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 8, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /KTR, headers: {Host: 4.arvanktbr.store}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 9, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxfra.fovi.tk}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 10, server: sv3.adsensor.top, port: 80, type: vmess, uuid: 7a5af201-b588-4f13-9f02-185c68acd89b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /manageit, headers: {Host: sv3.adsensor.top}}}
+  - {name: h073906.waihuizhibiaowang.com:11343, server: h073906.waihuizhibiaowang.com, port: 11343, type: http, username: f9af186564, password: b99148441a, tls: true}
+  - {name: 🇺🇸 美国(油管:破解资源君), server: quranweb6.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb6.xyz}}}
+  - {name: 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国(油管:破解资源君) 2, server: new8.hucloud-dns.xyz, port: 443, type: vmess, uuid: f11786fc-abf0-40e8-8177-992c699cc95f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /0fa5cea95e7/, headers: {Host: new8.hucloud-dns.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 3, server: woiden.739256.xyz, port: 443, type: vmess, uuid: d05d144a-71a9-4720-8c4e-565257953069, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: woiden.739256.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 4, server: quran-audio1.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quran-audio1.xyz}}}
+  - {name: 🇯🇵 日本06, server: 13.113.190.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡07, server: 13.215.177.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 5, server: quranweb9.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb9.xyz}}}
+  - {name: 🇯🇵 日本17, server: 13.112.28.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: github.com/freefq - 欧盟  22, server: hopev2ray.ddns.net, port: 443, type: vmess, uuid: 408f3810-cd93-11ed-b438-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: hopev2ray.ddns.net}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 15, server: 142.4.99.68, port: 41169, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡04, server: 13.212.250.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 6, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 33, server: wwwow.ir, port: 443, type: vmess, uuid: 84b4d2ac-699b-4ba5-a6b2-adaaa82b667d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: wwwow.ir}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  29, server: 143.42.87.69, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡07 2, server: 13.215.177.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 7, server: Amsterdam.v2ray.online, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}}
+  - {name: 🇸🇬 新加坡16, server: 13.230.66.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国Xerox 9, server: 13.51.254.117, port: 8080, type: vmess, uuid: cba5aa96-1a8f-44aa-b050-717892366955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 8, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 9, server: holyquran10.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran10.store}}}
+  - {name: github.com/freefq - 欧盟  22 2, server: hopev2ray.ddns.net, port: 443, type: vmess, uuid: 408f3810-cd93-11ed-b438-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: us-2.0rd.net}}}
+  - {name: 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11 2, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国(油管:破解资源君) 10, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
+  - {name: 🇸🇬 新加坡15, server: 13.213.17.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇺 欧洲(油管:破解资源君), server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 11, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: github.com/freefq - 欧盟  21, server: mtn.ircf.space, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: irancelll.appsandhack2.tech, headers: {Host: mtn.ircf.space}}}
+  - {name: 🇸🇬 新加坡-99, server: 52.221.242.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡20, server: 3.1.102.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 12, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 13, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 14, server: freequranbook.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: freequranbook.uk}}}
+  - {name: 🇸🇬 新加坡15 2, server: 13.213.17.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡09, server: 43.201.60.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 15, server: 172.67.136.150, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: ss.239000.xyz}}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君) 2, server: 188.114.97.3, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 16, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 17, server: quranweb40.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb40.xyz}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 18, server: cf-topspeedoneplus.uk, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: cf-topspeedoneplus.uk}}}
+  - {name: 🇯🇵 日本12, server: 13.125.75.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s245.rpscloud3.cloud}}}
+  - {name: 🇯🇵 日本17 2, server: 13.112.28.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇺 欧洲(油管:破解资源君) 3, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君) 4, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国(油管:破解资源君) 19, server: quranweb41.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: quranweb41.xyz}}}
+  - {name: 🇸🇬 新加坡11, server: 52.221.240.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 20, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 🇸🇬 新加坡11 2, server: 52.221.240.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡07 3, server: 13.215.177.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡09 2, server: 43.201.60.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 21, server: 104.18.3.2, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: idnusanet.vpnexecutive.my.id}}}
+  - {name: 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12, server: 85.208.108.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[🇺🇸]172.67.199.34:443(6fea1649-425b-4092-bf53-29792152c925)", server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/, headers: {Host: us-lb.sshkit.org}}}
+  - {name: 🇸🇬 新加坡20 2, server: 3.1.102.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 22, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: "[🇷🇴]146.70.157.221:18930(dac6fc8b-42c4-4d95-b7b5-00c296885c7e)", server: 146.70.157.221, port: 18930, type: vmess, uuid: dac6fc8b-42c4-4d95-b7b5-00c296885c7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡16 2, server: 13.230.66.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡03, server: 13.228.30.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡09 3, server: 43.201.60.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 23, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 新加坡05, server: 13.229.181.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡13, server: 13.213.41.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 24, server: holyquran18.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran18.store}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 25, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}}
+  - {name: 🇸🇬 新加坡16 3, server: 13.230.66.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: fn600mlines024.svcline.com:995, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e}
+  - {name: 🇸🇬 新加坡05 2, server: 13.229.181.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 26, server: 104.21.53.66, port: 443, type: vmess, uuid: d05d144a-71a9-4720-8c4e-565257953069, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: woiden.739256.xyz}}}
+  - {name: 🇯🇵 日本06 2, server: 13.113.190.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港(油管:破解资源君2.0), server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v2.shwjfkw.cn}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  29 2, server: 143.42.87.69, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡10, server: 18.141.236.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国(油管:破解资源君) 27, server: holyquran11.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /current_time, headers: {Host: holyquran11.store}}}
+  - {name: "[🇺🇸]141.11.187.86:34262(c0f41c18-20df-4e8b-d811-d0aa5f51d90c)", server: 141.11.187.86, port: 34262, type: vmess, uuid: c0f41c18-20df-4e8b-d811-d0aa5f51d90c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 28, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
+  - {name: 🇸🇬 新加坡_R_441, server: ieplszhk-sz.cctelescope.xyz, port: 50306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国_R_520, server: ieplszhk-sz.cctelescope.xyz, port: 50402, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国_R_557, server: iepl-zh.safetelescope.cc, port: 11799, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南_R_377, server: iepl-zh.safetelescope.cc, port: 11899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南_R_380, server: iepl-hn.cctelescope.xyz, port: 21738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_450, server: iepl-hn.cctelescope.xyz, port: 20001, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇵🇭 菲律宾_R_196, server: iepl-hn.cctelescope.xyz, port: 21293, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南_R_377 2, server: iepl-zh.safetelescope.cc, port: 11899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_428, server: iepl-hn.cctelescope.xyz, port: 21702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南_R_380 2, server: iepl-hn.cctelescope.xyz, port: 21738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡_R_441 2, server: ieplszhk-sz.cctelescope.xyz, port: 50306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇩 印度尼西亚_R_521, server: ieplszhk-sz.cctelescope.xyz, port: 50578, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国_R_557 2, server: iepl-zh.safetelescope.cc, port: 11799, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本_R_498, server: iepl-hn.cctelescope.xyz, port: 21078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港_R_446, server: ieplszhk-sz.cctelescope.xyz, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国_R_520 2, server: ieplszhk-sz.cctelescope.xyz, port: 50402, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾_R_318, server: iepl-zh.safetelescope.cc, port: 11802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡-33, server: usa1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
   - {name: 🇨🇦 「SCP」CA-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}}
-  - {name: 亚洲(油管:破解资源君) 2, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}}
-  - {name: 🇺🇸 美国(油管:破解资源君) 6, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huhu, headers: {Host: hucloud.tk}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 11, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 12, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /UMW36262, headers: {Host: frgt1.ssr-free2.xyz}}}
-  - {name: 🇪🇺 欧洲 | 法国, server: a-cm1.jsmmm.cyou, port: 39911, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(油管:破解资源君) 5, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}}
   - {name: 🇺🇸 美国3号-0.1x 2, server: 148.59.74.154, port: 443, type: trojan, password: 3855b736-bf24-461f-b5b9-1d3f04484b37, sni: zaelot.cc}
-  - {name: 🇰🇷 亚洲 | 韩国B, server: a-ct1.jsmmm.cyou, port: 39521, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 41, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 亚洲(油管:破解资源君) 3, server: hnm.xiaohouzi.club, port: 16082, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club}
-  - {name: 🇯🇵 日本2|tg频道:@ripaojiedian, server: s-jp01.aikun.online, port: 10000, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: s-jp01.aikun.online}
-  - {name: 🇭🇰 香港直连|tg频道:@ripaojiedian, server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇸🇬 狮城特殊|tg频道:@ripaojiedian, server: 54.169.144.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 亚洲(油管:破解资源君) 4, server: gz01.xiaohouzi.club, port: 14705, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club}
-  - {name: 🇯🇵 日本特殊|tg频道:@ripaojiedian, server: 13.229.46.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港快|tg频道:@ripaojiedian, server: 43.201.146.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港2|tg频道:@ripaojiedian, server: aws-hk01.aikun.online, port: 7045, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433, sni: aws-hk01.aikun.online}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 47, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 美国(油管:破解资源君) 29, server: 34.131.59.57, port: 80, type: vmess, uuid: e0b3a0fe-a89c-46ad-d291-7d27f8b1c9fe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 1, server: aws-hk01.aikun.online, port: 7045, type: trojan, password: c9c498df-683b-40b3-a1cb-b574c36f9433}
-  - {name: 🇷🇺 俄罗斯(油管:破解资源君) 3, server: 5.188.183.10, port: 43976, type: vmess, uuid: c7c72515-4d9a-4efa-cc84-fd799d378a19, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国特殊|tg频道:@ripaojiedian, server: 13.212.247.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 github.com/freefq - 英国  2, server: petal.tk, port: 443, type: vmess, uuid: b7718dc4-8c46-483b-d347-dd5d8209e023, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jjpwvws, headers: {Host: petal.tk}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 7, server: sv3.adsensor.top, port: 80, type: vmess, uuid: 7a5af201-b588-4f13-9f02-185c68acd89b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /manageit, headers: {Host: sv3.adsensor.top}}}
-  - {name: 🇺🇸 github.com/freefq - 美国  12, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 4 2, server: 43.133.164.43, port: 50366, type: vmess, uuid: 1c7adb68-7eb3-419f-e104-afad83996410, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(油管:破解资源君) 48, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 「SCP」US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
+  - {name: 🇬🇧 「SCP」UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 🇪🇺 欧洲(油管:破解资源君) 6, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}}
+  - {name: 🇺🇸 美国(油管:破解资源君) 29, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
   - {name: 亚洲(油管:破解资源君) 11, server: hn.xiaohouzi.club, port: 14185, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club}
-  - {name: 亚洲(油管:破解资源君) 5, server: 500.sayitfree.website, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: 3307ba30-a638-490a-9910-672c4049a722}
+  - {name: 🇭🇰 「SCP」HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
+  - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
+  - {name: 亚洲(油管:破解资源君), server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}}
+  - {name: 🇺🇸 「SCP」US-BuyVM3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 免费-日本1
-      - 🇯🇵 免费-日本2
-      - 🇯🇵 免费-日本3
-      - 🇯🇵 免费-日本4
-      - 🇯🇵 免费-日本5
-      - 🇯🇵 免费-日本6
-      - 🇺🇸 美国_4
-      - 🇺🇸 美国俄亥俄州都柏林Amazon数据中心20
-      - Alien
-      - 🇷🇺 github.com/freefq - 俄罗斯  4
-      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
-      - Alien 2
-      - Alien 3
-      - bulink自建免费11线 三网
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇦🇺 github.com/freefq - 澳大利亚悉尼 6
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 3
-      - 🇪🇺 欧洲(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
+      - h073906.waihuizhibiaowang.com:11343
       - 🇺🇸 美国(油管:破解资源君)
-      - 🇳🇱 「SCP」NL-CF
-      - 🇯🇵 日本(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 2
-      - 「SCP」KH-CF
-      - 🇯🇵 「SCP」JP-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 3
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-DP1
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11
       - 🇺🇸 美国(油管:破解资源君) 2
-      - 🇪🇺 欧洲(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM3
       - 🇺🇸 美国(油管:破解资源君) 3
       - 🇺🇸 美国(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇯🇵 日本06
+      - 🇸🇬 新加坡07
       - 🇺🇸 美国(油管:破解资源君) 5
-      - 🇪🇺 欧洲(油管:破解资源君) 5
-      - 🇬🇧 「SCP」UK-CF
-      - 🇭🇰 「SCP」HK-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 7
-      - 🇺🇸 「SCP」US-BuyVM
-      - a二爷翻墙 https://1808.ga
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 8
-      - 🇪🇺 欧洲(油管:破解资源君) 9
-      - 🇪🇺 欧洲(油管:破解资源君) 10
-      - 🇨🇦 「SCP」CA-CF
-      - 亚洲(油管:破解资源君) 2
+      - 🇯🇵 日本17
+      - github.com/freefq - 欧盟  22
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 15
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 11
-      - 🇪🇺 欧洲(油管:破解资源君) 12
-      - 🇪🇺 欧洲 | 法国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 33
+      - 🇺🇸 github.com/freefq - 美国  29
+      - 🇸🇬 新加坡07 2
+      - 🇺🇸 美国(油管:破解资源君) 7
+      - 🇸🇬 新加坡16
+      - 🇺🇸 github.com/freefq - 美国Xerox 9
+      - 🇺🇸 美国(油管:破解资源君) 8
+      - 🇺🇸 美国(油管:破解资源君) 9
+      - github.com/freefq - 欧盟  22 2
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11 2
+      - 🇺🇸 美国(油管:破解资源君) 10
+      - 🇸🇬 新加坡15
+      - 🇪🇺 欧洲(油管:破解资源君)
+      - 🇺🇸 美国(油管:破解资源君) 11
+      - github.com/freefq - 欧盟  21
+      - 🇸🇬 新加坡-99
+      - 🇸🇬 新加坡20
+      - 🇺🇸 美国(油管:破解资源君) 12
+      - 🇺🇸 美国(油管:破解资源君) 13
+      - 🇺🇸 美国(油管:破解资源君) 14
+      - 🇸🇬 新加坡15 2
+      - 🇸🇬 新加坡09
+      - 🇺🇸 美国(油管:破解资源君) 15
+      - 🇪🇺 欧洲(油管:破解资源君) 2
+      - 🇺🇸 美国(油管:破解资源君) 16
+      - 🇺🇸 美国(油管:破解资源君) 17
+      - 🇺🇸 美国(油管:破解资源君) 18
+      - 🇯🇵 日本12
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇯🇵 日本17 2
+      - 🇪🇺 欧洲(油管:破解资源君) 3
+      - 🇪🇺 欧洲(油管:破解资源君) 4
+      - 🇺🇸 美国(油管:破解资源君) 19
+      - 🇸🇬 新加坡11
+      - 🇺🇸 美国(油管:破解资源君) 20
+      - 🇸🇬 新加坡11 2
+      - 🇸🇬 新加坡07 3
+      - 🇸🇬 新加坡09 2
+      - 🇺🇸 美国(油管:破解资源君) 21
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12
+      - "[🇺🇸]172.67.199.34:443(6fea1649-425b-4092-bf53-29792152c925)"
+      - 🇸🇬 新加坡20 2
+      - 🇺🇸 美国(油管:破解资源君) 22
+      - "[🇷🇴]146.70.157.221:18930(dac6fc8b-42c4-4d95-b7b5-00c296885c7e)"
+      - 🇸🇬 新加坡16 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡09 3
+      - 🇺🇸 美国(油管:破解资源君) 23
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡13
+      - 🇺🇸 美国(油管:破解资源君) 24
+      - 🇺🇸 美国(油管:破解资源君) 25
+      - 🇸🇬 新加坡16 3
+      - fn600mlines024.svcline.com:995
+      - 🇸🇬 新加坡05 2
+      - 🇺🇸 美国(油管:破解资源君) 26
+      - 🇯🇵 日本06 2
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 github.com/freefq - 美国  29 2
+      - 🇸🇬 新加坡10
+      - 🇺🇸 美国(油管:破解资源君) 27
+      - "[🇺🇸]141.11.187.86:34262(c0f41c18-20df-4e8b-d811-d0aa5f51d90c)"
+      - 🇺🇸 美国(油管:破解资源君) 28
+      - 🇸🇬 新加坡_R_441
+      - 🇹🇭 泰国_R_520
+      - 🇹🇭 泰国_R_557
+      - 🇻🇳 越南_R_377
+      - 🇻🇳 越南_R_380
+      - 🇭🇰 香港_R_450
+      - 🇵🇭 菲律宾_R_196
+      - 🇻🇳 越南_R_377 2
+      - 🇭🇰 香港_R_428
+      - 🇻🇳 越南_R_380 2
+      - 🇸🇬 新加坡_R_441 2
+      - 🇮🇩 印度尼西亚_R_521
+      - 🇹🇭 泰国_R_557 2
+      - 🇯🇵 日本_R_498
+      - 🇭🇰 香港_R_446
+      - 🇹🇭 泰国_R_520 2
+      - 🇨🇳 台湾_R_318
+      - 🇸🇬 新加坡-33
+      - 🇨🇦 「SCP」CA-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 5
       - 🇺🇸 美国3号-0.1x 2
-      - 🇰🇷 亚洲 | 韩国B
-      - 🇪🇺 欧洲(油管:破解资源君) 41
-      - 亚洲(油管:破解资源君) 3
-      - 🇯🇵 日本2|tg频道:@ripaojiedian
-      - 🇭🇰 香港直连|tg频道:@ripaojiedian
-      - 🇸🇬 狮城特殊|tg频道:@ripaojiedian
-      - 亚洲(油管:破解资源君) 4
-      - 🇯🇵 日本特殊|tg频道:@ripaojiedian
-      - 🇭🇰 香港快|tg频道:@ripaojiedian
-      - 🇭🇰 香港2|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲(油管:破解资源君) 47
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇬🇧 「SCP」UK-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 6
       - 🇺🇸 美国(油管:破解资源君) 29
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 1
-      - 🇷🇺 俄罗斯(油管:破解资源君) 3
-      - 🇰🇷 韩国特殊|tg频道:@ripaojiedian
-      - 🇬🇧 github.com/freefq - 英国  2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 7
-      - 🇺🇸 github.com/freefq - 美国  12
-      - 🇪🇺 欧洲(油管:破解资源君) 4 2
-      - 🇪🇺 欧洲(油管:破解资源君) 48
       - 亚洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君) 5
+      - 🇭🇰 「SCP」HK-CF
+      - 🇺🇸 「SCP」US-DP2
+      - 亚洲(油管:破解资源君)
+      - 🇺🇸 「SCP」US-BuyVM3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 免费-日本1
-      - 🇯🇵 免费-日本2
-      - 🇯🇵 免费-日本3
-      - 🇯🇵 免费-日本4
-      - 🇯🇵 免费-日本5
-      - 🇯🇵 免费-日本6
-      - 🇺🇸 美国_4
-      - 🇺🇸 美国俄亥俄州都柏林Amazon数据中心20
-      - Alien
-      - 🇷🇺 github.com/freefq - 俄罗斯  4
-      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
-      - Alien 2
-      - Alien 3
-      - bulink自建免费11线 三网
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇦🇺 github.com/freefq - 澳大利亚悉尼 6
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 3
-      - 🇪🇺 欧洲(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
+      - h073906.waihuizhibiaowang.com:11343
       - 🇺🇸 美国(油管:破解资源君)
-      - 🇳🇱 「SCP」NL-CF
-      - 🇯🇵 日本(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 2
-      - 「SCP」KH-CF
-      - 🇯🇵 「SCP」JP-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 3
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-DP1
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11
       - 🇺🇸 美国(油管:破解资源君) 2
-      - 🇪🇺 欧洲(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM3
       - 🇺🇸 美国(油管:破解资源君) 3
       - 🇺🇸 美国(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇯🇵 日本06
+      - 🇸🇬 新加坡07
       - 🇺🇸 美国(油管:破解资源君) 5
-      - 🇪🇺 欧洲(油管:破解资源君) 5
-      - 🇬🇧 「SCP」UK-CF
-      - 🇭🇰 「SCP」HK-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 7
-      - 🇺🇸 「SCP」US-BuyVM
-      - a二爷翻墙 https://1808.ga
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 8
-      - 🇪🇺 欧洲(油管:破解资源君) 9
-      - 🇪🇺 欧洲(油管:破解资源君) 10
-      - 🇨🇦 「SCP」CA-CF
-      - 亚洲(油管:破解资源君) 2
+      - 🇯🇵 日本17
+      - github.com/freefq - 欧盟  22
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 15
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 11
-      - 🇪🇺 欧洲(油管:破解资源君) 12
-      - 🇪🇺 欧洲 | 法国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 33
+      - 🇺🇸 github.com/freefq - 美国  29
+      - 🇸🇬 新加坡07 2
+      - 🇺🇸 美国(油管:破解资源君) 7
+      - 🇸🇬 新加坡16
+      - 🇺🇸 github.com/freefq - 美国Xerox 9
+      - 🇺🇸 美国(油管:破解资源君) 8
+      - 🇺🇸 美国(油管:破解资源君) 9
+      - github.com/freefq - 欧盟  22 2
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11 2
+      - 🇺🇸 美国(油管:破解资源君) 10
+      - 🇸🇬 新加坡15
+      - 🇪🇺 欧洲(油管:破解资源君)
+      - 🇺🇸 美国(油管:破解资源君) 11
+      - github.com/freefq - 欧盟  21
+      - 🇸🇬 新加坡-99
+      - 🇸🇬 新加坡20
+      - 🇺🇸 美国(油管:破解资源君) 12
+      - 🇺🇸 美国(油管:破解资源君) 13
+      - 🇺🇸 美国(油管:破解资源君) 14
+      - 🇸🇬 新加坡15 2
+      - 🇸🇬 新加坡09
+      - 🇺🇸 美国(油管:破解资源君) 15
+      - 🇪🇺 欧洲(油管:破解资源君) 2
+      - 🇺🇸 美国(油管:破解资源君) 16
+      - 🇺🇸 美国(油管:破解资源君) 17
+      - 🇺🇸 美国(油管:破解资源君) 18
+      - 🇯🇵 日本12
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇯🇵 日本17 2
+      - 🇪🇺 欧洲(油管:破解资源君) 3
+      - 🇪🇺 欧洲(油管:破解资源君) 4
+      - 🇺🇸 美国(油管:破解资源君) 19
+      - 🇸🇬 新加坡11
+      - 🇺🇸 美国(油管:破解资源君) 20
+      - 🇸🇬 新加坡11 2
+      - 🇸🇬 新加坡07 3
+      - 🇸🇬 新加坡09 2
+      - 🇺🇸 美国(油管:破解资源君) 21
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12
+      - "[🇺🇸]172.67.199.34:443(6fea1649-425b-4092-bf53-29792152c925)"
+      - 🇸🇬 新加坡20 2
+      - 🇺🇸 美国(油管:破解资源君) 22
+      - "[🇷🇴]146.70.157.221:18930(dac6fc8b-42c4-4d95-b7b5-00c296885c7e)"
+      - 🇸🇬 新加坡16 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡09 3
+      - 🇺🇸 美国(油管:破解资源君) 23
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡13
+      - 🇺🇸 美国(油管:破解资源君) 24
+      - 🇺🇸 美国(油管:破解资源君) 25
+      - 🇸🇬 新加坡16 3
+      - fn600mlines024.svcline.com:995
+      - 🇸🇬 新加坡05 2
+      - 🇺🇸 美国(油管:破解资源君) 26
+      - 🇯🇵 日本06 2
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 github.com/freefq - 美国  29 2
+      - 🇸🇬 新加坡10
+      - 🇺🇸 美国(油管:破解资源君) 27
+      - "[🇺🇸]141.11.187.86:34262(c0f41c18-20df-4e8b-d811-d0aa5f51d90c)"
+      - 🇺🇸 美国(油管:破解资源君) 28
+      - 🇸🇬 新加坡_R_441
+      - 🇹🇭 泰国_R_520
+      - 🇹🇭 泰国_R_557
+      - 🇻🇳 越南_R_377
+      - 🇻🇳 越南_R_380
+      - 🇭🇰 香港_R_450
+      - 🇵🇭 菲律宾_R_196
+      - 🇻🇳 越南_R_377 2
+      - 🇭🇰 香港_R_428
+      - 🇻🇳 越南_R_380 2
+      - 🇸🇬 新加坡_R_441 2
+      - 🇮🇩 印度尼西亚_R_521
+      - 🇹🇭 泰国_R_557 2
+      - 🇯🇵 日本_R_498
+      - 🇭🇰 香港_R_446
+      - 🇹🇭 泰国_R_520 2
+      - 🇨🇳 台湾_R_318
+      - 🇸🇬 新加坡-33
+      - 🇨🇦 「SCP」CA-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 5
       - 🇺🇸 美国3号-0.1x 2
-      - 🇰🇷 亚洲 | 韩国B
-      - 🇪🇺 欧洲(油管:破解资源君) 41
-      - 亚洲(油管:破解资源君) 3
-      - 🇯🇵 日本2|tg频道:@ripaojiedian
-      - 🇭🇰 香港直连|tg频道:@ripaojiedian
-      - 🇸🇬 狮城特殊|tg频道:@ripaojiedian
-      - 亚洲(油管:破解资源君) 4
-      - 🇯🇵 日本特殊|tg频道:@ripaojiedian
-      - 🇭🇰 香港快|tg频道:@ripaojiedian
-      - 🇭🇰 香港2|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲(油管:破解资源君) 47
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇬🇧 「SCP」UK-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 6
       - 🇺🇸 美国(油管:破解资源君) 29
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 1
-      - 🇷🇺 俄罗斯(油管:破解资源君) 3
-      - 🇰🇷 韩国特殊|tg频道:@ripaojiedian
-      - 🇬🇧 github.com/freefq - 英国  2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 7
-      - 🇺🇸 github.com/freefq - 美国  12
-      - 🇪🇺 欧洲(油管:破解资源君) 4 2
-      - 🇪🇺 欧洲(油管:破解资源君) 48
       - 亚洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君) 5
+      - 🇭🇰 「SCP」HK-CF
+      - 🇺🇸 「SCP」US-DP2
+      - 亚洲(油管:破解资源君)
+      - 🇺🇸 「SCP」US-BuyVM3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -259,81 +361,115 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 免费-日本1
-      - 🇯🇵 免费-日本2
-      - 🇯🇵 免费-日本3
-      - 🇯🇵 免费-日本4
-      - 🇯🇵 免费-日本5
-      - 🇯🇵 免费-日本6
-      - 🇺🇸 美国_4
-      - 🇺🇸 美国俄亥俄州都柏林Amazon数据中心20
-      - Alien
-      - 🇷🇺 github.com/freefq - 俄罗斯  4
-      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
-      - Alien 2
-      - Alien 3
-      - bulink自建免费11线 三网
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇦🇺 github.com/freefq - 澳大利亚悉尼 6
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 3
-      - 🇪🇺 欧洲(油管:破解资源君)
-      - 亚洲(油管:破解资源君)
+      - h073906.waihuizhibiaowang.com:11343
       - 🇺🇸 美国(油管:破解资源君)
-      - 🇳🇱 「SCP」NL-CF
-      - 🇯🇵 日本(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 2
-      - 「SCP」KH-CF
-      - 🇯🇵 「SCP」JP-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 3
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-DP1
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11
       - 🇺🇸 美国(油管:破解资源君) 2
-      - 🇪🇺 欧洲(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM3
       - 🇺🇸 美国(油管:破解资源君) 3
       - 🇺🇸 美国(油管:破解资源君) 4
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇯🇵 日本06
+      - 🇸🇬 新加坡07
       - 🇺🇸 美国(油管:破解资源君) 5
-      - 🇪🇺 欧洲(油管:破解资源君) 5
-      - 🇬🇧 「SCP」UK-CF
-      - 🇭🇰 「SCP」HK-CF
-      - 🇪🇺 欧洲(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 7
-      - 🇺🇸 「SCP」US-BuyVM
-      - a二爷翻墙 https://1808.ga
-      - 🇷🇺 俄罗斯(油管:破解资源君)
-      - 🇪🇺 欧洲(油管:破解资源君) 8
-      - 🇪🇺 欧洲(油管:破解资源君) 9
-      - 🇪🇺 欧洲(油管:破解资源君) 10
-      - 🇨🇦 「SCP」CA-CF
-      - 亚洲(油管:破解资源君) 2
+      - 🇯🇵 日本17
+      - github.com/freefq - 欧盟  22
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 15
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国(油管:破解资源君) 6
-      - 🇪🇺 欧洲(油管:破解资源君) 11
-      - 🇪🇺 欧洲(油管:破解资源君) 12
-      - 🇪🇺 欧洲 | 法国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 33
+      - 🇺🇸 github.com/freefq - 美国  29
+      - 🇸🇬 新加坡07 2
+      - 🇺🇸 美国(油管:破解资源君) 7
+      - 🇸🇬 新加坡16
+      - 🇺🇸 github.com/freefq - 美国Xerox 9
+      - 🇺🇸 美国(油管:破解资源君) 8
+      - 🇺🇸 美国(油管:破解资源君) 9
+      - github.com/freefq - 欧盟  22 2
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 11 2
+      - 🇺🇸 美国(油管:破解资源君) 10
+      - 🇸🇬 新加坡15
+      - 🇪🇺 欧洲(油管:破解资源君)
+      - 🇺🇸 美国(油管:破解资源君) 11
+      - github.com/freefq - 欧盟  21
+      - 🇸🇬 新加坡-99
+      - 🇸🇬 新加坡20
+      - 🇺🇸 美国(油管:破解资源君) 12
+      - 🇺🇸 美国(油管:破解资源君) 13
+      - 🇺🇸 美国(油管:破解资源君) 14
+      - 🇸🇬 新加坡15 2
+      - 🇸🇬 新加坡09
+      - 🇺🇸 美国(油管:破解资源君) 15
+      - 🇪🇺 欧洲(油管:破解资源君) 2
+      - 🇺🇸 美国(油管:破解资源君) 16
+      - 🇺🇸 美国(油管:破解资源君) 17
+      - 🇺🇸 美国(油管:破解资源君) 18
+      - 🇯🇵 日本12
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - 🇯🇵 日本17 2
+      - 🇪🇺 欧洲(油管:破解资源君) 3
+      - 🇪🇺 欧洲(油管:破解资源君) 4
+      - 🇺🇸 美国(油管:破解资源君) 19
+      - 🇸🇬 新加坡11
+      - 🇺🇸 美国(油管:破解资源君) 20
+      - 🇸🇬 新加坡11 2
+      - 🇸🇬 新加坡07 3
+      - 🇸🇬 新加坡09 2
+      - 🇺🇸 美国(油管:破解资源君) 21
+      - 🇸🇦 github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 12
+      - "[🇺🇸]172.67.199.34:443(6fea1649-425b-4092-bf53-29792152c925)"
+      - 🇸🇬 新加坡20 2
+      - 🇺🇸 美国(油管:破解资源君) 22
+      - "[🇷🇴]146.70.157.221:18930(dac6fc8b-42c4-4d95-b7b5-00c296885c7e)"
+      - 🇸🇬 新加坡16 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡09 3
+      - 🇺🇸 美国(油管:破解资源君) 23
+      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡13
+      - 🇺🇸 美国(油管:破解资源君) 24
+      - 🇺🇸 美国(油管:破解资源君) 25
+      - 🇸🇬 新加坡16 3
+      - fn600mlines024.svcline.com:995
+      - 🇸🇬 新加坡05 2
+      - 🇺🇸 美国(油管:破解资源君) 26
+      - 🇯🇵 日本06 2
+      - 🇭🇰 香港(油管:破解资源君2.0)
+      - 🇺🇸 github.com/freefq - 美国  29 2
+      - 🇸🇬 新加坡10
+      - 🇺🇸 美国(油管:破解资源君) 27
+      - "[🇺🇸]141.11.187.86:34262(c0f41c18-20df-4e8b-d811-d0aa5f51d90c)"
+      - 🇺🇸 美国(油管:破解资源君) 28
+      - 🇸🇬 新加坡_R_441
+      - 🇹🇭 泰国_R_520
+      - 🇹🇭 泰国_R_557
+      - 🇻🇳 越南_R_377
+      - 🇻🇳 越南_R_380
+      - 🇭🇰 香港_R_450
+      - 🇵🇭 菲律宾_R_196
+      - 🇻🇳 越南_R_377 2
+      - 🇭🇰 香港_R_428
+      - 🇻🇳 越南_R_380 2
+      - 🇸🇬 新加坡_R_441 2
+      - 🇮🇩 印度尼西亚_R_521
+      - 🇹🇭 泰国_R_557 2
+      - 🇯🇵 日本_R_498
+      - 🇭🇰 香港_R_446
+      - 🇹🇭 泰国_R_520 2
+      - 🇨🇳 台湾_R_318
+      - 🇸🇬 新加坡-33
+      - 🇨🇦 「SCP」CA-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 5
       - 🇺🇸 美国3号-0.1x 2
-      - 🇰🇷 亚洲 | 韩国B
-      - 🇪🇺 欧洲(油管:破解资源君) 41
-      - 亚洲(油管:破解资源君) 3
-      - 🇯🇵 日本2|tg频道:@ripaojiedian
-      - 🇭🇰 香港直连|tg频道:@ripaojiedian
-      - 🇸🇬 狮城特殊|tg频道:@ripaojiedian
-      - 亚洲(油管:破解资源君) 4
-      - 🇯🇵 日本特殊|tg频道:@ripaojiedian
-      - 🇭🇰 香港快|tg频道:@ripaojiedian
-      - 🇭🇰 香港2|tg频道:@ripaojiedian
-      - 🇪🇺 欧洲(油管:破解资源君) 47
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 19
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇬🇧 「SCP」UK-CF
+      - 🇪🇺 欧洲(油管:破解资源君) 6
       - 🇺🇸 美国(油管:破解资源君) 29
-      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 1
-      - 🇷🇺 俄罗斯(油管:破解资源君) 3
-      - 🇰🇷 韩国特殊|tg频道:@ripaojiedian
-      - 🇬🇧 github.com/freefq - 英国  2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 7
-      - 🇺🇸 github.com/freefq - 美国  12
-      - 🇪🇺 欧洲(油管:破解资源君) 4 2
-      - 🇪🇺 欧洲(油管:破解资源君) 48
       - 亚洲(油管:破解资源君) 11
-      - 亚洲(油管:破解资源君) 5
+      - 🇭🇰 「SCP」HK-CF
+      - 🇺🇸 「SCP」US-DP2
+      - 亚洲(油管:破解资源君)
+      - 🇺🇸 「SCP」US-BuyVM3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -341,6 +477,7 @@ rules:
  - DOMAIN-SUFFIX,lan,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -355,6 +492,7 @@ rules:
  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
  - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN,www.asusrouter.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -367,19 +505,16 @@ rules:
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,picanalysis-auth.vivo.com.cn,🎯 全球直连
  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
  - DOMAIN,livew.l.qq.com,🎯 全球直连
  - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
  - DOMAIN,errlog.umeng.com,🎯 全球直连
  - DOMAIN,msg.umeng.com,🎯 全球直连
  - DOMAIN,msg.umengcloud.com,🎯 全球直连
@@ -397,7 +532,6 @@ rules:
  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
- - DOMAIN-KEYWORD,analysis,🛑 全球拦截
  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
  - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -411,7 +545,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
- - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
  - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -1145,7 +1278,6 @@ rules:
  - DOMAIN-SUFFIX,baidu9635.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baidustatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baidutv.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,baikebcs.bdimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banlv.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bar.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bdplus.baidu.com,🛑 全球拦截
@@ -1503,7 +1635,6 @@ rules:
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,union.mi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xmpush.xiaomi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cdn.moji002.com,🛑 全球拦截
@@ -1698,7 +1829,6 @@ rules:
  - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yads.yahoo.co.jp,🛑 全球拦截
  - DOMAIN-SUFFIX,ybp.yahoo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shrek.6.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,simba.6.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,union.6.cn,🛑 全球拦截
@@ -2018,32 +2148,24 @@ rules:
  - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
- - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
- - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
- - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
  - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
- - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -2051,8 +2173,9 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
@@ -2288,6 +2411,26 @@ rules:
  - DOMAIN-SUFFIX,dmc.nico,🚀 节点选择
  - DOMAIN-SUFFIX,nicovideo.jp,🚀 节点选择
  - DOMAIN-SUFFIX,nimg.jp,🚀 节点选择
+ - DOMAIN-KEYWORD,nivod,🚀 节点选择
+ - DOMAIN-SUFFIX,biggggg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,mudvod.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,nbys.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,nbys1.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,nbyy.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,newpppp.com,🚀 节点选择
+ - DOMAIN-SUFFIX,nivod.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,nivodi.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,nivodz.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vod360.net,🚀 节点选择
+ - DOMAIN-KEYWORD,olevod,🚀 节点选择
+ - DOMAIN-SUFFIX,haiwaikan.com,🚀 节点选择
+ - DOMAIN-SUFFIX,iole.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,olehd.com,🚀 节点选择
+ - DOMAIN-SUFFIX,olelive.com,🚀 节点选择
+ - DOMAIN-SUFFIX,olevod.com,🚀 节点选择
+ - DOMAIN-SUFFIX,olevod.io,🚀 节点选择
+ - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
+ - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
  - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
  - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
  - DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
@@ -2362,7 +2505,6 @@ rules:
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
  - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
- - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -2373,7 +2515,6 @@ rules:
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
- - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -2387,7 +2528,6 @@ rules:
  - DOMAIN-SUFFIX,sg,🚀 节点选择
  - DOMAIN-SUFFIX,tw,🚀 节点选择
  - DOMAIN-SUFFIX,uk,🚀 节点选择
- - DOMAIN-SUFFIX,us,🚀 节点选择
  - DOMAIN-KEYWORD,1e100,🚀 节点选择
  - DOMAIN-KEYWORD,abema,🚀 节点选择
  - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -2654,6 +2794,9 @@ rules:
  - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
  - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
  - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,ai.com,🚀 节点选择
  - DOMAIN-KEYWORD,1drv,🚀 节点选择
  - DOMAIN-KEYWORD,onedrive,🚀 节点选择
  - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -2791,7 +2934,6 @@ rules:
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
- - DOMAIN-KEYWORD,-cn,🎯 全球直连
  - DOMAIN-KEYWORD,360buy,🎯 全球直连
  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
  - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -2949,6 +3091,7 @@ rules:
  - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
  - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
  - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
@@ -3141,10 +3284,10 @@ rules:
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
- - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -3300,7 +3443,9 @@ rules:
  - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
  - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
  - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
  - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
+ - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
@@ -3322,6 +3467,7 @@ rules:
  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,realme.com,🎯 全球直连
  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -3355,6 +3501,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+ - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
