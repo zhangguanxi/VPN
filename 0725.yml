@@ -1,7 +1,7 @@
 ####################################
 # 创建者：Clash 本地转换器（离线版）
 # 客户端：Clash.Meta / Clash Verge / Mihomo Party
-# 创建时间：2026/7/25 21:17:43
+# 创建时间：2026/7/27 12:31:13
 ####################################
 
 mixed-port: 7890
@@ -23,14 +23,16 @@ dns:
     - 223.5.5.5
 
 proxies:
-  - {"name":"🇬🇧GB_@WangCai_8","type":"hysteria2","server":"35.179.138.96","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇬🇧GB_@WangCai_8","skip-cert-verify":true}
-  - {"name":"🇬🇧GB_@WangCai_8 (2)","type":"hysteria2","server":"18.171.236.87","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇬🇧GB_@WangCai_8","skip-cert-verify":true}
-  - {"name":"🇯🇵JP_@WangCai_8","type":"hysteria2","server":"54.95.225.70","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
-  - {"name":"🇯🇵JP_@WangCai_8 (2)","type":"hysteria2","server":"43.207.111.45","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
-  - {"name":"🇺🇸US_@WangCai_8","type":"trojan","server":"192.169.221.27","port":443,"password":"521314","skip-cert-verify":true,"udp":true,"sni":"hhtj.hhllfly.kdns.fr"}
   - {"name":"🇭🇰HK_@WangCai_8","type":"trojan","server":"91.193.58.184","port":443,"password":"521314","skip-cert-verify":true,"udp":true,"sni":"hhtj.hhllfly.kdns.fr"}
   - {"name":"🇭🇰HK_@WangCai_8 (2)","type":"hysteria2","server":"202.146.222.89","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇭🇰HK_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇯🇵JP_@WangCai_8","type":"hysteria2","server":"3.112.228.226","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇯🇵JP_@WangCai_8 (2)","type":"hysteria2","server":"54.95.225.70","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇯🇵JP_@WangCai_8 (3)","type":"hysteria2","server":"43.207.111.45","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇺🇸US_@WangCai_8","type":"trojan","server":"192.169.221.27","port":443,"password":"521314","skip-cert-verify":true,"udp":true,"sni":"hhtj.hhllfly.kdns.fr"}
   - {"name":"🇺🇸US_@WangCai_8 (2)","type":"hysteria2","server":"54.213.143.157","port":443,"password":"qQe1z5kU8kN6SlKnDt9Ru3Qp","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇺🇸US_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇬🇧GB_@WangCai_8","type":"hysteria2","server":"35.178.201.79","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇬🇧GB_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇬🇧GB_@WangCai_8 (2)","type":"hysteria2","server":"35.179.138.96","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇬🇧GB_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇬🇧GB_@WangCai_8 (3)","type":"hysteria2","server":"18.171.236.87","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇬🇧GB_@WangCai_8","skip-cert-verify":true}
   - {"name":"github.com (23)","type":"vless","server":"43.164.191.236","port":666,"uuid":"8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19","tls":true,"skip-cert-verify":true,"udp":true,"servername":"43.164.191.236","network":"ws","ws-opts":{"path":"/proxy","headers":{"Host":"43.164.191.236"}}}
   - {"name":"github.com (29)","type":"vmess","server":"guanwang.awsno.com","port":443,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"udp":true}
 
@@ -41,14 +43,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - DIRECT
-      - "🇬🇧GB_@WangCai_8"
-      - "🇬🇧GB_@WangCai_8 (2)"
-      - "🇯🇵JP_@WangCai_8"
-      - "🇯🇵JP_@WangCai_8 (2)"
-      - "🇺🇸US_@WangCai_8"
       - "🇭🇰HK_@WangCai_8"
       - "🇭🇰HK_@WangCai_8 (2)"
+      - "🇯🇵JP_@WangCai_8"
+      - "🇯🇵JP_@WangCai_8 (2)"
+      - "🇯🇵JP_@WangCai_8 (3)"
+      - "🇺🇸US_@WangCai_8"
       - "🇺🇸US_@WangCai_8 (2)"
+      - "🇬🇧GB_@WangCai_8"
+      - "🇬🇧GB_@WangCai_8 (2)"
+      - "🇬🇧GB_@WangCai_8 (3)"
       - "github.com (23)"
       - "github.com (29)"
 
@@ -59,14 +63,16 @@ proxy-groups:
     timeout: 3000
     tolerance: 50
     proxies: 
-      - "🇬🇧GB_@WangCai_8"
-      - "🇬🇧GB_@WangCai_8 (2)"
-      - "🇯🇵JP_@WangCai_8"
-      - "🇯🇵JP_@WangCai_8 (2)"
-      - "🇺🇸US_@WangCai_8"
       - "🇭🇰HK_@WangCai_8"
       - "🇭🇰HK_@WangCai_8 (2)"
+      - "🇯🇵JP_@WangCai_8"
+      - "🇯🇵JP_@WangCai_8 (2)"
+      - "🇯🇵JP_@WangCai_8 (3)"
+      - "🇺🇸US_@WangCai_8"
       - "🇺🇸US_@WangCai_8 (2)"
+      - "🇬🇧GB_@WangCai_8"
+      - "🇬🇧GB_@WangCai_8 (2)"
+      - "🇬🇧GB_@WangCai_8 (3)"
       - "github.com (23)"
       - "github.com (29)"
 
