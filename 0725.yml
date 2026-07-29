@@ -23,6 +23,9 @@ dns:
     - 223.5.5.5
 
 proxies:
+  - {"name":"🇫🇷FR_@WangCai_8","type":"hysteria2","server":"15.237.219.57","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇫🇷FR_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇫🇷FR_@WangCai_8 (2)","type":"hysteria2","server":"15.237.197.139","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇫🇷FR_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇳🇱NL_@WangCai_8","type":"ss","server":"193.29.139.234","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
   - {"name":"🇭🇰HK_@WangCai_8","type":"trojan","server":"91.193.58.184","port":443,"password":"521314","skip-cert-verify":true,"udp":true,"sni":"hhtj.hhllfly.kdns.fr"}
   - {"name":"🇭🇰HK_@WangCai_8 (2)","type":"hysteria2","server":"202.146.222.89","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇭🇰HK_@WangCai_8","skip-cert-verify":true}
   - {"name":"🇯🇵JP_@WangCai_8","type":"hysteria2","server":"3.112.228.226","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇯🇵JP_@WangCai_8","skip-cert-verify":true}
@@ -43,6 +46,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - DIRECT
+      - "🇫🇷FR_@WangCai_8"
+      - "🇫🇷FR_@WangCai_8 (2)"
+      - "🇳🇱NL_@WangCai_8"
       - "🇭🇰HK_@WangCai_8"
       - "🇭🇰HK_@WangCai_8 (2)"
       - "🇯🇵JP_@WangCai_8"
@@ -63,6 +69,9 @@ proxy-groups:
     timeout: 3000
     tolerance: 50
     proxies: 
+      - "🇫🇷FR_@WangCai_8"
+      - "🇫🇷FR_@WangCai_8 (2)"
+      - "🇳🇱NL_@WangCai_8"
       - "🇭🇰HK_@WangCai_8"
       - "🇭🇰HK_@WangCai_8 (2)"
       - "🇯🇵JP_@WangCai_8"
