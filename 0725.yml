@@ -1,7 +1,7 @@
 ####################################
 # 创建者：Clash 本地转换器（离线版）
 # 客户端：Clash.Meta / Clash Verge / Mihomo Party
-# 创建时间：2026/7/29 23:06:33
+# 创建时间：2026/7/31 17:08:13
 ####################################
 
 mixed-port: 7890
@@ -23,6 +23,9 @@ dns:
     - 223.5.5.5
 
 proxies:
+  - {"name":"🇦🇺AU_@WangCai_8","type":"hysteria2","server":"54.253.141.47","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇦🇺AU_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇦🇺AU_@WangCai_8 (2)","type":"hysteria2","server":"54.79.89.181","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇦🇺AU_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇦🇺AU_@WangCai_8 (3)","type":"hysteria2","server":"3.107.186.185","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇦🇺AU_@WangCai_8","skip-cert-verify":true}
   - {"name":"🇫🇷FR_@WangCai_8","type":"hysteria2","server":"15.237.219.57","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇫🇷FR_@WangCai_8","skip-cert-verify":true}
   - {"name":"🇫🇷FR_@WangCai_8 (2)","type":"hysteria2","server":"15.237.197.139","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇫🇷FR_@WangCai_8","skip-cert-verify":true}
   - {"name":"🇳🇱NL_@WangCai_8","type":"ss","server":"193.29.139.234","port":8080,"cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
@@ -46,6 +49,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - DIRECT
+      - "🇦🇺AU_@WangCai_8"
+      - "🇦🇺AU_@WangCai_8 (2)"
+      - "🇦🇺AU_@WangCai_8 (3)"
       - "🇫🇷FR_@WangCai_8"
       - "🇫🇷FR_@WangCai_8 (2)"
       - "🇳🇱NL_@WangCai_8"
@@ -69,6 +75,9 @@ proxy-groups:
     timeout: 3000
     tolerance: 50
     proxies: 
+      - "🇦🇺AU_@WangCai_8"
+      - "🇦🇺AU_@WangCai_8 (2)"
+      - "🇦🇺AU_@WangCai_8 (3)"
       - "🇫🇷FR_@WangCai_8"
       - "🇫🇷FR_@WangCai_8 (2)"
       - "🇳🇱NL_@WangCai_8"
