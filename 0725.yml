@@ -24,12 +24,12 @@ dns:
 
 proxies:
   - {"name":"Amazon","type":"vless","server":"saas.sin.fan","port":443,"uuid":"b0cf2300-11b5-473e-af73-fafb88d6bd83","tls":true,"skip-cert-verify":true,"udp":true,"servername":"fan.chatopen.cc.cd","network":"ws","ws-opts":{"path":"/b0cf2300","headers":{"Host":"fan.chatopen.cc.cd"}}}
-  - {"name":"🇩🇪 DE1","type":"hysteria2","server":"de.143259.xyz","port":43523,"password":"9dfa1d8a-d75d-44d8-80a9-8cb1cbb24caa","tls":true,"udp":true,"sni":"de.143259.xyz#🇩🇪 DE1","skip-cert-verify":false}
-  - {"name":"🇯🇵 JP","type":"hysteria2","server":"jp.143259.xyz","port":64707,"password":"82e67b48-470e-44cc-97c9-218cf3527628","tls":true,"udp":true,"sni":"jp.143259.xyz#🇯🇵 JP","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE1","type":"hysteria2","server":"de.143259.xyz","port":43523,"password":"9dfa1d8a-d75d-44d8-80a9-8cb1cbb24caa","tls":true,"udp":true,"sni":"de.143259.xyz","skip-cert-verify":false}
+  - {"name":"🇯🇵 JP","type":"hysteria2","server":"jp.143259.xyz","port":64707,"password":"82e67b48-470e-44cc-97c9-218cf3527628","tls":true,"udp":true,"sni":"jp.143259.xyz","skip-cert-verify":false}
   - {"name":"🇰🇷 oracle韩国首尔","type":"http","server":"testkr3.ssv.vc","port":30446,"udp":true,"username":"test","password":"test.+","tls":true,"skip-cert-verify":true}
   - {"name":"🇰🇷 testkr3.ssv.vc:30446","type":"http","server":"testkr3.ssv.vc","port":30446,"username":"test","password":"test.+","tls":true,"skip-cert-verify":true}
   - {"name":"🇺🇸 US_1|4.8MB/s","type":"vmess","server":"aflzzul.meiquankongjian.com","port":52513,"cipher":"auto","uuid":"342bacfd-2b8f-3f49-a16e-439db5b0b9d5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/564dfa20/","headers":{}}}
-  - {"name":"🇭🇰HK_@WangCai_8","type":"hysteria2","server":"202.146.222.89","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"https://t.me/WangCai2🇨🇳#🇭🇰HK_@WangCai_8","skip-cert-verify":true}
+  - {"name":"🇭🇰HK_@WangCai_8","type":"hysteria2","server":"202.146.222.89","port":443,"password":"H7mP2xY9kJ4nQ8wR5tF6vB3z","tls":true,"udp":true,"sni":"202.146.222.89","skip-cert-verify":true}
   - {"name":"github.com (23)","type":"vless","server":"43.164.191.236","port":666,"uuid":"8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19","tls":true,"skip-cert-verify":true,"udp":true,"servername":"43.164.191.236","network":"ws","ws-opts":{"path":"/proxy","headers":{"Host":"43.164.191.236"}}}
   - {"name":"github.com (29)","type":"vmess","server":"guanwang.awsno.com","port":443,"uuid":"6a89a215-22bf-4bd7-9642-b95b2e09583a","alterId":0,"cipher":"auto","tls":true,"skip-cert-verify":true,"udp":true}
 
